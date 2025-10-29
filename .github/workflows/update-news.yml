@@ -1,0 +1,56 @@
+# .github/workflows/update-news.yml
+
+name: Scrape Latest News
+
+on:
+  # This runs the job on a schedule. The syntax is cron.
+  # '0 * * * *' means "at minute 0 of every hour" (i.e., hourly).
+  # '0 */2 * * *' would mean "every 2 hours".
+  schedule:
+    - cron: '0 * * * *'
+  
+  # This allows you to run the workflow manually from the Actions tab on GitHub.
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository code so the workflow can access it.
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      # Step 2: Set up the Python environment.
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      # Step 3: Install necessary system packages for Selenium (Firefox).
+      # This is crucial for the headless browser to work in the cloud environment.
+      - name: Install Firefox
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y firefox
+
+      # Step 4: Install Python dependencies from requirements.txt.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Step 5: Run the main scraping script.
+      - name: Run the Scraper
+        run: python news_scrape.py
+
+      # Step 6: Commit the updated index.html file back to the repository.
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions-bot@github.com"
+          git add -A
+          # The following command checks if there are any changes to commit.
+          # If there are, it commits and pushes. If not, it exits gracefully.
+          git diff-index --quiet HEAD || git commit -m "Automated news update"
+          git push https://${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:main
