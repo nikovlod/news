@@ -1,42 +1,27 @@
-# news_site/dailystar.py
 import requests
 from bs4 import BeautifulSoup
 
-def scrape_daily_star_news():
-    """Scrapes news titles and URLs from The Daily Star homepage."""
-    print("Scraping The Daily Star...")
-    url = "https://www.thedailystar.net/todays-news"
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
+def scrape_daily_star(url):
+    """Scrapes a specific section of The Daily Star."""
+    print(f"Scraping Daily Star URL: {url}")
+    headers = {'User-Agent': 'Mozilla/5.0'}
     articles = []
-
     try:
-        response = requests.get(url, headers=headers, timeout=15)
-        response.raise_for_status()  # Raise an exception for bad status codes (4xx or 5xx)
-        
+        response = requests.get(url, headers=headers, timeout=20)
+        response.raise_for_status()
         soup = BeautifulSoup(response.content, 'lxml')
-        news_container = soup.find('div', class_='view-content')
+        
+        headline_tags = soup.select('.card-title a, h3.title a, h2.title a, h1.title a')
+        if not headline_tags:
+            headline_tags = soup.select('a h4, a h3, a h2')
 
-        if not news_container:
-            print("-> Daily Star: News container not found. Page structure may have changed.")
-            return articles
-
-        for h3_tag in news_container.find_all('h3', class_='title'):
-            a_tag = h3_tag.find('a')
-            if a_tag and a_tag.get('href'):
-                title = a_tag.get_text(strip=True)
-                news_url = a_tag['href']
-                
+        for tag in headline_tags:
+            if tag.get('href') and tag.get_text(strip=True):
+                title = tag.get_text(strip=True)
+                news_url = tag['href']
                 if not news_url.startswith('http'):
                     news_url = 'https://www.thedailystar.net' + news_url
-                
-                if title and news_url:
-                    articles.append({'title': title, 'url': news_url})
-
-    except requests.RequestException as e:
-        print(f"-> Daily Star: Error fetching the page: {e}")
+                articles.append({'title': title, 'url': news_url})
     except Exception as e:
-        print(f"-> Daily Star: An unexpected error occurred: {e}")
-        
-    return articles
+        print(f"-> Daily Star Error on {url}: {e}")
+    return list({v['url']:v for v in articles}.values())

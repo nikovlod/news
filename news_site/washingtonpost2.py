@@ -4,41 +4,31 @@ from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
 import time
 
-def scrape_washington_post_news():
-    print("Scraping The Washington Post...")
-    url = "https://www.washingtonpost.com/"
+def scrape_washington_post(url):
+    """Scrapes a specific section of The Washington Post using Selenium."""
+    print(f"Scraping Washington Post URL: {url}")
     articles = []
-    
     options = Options()
     options.add_argument("--headless")
-    
-    # Auto-detect Firefox binary location.
-    firefox_path = shutil.which('firefox')
-    if firefox_path:
-        options.binary_location = firefox_path
+    if shutil.which('firefox'):
+        options.binary_location = shutil.which('firefox')
     
     driver = None
     try:
         driver = webdriver.Firefox(options=options)
         driver.get(url)
-        time.sleep(20)
+        time.sleep(20) # This site is very JS-heavy
         
         soup = BeautifulSoup(driver.page_source, 'lxml')
-        main_content = soup.find('main', id='main-content')
-        if not main_content:
-            return articles
-
-        for h2_tag in main_content.find_all("h2"):
-            a_tag = h2_tag.find('a')
-            if a_tag and a_tag.get('href'):
-                title = a_tag.get_text(strip=True)
-                news_url = a_tag['href']
-                if title and news_url.startswith('http'):
+        
+        for tag in soup.select('h1 a, h2 a, h3 a'):
+             if tag.get('href') and tag.get_text(strip=True):
+                title = tag.get_text(strip=True)
+                news_url = tag['href']
+                if news_url.startswith('http'):
                     articles.append({'title': title, 'url': news_url})
     except Exception as e:
-        print(f"-> Washington Post: An error occurred: {e}")
+        print(f"-> Washington Post Error on {url}: {e}")
     finally:
-        if driver:
-            driver.quit()
-            
+        if driver: driver.quit()
     return list({v['url']:v for v in articles}.values())
