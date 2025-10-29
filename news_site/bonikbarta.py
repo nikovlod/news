@@ -5,23 +5,21 @@ from bs4 import BeautifulSoup
 import time
 
 def scrape_bonik_barta_news():
-    """Scrapes news titles and URLs from the Bonik Barta homepage using Selenium."""
     print("Scraping Bonik Barta...")
     url = "https://bonikbarta.com/"
     articles = []
-    
     options = Options()
     options.add_argument("--headless")
     
-    driver = None  # Initialize driver to None
+    driver = None
     try:
+        # CORRECTED INITIALIZATION: No hardcoded service path needed.
         driver = webdriver.Firefox(options=options)
         driver.get(url)
-        time.sleep(10)  # Allow time for JavaScript to render the content
+        time.sleep(10)
         
         soup = BeautifulSoup(driver.page_source, 'lxml')
         
-        # Find headline elements based on common tags (h2, h3)
         for headline_tag in soup.select('h2 a, h3 a'):
             if headline_tag and headline_tag.get('href'):
                 title = headline_tag.get_text(strip=True)
@@ -37,8 +35,7 @@ def scrape_bonik_barta_news():
         print(f"-> Bonik Barta: An error occurred: {e}")
     finally:
         if driver:
-            driver.quit() # Ensure the browser is closed even if an error occurs
+            driver.quit()
             
-    # Remove duplicates, as some articles might be linked multiple times
     unique_articles = list({v['url']:v for v in articles}.values())
     return unique_articles

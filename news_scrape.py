@@ -22,7 +22,8 @@ NEWS_SOURCES = [
     {"id": "washingtonpost", "name": "The Washington Post", "function": scrape_washington_post_news},
 ]
 
-REPO_PATH = "./news/"
+# CORRECTED PATH: Use "." for the root directory in the GitHub Actions runner.
+REPO_PATH = "."
 DATA_FILE_PATH = os.path.join(REPO_PATH, "news_data.json")
 INDEX_HTML_PATH = os.path.join(REPO_PATH, "index.html")
 ARCHIVE_HTML_PATH = os.path.join(REPO_PATH, "archive.html")
@@ -91,17 +92,14 @@ def generate_archive_content(all_data):
     archive_articles = []
     one_day_ago = datetime.now(timezone.utc) - timedelta(days=1)
     
-    # Collect all articles older than 24 hours
     for source_id in all_data:
         for article in all_data[source_id]:
             scraped_time = datetime.fromisoformat(article['scraped_at'])
             if scraped_time < one_day_ago:
                 archive_articles.append(article)
     
-    # Sort articles by date, newest first
     archive_articles.sort(key=lambda x: x['scraped_at'], reverse=True)
 
-    # Group articles by date
     articles_by_date = {}
     for article in archive_articles:
         date_str = datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m-%d, %A')
@@ -109,7 +107,6 @@ def generate_archive_content(all_data):
             articles_by_date[date_str] = []
         articles_by_date[date_str].append(article)
 
-    # Generate HTML for grouped articles
     archive_html = ""
     if not articles_by_date:
         return "<h3>No news in the archive yet.</h3>"
@@ -127,7 +124,6 @@ if __name__ == "__main__":
     one_day_ago = now - timedelta(days=1)
     thirty_days_ago = now - timedelta(days=30)
     
-    # 1. Load existing data
     all_news_data = load_existing_data(DATA_FILE_PATH)
     
     print("--- Starting News Scraping & Merging Cycle ---")
@@ -135,11 +131,9 @@ if __name__ == "__main__":
         source_id = source["id"]
         source_name = source["name"]
         
-        # Get existing URLs for this source to check for duplicates
         current_articles = all_news_data.get(source_id, [])
         existing_urls = {article['url'] for article in current_articles}
         
-        # Scrape for new articles
         new_articles = source["function"]()
         
         new_found_count = 0
@@ -153,7 +147,6 @@ if __name__ == "__main__":
         all_news_data[source_id] = current_articles
         print(f"-> {source_name}: Found {len(new_articles)} articles, {new_found_count} were new.")
 
-    # 2. Purge data older than 30 days
     print("\n--- Purging old data (older than 30 days) ---")
     purged_data = {}
     for source_id, articles in all_news_data.items():
@@ -163,19 +156,13 @@ if __name__ == "__main__":
         ]
         purged_data[source_id] = articles_within_30_days
         
-    # 3. Save the updated and purged data
     save_data(purged_data, DATA_FILE_PATH)
     print(f"Data saved to {DATA_FILE_PATH}")
     
-    # 4. Generate HTML files
     print("\n--- Generating HTML Files ---")
     current_timestamp = now.strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
-    # Generate index.html (last 24 hours)
-    index_nav = [
-        {'text': 'Home', 'href': 'index.html'},
-        {'text': 'News Archive', 'href': 'archive.html'}
-    ]
+    index_nav = [{'text': 'Home', 'href': 'index.html'}, {'text': 'News Archive', 'href': 'archive.html'}]
     index_filter = lambda articles: [a for a in articles if datetime.fromisoformat(a['scraped_at']) > one_day_ago]
     index_content = generate_news_content(purged_data, index_filter)
     index_html = generate_html_page("Today's News", index_nav, index_content, current_timestamp)
@@ -183,18 +170,13 @@ if __name__ == "__main__":
         f.write(index_html)
     print(f"Generated {INDEX_HTML_PATH}")
 
-    # Generate archive.html (older than 24 hours)
-    archive_nav = [
-        {'text': 'Home', 'href': 'index.html'},
-        {'text': 'News Archive', 'href': 'archive.html'}
-    ]
+    archive_nav = [{'text': 'Home', 'href': 'index.html'}, {'text': 'News Archive', 'href': 'archive.html'}]
     archive_content = generate_archive_content(purged_data)
     archive_html = generate_html_page("News Archive", archive_nav, archive_content, current_timestamp)
     with open(ARCHIVE_HTML_PATH, "w", encoding="utf-8") as f:
         f.write(archive_html)
     print(f"Generated {ARCHIVE_HTML_PATH}")
 
-    # 5. Push to GitHub
     print("\n--- Pushing to GitHub ---")
     try:
         push_to_github(REPO_PATH, f"News update {current_timestamp}")

@@ -5,23 +5,21 @@ from bs4 import BeautifulSoup
 import time
 
 def scrape_project_syndicate_news():
-    """Scrapes news titles and URLs from the Project Syndicate homepage using Selenium."""
     print("Scraping Project Syndicate...")
     url = "https://www.project-syndicate.org/"
     articles = []
-    
     options = Options()
     options.add_argument("--headless")
     
     driver = None
     try:
+        # CORRECTED INITIALIZATION: No hardcoded service path needed.
         driver = webdriver.Firefox(options=options)
         driver.get(url)
         time.sleep(15)
         
         soup = BeautifulSoup(driver.page_source, 'lxml')
         
-        # Articles are typically within <h2> tags in the main content area
         main_content = soup.find('main', id='main')
         if not main_content:
             print("-> Project Syndicate: Main content area not found.")

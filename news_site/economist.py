@@ -5,23 +5,21 @@ from bs4 import BeautifulSoup
 import time
 
 def scrape_economist_news():
-    """Scrapes news titles and URLs from The Economist homepage using Selenium."""
     print("Scraping The Economist...")
     url = "https://www.economist.com/"
     articles = []
-    
     options = Options()
     options.add_argument("--headless")
     
     driver = None
     try:
+        # CORRECTED INITIALIZATION: No hardcoded service path needed.
         driver = webdriver.Firefox(options=options)
         driver.get(url)
         time.sleep(15)
         
         soup = BeautifulSoup(driver.page_source, 'lxml')
         
-        # Find links within header tags (h1, h2, h3)
         for headline_link in soup.select('h1 a, h2 a, h3 a'):
             if headline_link and headline_link.get('href'):
                 title = headline_link.get_text(strip=True)
