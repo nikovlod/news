@@ -1,4 +1,3 @@
-# news_site/bonikbarta.py
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
@@ -10,10 +9,10 @@ def scrape_bonik_barta_news():
     articles = []
     options = Options()
     options.add_argument("--headless")
-    
+    options.binary_location = '/usr/bin/firefox' # <-- ADD THIS LINE
+
     driver = None
     try:
-        # CORRECTED INITIALIZATION: No hardcoded service path needed.
         driver = webdriver.Firefox(options=options)
         driver.get(url)
         time.sleep(10)
@@ -23,11 +22,7 @@ def scrape_bonik_barta_news():
         for headline_tag in soup.select('h2 a, h3 a'):
             if headline_tag and headline_tag.get('href'):
                 title = headline_tag.get_text(strip=True)
-                news_url = headline_tag['href']
-                
-                if not news_url.startswith('http'):
-                    news_url = 'https://bonikbarta.com' + news_url
-                
+                news_url = 'https://bonikbarta.com' + headline_tag['href'] if not headline_tag['href'].startswith('http') else headline_tag['href']
                 if title and news_url:
                     articles.append({'title': title, 'url': news_url})
                     
@@ -37,5 +32,4 @@ def scrape_bonik_barta_news():
         if driver:
             driver.quit()
             
-    unique_articles = list({v['url']:v for v in articles}.values())
-    return unique_articles
+    return list({v['url']:v for v in articles}.values())
