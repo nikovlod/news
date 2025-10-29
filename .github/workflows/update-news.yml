@@ -29,7 +29,7 @@ jobs:
       # as Firefox is usually pre-installed on the runners.
       - name: Install GeckoDriver
         run: |
-          GECKODRIVER_VERSION="v0.34.0"
+          GECKODRIVER_VERSION="v0.36.0"
           curl -s -L "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz" -o geckodriver.tar.gz
           tar -xvzf geckodriver.tar.gz
           chmod +x geckodriver
