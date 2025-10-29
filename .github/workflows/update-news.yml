@@ -22,11 +22,28 @@ jobs:
         with:
           python-version: '3.10'
 
-      # UPDATED STEP: Installs both Firefox and the necessary geckodriver
+      # --- THIS IS THE CORRECTED STEP ---
       - name: Install Firefox & GeckoDriver
         run: |
+          # 1. Install Firefox using the package manager, which works correctly.
           sudo apt-get update
-          sudo apt-get install -y firefox geckodriver
+          sudo apt-get install -y firefox
+
+          # 2. Manually download, extract, and install GeckoDriver.
+          # We specify a stable version to ensure the workflow is consistent.
+          GECKODRIVER_VERSION="v0.34.0"
+          
+          # Download the driver from the official Mozilla release page.
+          curl -s -L "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz" -o geckodriver.tar.gz
+          
+          # Extract the tarball.
+          tar -xvzf geckodriver.tar.gz
+          
+          # Make the driver executable.
+          chmod +x geckodriver
+          
+          # Move the driver to a directory that is in the system's PATH, so Selenium can find it automatically.
+          sudo mv geckodriver /usr/local/bin/
 
       - name: Install Python Dependencies
         run: |
