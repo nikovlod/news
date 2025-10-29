@@ -128,9 +128,14 @@ if __name__ == "__main__":
     
     print("--- Starting Full Scrape & Merge Cycle ---")
     for source_id, config in NEWS_SOURCES.items():
-        if source_id not in all_data: all_data[source_id] = {}
+        
+        # FIX: Check if the loaded data for a source is the old list format. If so, reset it.
+        if source_id not in all_data or not isinstance(all_data.get(source_id), dict):
+            all_data[source_id] = {}
+
         for sub_name, url in config['subsections'].items():
-            if sub_name not in all_data[source_id]: all_data[source_id][sub_name] = []
+            if sub_name not in all_data[source_id]:
+                all_data[source_id][sub_name] = []
             
             current_articles = all_data[source_id][sub_name]
             existing_urls = {article['url'] for article in current_articles}
