@@ -12,14 +12,57 @@ from news_site.washingtonpost2 import scrape_washington_post
 from news_site.economist import scrape_economist
 from news_site.projectsyndicate import scrape_project_syndicate
 
-# --- Configuration (No changes needed here) ---
+# --- Configuration for all news sources and their subsections ---
 NEWS_SOURCES = {
-    "dailystar": { "name": "The Daily Star", "scraper": scrape_daily_star, "subsections": { "Home": "https://www.thedailystar.net/", "Today's News": "https://www.thedailystar.net/todays-news", "Opinion": "https://www.thedailystar.net/opinion", "Business": "https://www.thedailystar.net/business", "Editorial": "https://www.thedailystar.net/opinion/editorial", "Politics": "https://www.thedailystar.net/politics", "International": "https://www.thedailystar.net/news/world" }},
-    "prothomalo": { "name": "Prothom Alo", "scraper": scrape_prothom_alo, "subsections": { "Home": "https://www.prothomalo.com/", "Latest News": "https://www.prothomalo.com/collection/latest", "Opinion": "https://www.prothomalo.com/opinion", "Editorial": "https://www.prothomalo.com/opinion/editorial", "Business": "https://www.prothomalo.com/business", "Politics": "https://www.prothomalo.com/politics", "International": "https://www.prothomalo.com/world" }},
-    "bonikbarta": { "name": "Bonik Barta", "scraper": scrape_bonik_barta, "subsections": { "Home": "https://www.bonikbarta.com/", "Latest News": "https://bonikbarta.com/latest", "Editorial": "https://bonikbarta.com/editorial/", "Economy": "https://bonikbarta.com/economy/", "International": "https://bonikbarta.com/international/" }},
-    "washingtonpost": { "name": "The Washington Post", "scraper": scrape_washington_post, "subsections": { "Home": "https://www.washingtonpost.com/", "Opinions": "https://www.washingtonpost.com/opinions/", "Business": "https://www.washingtonpost.com/business/", "Politics": "https://www.washingtonpost.com/politics/", "International": "https://www.washingtonpost.com/world/" }},
-    "economist": { "name": "The Economist", "scraper": scrape_economist, "subsections": { "Home": "https://www.economist.com/", "Columns": "https://www.economist.com/topics/columns", "Leaders": "https://www.economist.com/topics/leaders", "Business": "https://www.economist.com/topics/business", "Finance & Economics": "https://www.economist.com/topics/finance-and-economics", "International": "https://www.economist.com/topics/international" }},
-    "projectsyndicate": { "name": "Project Syndicate", "scraper": scrape_project_syndicate, "subsections": { "Home": "https://www.project-syndicate.org/", "Economics": "https://www.project-syndicate.org/section/economics", "Politics": "https://www.project-syndicate.org/section/politics-world-affairs", "Sustainability": "https://www.project-syndicate.org/section/environment-sustainability" }}
+    "dailystar": {
+        "name": "The Daily Star", "scraper": scrape_daily_star,
+        "subsections": {
+            "Home": "https://www.thedailystar.net/", "Today's News": "https://www.thedailystar.net/todays-news",
+            "Opinion": "https://www.thedailystar.net/opinion", "Business": "https://www.thedailystar.net/business",
+            "Editorial": "https://www.thedailystar.net/opinion/editorial", "Politics": "https://www.thedailystar.net/politics",
+            "International": "https://www.thedailystar.net/news/world",
+        }
+    },
+    "prothomalo": {
+        "name": "Prothom Alo", "scraper": scrape_prothom_alo,
+        "subsections": {
+            "Home": "https://www.prothomalo.com/", "Latest News": "https://www.prothomalo.com/collection/latest",
+            "Opinion": "https://www.prothomalo.com/opinion", "Editorial": "https://www.prothomalo.com/opinion/editorial",
+            "Business": "https://www.prothomalo.com/business", "Politics": "https://www.prothomalo.com/politics",
+            "International": "https://www.prothomalo.com/world",
+        }
+    },
+    "bonikbarta": {
+        "name": "Bonik Barta", "scraper": scrape_bonik_barta,
+        "subsections": {
+            "Home": "https://www.bonikbarta.com/", "Latest News": "https://bonikbarta.com/latest",
+            "Editorial": "https://bonikbarta.com/editorial/", "Economy": "https://bonikbarta.com/economy/",
+            "International": "https://bonikbarta.com/international/",
+        }
+    },
+    "washingtonpost": {
+        "name": "The Washington Post", "scraper": scrape_washington_post,
+        "subsections": {
+            "Home": "https://www.washingtonpost.com/", "Opinions": "https://www.washingtonpost.com/opinions/",
+            "Business": "https://www.washingtonpost.com/business/", "Politics": "https://www.washingtonpost.com/politics/",
+            "International": "https://www.washingtonpost.com/world/",
+        }
+    },
+    "economist": {
+        "name": "The Economist", "scraper": scrape_economist,
+        "subsections": {
+            "Home": "https://www.economist.com/", "Columns": "https://www.economist.com/topics/columns",
+            "Leaders": "https://www.economist.com/topics/leaders", "Business": "https://www.economist.com/topics/business",
+            "Finance & Economics": "https://www.economist.com/topics/finance-and-economics", "International": "https://www.economist.com/topics/international",
+        }
+    },
+    "projectsyndicate": {
+        "name": "Project Syndicate", "scraper": scrape_project_syndicate,
+        "subsections": {
+            "Home": "https://www.project-syndicate.org/", "Economics": "https://www.project-syndicate.org/section/economics",
+            "Politics": "https://www.project-syndicate.org/section/politics-world-affairs", "Sustainability": "https://www.project-syndicate.org/section/environment-sustainability",
+        }
+    }
 }
 
 REPO_PATH = "."
@@ -38,7 +81,7 @@ def save_data(data):
     with open(DATA_FILE_PATH, 'w', encoding='utf-8') as f: json.dump(data, f, indent=2)
 
 def generate_html_shell(title, content, timestamp):
-    """Generates the full HTML page with improved UI, search, and nested accordions."""
+    """Generates the full HTML page with corrected UI, search, and nested accordions."""
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -48,20 +91,20 @@ def generate_html_shell(title, content, timestamp):
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
-        body {{ background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }}
+        body {{ background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; }}
         .navbar-inverse {{ background-color: #343a40; border-color: #23272b; }}
         .main-container {{ padding-top: 70px; }}
         .panel-group .panel {{ border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 0; border: 1px solid #e3e3e3; }}
         .panel-group .panel + .panel {{ margin-top: 10px; }}
         .panel-heading {{ border-radius: 3px 3px 0 0; }}
         .panel-default > .panel-heading {{ background-color: #fff; color: #333; }}
-        .panel-title > a {{ display: block; padding: 12px 15px; text-decoration: none; font-weight: bold; font-size: 16px; color: #333; }}
+        .panel-title > a {{ display: block; padding: 12px 15px; text-decoration: none; font-weight: bold; font-size: 18px; color: #333; }}
         .panel-title > a:hover, .panel-title > a:focus {{ color: #000; }}
         .sub-panel .panel-heading {{ background-color: #f9f9f9; }}
-        .sub-panel .panel-title > a {{ font-size: 14px; font-weight: normal; color: #555; }}
-        .list-group-item {{ border-left: none; border-right: none; font-size: 15px; }}
+        .sub-panel .panel-title > a {{ font-size: 16px; font-weight: normal; color: #555; }}
+        .list-group-item {{ border-left: none; border-right: none; font-size: 16px; }}
         a.list-group-item {{ color: #337ab7; }} a.list-group-item:hover {{ background-color: #f0f8ff; }}
-        .search-bar {{ margin-bottom: 20px; position: sticky; top: 50px; background-color: #f8f9fa; padding: 10px 0; z-index: 100; }}
+        .search-bar-container {{ position: sticky; top: 51px; background-color: #f8f9fa; padding: 10px 0; z-index: 1020; margin-bottom: 15px; border-bottom: 1px solid #eee; }}
         .footer-note {{ text-align: center; padding: 25px 0; color: #999; }}
     </style>
 </head>
@@ -73,62 +116,59 @@ def generate_html_shell(title, content, timestamp):
   </div>
 </nav>
 <div class="container main-container">
-    <div class="search-bar"><input type="text" id="searchInput" class="form-control" placeholder="Search for articles in the current view..."></div>
+    <div class="search-bar-container"><input type="text" id="searchInput" class="form-control" placeholder="Search for articles..."></div>
     <p class="text-center text-muted" style="margin-bottom:15px;">Last updated on: {timestamp}</p>
     {content}
     <p class="footer-note">End of results</p>
 </div>
 <script>
 $(document).ready(function() {{
-    // Accordion logic: ensure only one panel is open at a time within the same group
-    function setupAccordion(accordionId) {{
-        $('#' + accordionId).on('show.bs.collapse', function (e) {{
-            $('#' + accordionId + ' .panel-collapse.in').collapse('hide');
-        }});
-    }}
-    // Apply to main accordion and all sub-accordions
-    setupAccordion('main-accordion');
-    $('[id^=sub-accordion-]').each(function() {{
-        setupAccordion($(this).attr('id'));
+    // CORRECTED ACCORDION LOGIC: Only affects siblings within the same panel-group.
+    $('.panel-group').on('show.bs.collapse', function (e) {{
+        $(e.target).closest('.panel-group').find('.panel-collapse.in').not(e.target).collapse('hide');
     }});
 
-    // Search functionality
+    // CORRECTED SEARCH FUNCTIONALITY
     $('#searchInput').on('keyup', function() {{
-        let searchTerm = $(this).val().toLowerCase();
+        let searchTerm = $(this).val().toLowerCase().trim();
 
         if (searchTerm === "") {{
-            // Reset view: hide all panels and list items
-            $('.panel-collapse').collapse('hide');
             $('.news-item, .sub-panel, .main-panel').show();
+            $('.panel-collapse').collapse('hide');
             return;
         }}
 
-        // Hide everything initially
-        $('.news-item, .sub-panel, .main-panel').hide();
-        $('.panel-collapse').collapse('hide');
-
-        // Show items that match the search term
-        $('.news-item').each(function() {{
-            let title = $(this).text().toLowerCase();
-            if (title.includes(searchTerm)) {{
-                $(this).show();
-            }}
-        }});
-
-        // Bottom-up reveal: Show parent containers if they have visible children
-        $('.sub-panel').each(function() {{
-            if ($(this).find('.news-item:visible').length > 0) {{
-                $(this).show();
-                // Optionally expand the sub-panel
-                $(this).find('.panel-collapse').collapse('show');
-            }}
-        }});
-
         $('.main-panel').each(function() {{
-            if ($(this).find('.sub-panel:visible').length > 0) {{
-                $(this).show();
-                // Expand the main panel to show the sub-panels within
-                $(this).find('.panel-collapse').first().collapse('show');
+            let mainPanel = $(this);
+            let mainHasVisible = false;
+
+            mainPanel.find('.sub-panel').each(function() {{
+                let subPanel = $(this);
+                let subHasVisible = false;
+
+                subPanel.find('.news-item').each(function() {{
+                    let item = $(this);
+                    if (item.text().toLowerCase().includes(searchTerm)) {{
+                        item.show();
+                        subHasVisible = true;
+                    }} else {{
+                        item.hide();
+                    }}
+                }});
+
+                if (subHasVisible) {{
+                    subPanel.show();
+                    mainHasVisible = true;
+                }} else {{
+                    subPanel.hide();
+                }}
+            }});
+
+            if (mainHasVisible) {{
+                mainPanel.show();
+                mainPanel.children('.panel-collapse').collapse('show');
+            }} else {{
+                mainPanel.hide();
             }}
         }});
     }});
@@ -144,19 +184,18 @@ def generate_content_html(data, time_filter=None):
     for i, (source_id, config) in enumerate(NEWS_SOURCES.items()):
         source_data = data.get(source_id, {})
         
-        sub_accordion_id = f'sub-accordion-{i}'
+        sub_accordion_id = f'sub-accordion-{source_id}'
         sub_panels_html = ""
         
         for j, (sub_name, articles) in enumerate(source_data.items()):
-            # Apply time filter if provided
             filtered_articles = time_filter(articles) if time_filter else articles
 
             if filtered_articles:
                 article_html = "".join([f"<div class='list-group-item news-item'><a href='{a['url']}' target='_blank'>{a['title']}</a></div>" for a in filtered_articles])
                 sub_panels_html += f'''
                 <div class="panel panel-default sub-panel">
-                    <div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{sub_accordion_id}" href="#collapse-{i}-sub-{j}">{sub_name}</a></h4></div>
-                    <div id="collapse-{i}-sub-{j}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div>
+                    <div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{sub_accordion_id}" href="#collapse-{source_id}-sub-{j}">{sub_name}</a></h4></div>
+                    <div id="collapse-{source_id}-sub-{j}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div>
                 </div>'''
         
         if sub_panels_html:
@@ -221,7 +260,6 @@ if __name__ == "__main__":
         archive_links.append({"name": month_name, "file": archive_filename})
         articles.sort(key=lambda x: x['scraped_at'], reverse=True)
         
-        # We need to restructure the articles by source for the generation function
         archive_data_for_month = defaultdict(lambda: defaultdict(list))
         for article in articles:
              for sid, config in NEWS_SOURCES.items():
