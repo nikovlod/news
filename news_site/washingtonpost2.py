@@ -1,3 +1,4 @@
+import shutil
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from bs4 import BeautifulSoup
@@ -7,9 +8,14 @@ def scrape_washington_post_news():
     print("Scraping The Washington Post...")
     url = "https://www.washingtonpost.com/"
     articles = []
+    
     options = Options()
     options.add_argument("--headless")
-    options.binary_location = '/usr/bin/firefox' # <-- ADD THIS LINE
+    
+    # Auto-detect Firefox binary location.
+    firefox_path = shutil.which('firefox')
+    if firefox_path:
+        options.binary_location = firefox_path
     
     driver = None
     try:

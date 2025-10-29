@@ -2,19 +2,15 @@
 
 name: Scrape Latest News
 
-# Give the workflow 'write' permissions to allow it to push commits back to the repo.
 permissions:
   contents: write
 
 on:
   schedule:
-    # Runs the job every hour at the top of the hour.
     - cron: '0 * * * *'
   push:
-    # Runs the job on every push to the main branch.
     branches:
       - main
-  # Allows you to run the job manually from the Actions tab.
   workflow_dispatch:
 
 jobs:
@@ -29,26 +25,14 @@ jobs:
         with:
           python-version: '3.10'
 
-      # --- THIS IS THE CORRECTED STEP ---
-      - name: Install Firefox & Manually Install GeckoDriver
+      # SIMPLIFIED STEP: We only need to install GeckoDriver,
+      # as Firefox is usually pre-installed on the runners.
+      - name: Install GeckoDriver
         run: |
-          # 1. Install Firefox using the package manager. This works correctly.
-          sudo apt-get update
-          sudo apt-get install -y firefox
-
-          # 2. Manually download, extract, and install GeckoDriver because it's not in the apt repository.
           GECKODRIVER_VERSION="v0.34.0"
-          
-          # Download the driver from the official Mozilla GitHub release page.
           curl -s -L "https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VERSION}/geckodriver-${GECKODRIVER_VERSION}-linux64.tar.gz" -o geckodriver.tar.gz
-          
-          # Extract the tarball.
           tar -xvzf geckodriver.tar.gz
-          
-          # Make the driver executable.
           chmod +x geckodriver
-          
-          # Move the driver to a directory that is in the system's PATH. This allows Selenium to find it automatically.
           sudo mv geckodriver /usr/local/bin/
 
       - name: Install Python Dependencies
@@ -64,7 +48,5 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions-bot@github.com"
           git add -A
-          # Only create a commit if there are actual changes.
           git diff-index --quiet HEAD || git commit -m "Automated news update"
-          # Push the changes. The workflow has the necessary permissions.
           git push
