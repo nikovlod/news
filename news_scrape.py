@@ -187,30 +187,46 @@ if __name__ == "__main__":
     print("\n--- Generating HTML Files ---")
     timestamp = now.strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
-    def get_flat_articles(time_filter):
-        flat_list = []
+    # --- NEW: Helper function to get a de-duplicated flat list of articles ---
+    def get_flat_articles_unique(time_filter):
+        """Gathers, sorts, and de-duplicates articles based on URL."""
+        flat_list_with_duplicates = []
         for sid, s_config in NEWS_SOURCES.items():
             for sub_name, articles in all_data.get(sid, {}).items():
                 for article in time_filter(articles):
-                    article_copy = article.copy(); article_copy['source_name'] = s_config['name']; flat_list.append(article_copy)
-        return flat_list
+                    article_copy = article.copy()
+                    article_copy['source_name'] = s_config['name']
+                    flat_list_with_duplicates.append(article_copy)
+        
+        # Sort by timestamp, newest first, to ensure we keep the most recent scrape
+        flat_list_with_duplicates.sort(key=lambda x: x['scraped_at'], reverse=True)
+        
+        # De-duplicate
+        unique_articles = []
+        seen_urls = set()
+        for article in flat_list_with_duplicates:
+            if article['url'] not in seen_urls:
+                unique_articles.append(article)
+                seen_urls.add(article['url'])
+                
+        return unique_articles
 
     # --- Generate index.html (Last 24 Hours) ---
     index_filter = lambda articles: [a for a in articles if datetime.fromisoformat(a['scraped_at']) > one_day_ago]
-    index_articles_flat = get_flat_articles(index_filter)
-    index_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in index_articles_flat])
+    index_articles_flat_unique = get_flat_articles_unique(index_filter)
+    index_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in index_articles_flat_unique])
     index_content = generate_content_html(all_data, time_filter=index_filter)
     with open(INDEX_HTML_PATH, "w", encoding="utf-8") as f: f.write(generate_html_shell("Today's News", index_content, timestamp, all_articles_json=index_articles_json))
     print(f"Generated {INDEX_HTML_PATH}")
 
     # --- Generate latest.html (Last 1 Hour) ---
     latest_filter = lambda articles: [a for a in articles if datetime.fromisoformat(a['scraped_at']) > one_hour_ago]
-    latest_articles_flat = get_flat_articles(latest_filter)
-    latest_articles_flat.sort(key=lambda x: x['scraped_at'], reverse=True)
-    latest_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in latest_articles_flat])
+    latest_articles_flat_unique = get_flat_articles_unique(latest_filter)
+    latest_articles_flat_unique.sort(key=lambda x: x['scraped_at'], reverse=True) # Re-sort after de-duping just in case
+    latest_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in latest_articles_flat_unique])
     latest_content = '<h2>Latest News (Last Hour)</h2><div id="latest-news-list" class="list-group">'
-    if latest_articles_flat:
-        latest_content += "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'><span class='label label-source'>{a['source_name']}</span></span></div>" for a in latest_articles_flat])
+    if latest_articles_flat_unique:
+        latest_content += "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'><span class='label label-source'>{a['source_name']}</span></span></div>" for a in latest_articles_flat_unique])
     else:
         latest_content += "<p>No new articles found in the last hour.</p>"
     latest_content += "</div>"
@@ -218,27 +234,22 @@ if __name__ == "__main__":
     print(f"Generated {LATEST_HTML_PATH}")
 
     # --- Generate Monthly Archives ---
-    archive_articles_flat = get_flat_articles(lambda arts: [a for a in arts if datetime.fromisoformat(a['scraped_at']) <= one_day_ago])
+    archive_filter = lambda arts: [a for a in arts if datetime.fromisoformat(a['scraped_at']) <= one_day_ago]
+    archive_articles_flat_unique = get_flat_articles_unique(archive_filter)
     monthly_archives = defaultdict(list)
-    for article in archive_articles_flat: monthly_archives[datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m')].append(article)
-    
+    for article in archive_articles_flat_unique: monthly_archives[datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m')].append(article)
+
     archive_links = []
     for month_key, articles in sorted(monthly_archives.items(), reverse=True):
         month_name = datetime.strptime(month_key, '%Y-%m').strftime('%B %Y')
         archive_filename = f"archive_{month_key}.html"
         archive_links.append({"name": month_name, "file": archive_filename})
         
-        structured_month_data = defaultdict(lambda: defaultdict(list))
-        for article in articles:
-            for sid, config in NEWS_SOURCES.items():
-                if config['name'] == article['source_name']:
-                    for sub_name, sub_articles_list in all_data.get(sid, {}).items():
-                        if any(a['url'] == article['url'] for a in sub_articles_list):
-                            structured_month_data[sid][sub_name].append(article); break
-                    break
+        # This data is for the accordion view, which can have duplicates, so we use the full original data
+        month_data_filter = lambda arts: [a for a in arts if datetime.fromisoformat(a['scraped_at']).strftime('%Y-%m') == month_key and datetime.fromisoformat(a['scraped_at']) <= one_day_ago]
         
-        month_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in articles])
-        month_content = f'<h2>Archive for {month_name}</h2>' + generate_content_html(structured_month_data)
+        month_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in articles]) # Use unique articles for search
+        month_content = f'<h2>Archive for {month_name}</h2>' + generate_content_html(all_data, time_filter=month_data_filter)
         with open(os.path.join(REPO_PATH, archive_filename), "w", encoding="utf-8") as f: f.write(generate_html_shell(f"Archive: {month_name}", month_content, timestamp, all_articles_json=month_articles_json))
         print(f"Generated {archive_filename}")
 
