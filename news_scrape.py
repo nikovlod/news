@@ -12,7 +12,7 @@ from news_site.washingtonpost2 import scrape_washington_post
 from news_site.economist import scrape_economist
 from news_site.projectsyndicate import scrape_project_syndicate
 
-# --- Configuration for all news sources and their subsections ---
+# --- Configuration (No changes) ---
 NEWS_SOURCES = {
     "dailystar": { "name": "The Daily Star", "scraper": scrape_daily_star, "subsections": { "Home": "https://www.thedailystar.net/", "Today's News": "https://www.thedailystar.net/todays-news", "Opinion": "https://www.thedailystar.net/opinion", "Business": "https://www.thedailystar.net/business", "Editorial": "https://www.thedailystar.net/opinion/editorial", "Politics": "https://www.thedailystar.net/politics", "International": "https://www.thedailystar.net/news/world" }},
     "prothomalo": { "name": "Prothom Alo", "scraper": scrape_prothom_alo, "subsections": { "Home": "https://www.prothomalo.com/", "Latest News": "https://www.prothomalo.com/collection/latest", "Opinion": "https://www.prothomalo.com/opinion", "Editorial": "https://www.prothomalo.com/opinion/editorial", "Business": "https://www.prothomalo.com/business", "Politics": "https://www.prothomalo.com/politics", "International": "https://www.prothomalo.com/world" }},
@@ -38,8 +38,20 @@ def load_data():
 def save_data(data):
     with open(DATA_FILE_PATH, 'w', encoding='utf-8') as f: json.dump(data, f, indent=2)
 
+def format_time_ago_py(now, article_time):
+    """Calculates relative time in Python."""
+    diff = now - article_time
+    seconds = int(diff.total_seconds())
+    if seconds < 60: return f"{seconds}s ago"
+    minutes = seconds // 60
+    if minutes < 60: return f"{minutes}m ago"
+    hours = minutes // 60
+    if hours < 24: return f"{hours}h ago"
+    days = hours // 24
+    return f"{days}d ago"
+
 def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
-    """Generates the full HTML page with all UI features including source tags."""
+    """Generates the full HTML page with inline source tags and metadata."""
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,12 +67,11 @@ def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
         .panel-group .panel + .panel {{ margin-top: 10px; }}
         .panel-title > a {{ display: block; padding: 12px 15px; text-decoration: none; font-weight: bold; font-size: 18px; color: #333; }}
         .sub-panel .panel-title > a {{ font-size: 16px; font-weight: normal; color: #555; }}
-        .list-group-item {{ display: flex; justify-content: space-between; align-items: center; border-left: none; border-right: none; font-size: 16px; }}
-        .list-group-item > a {{ color: #337ab7; flex-grow: 1; margin-right: 15px; }}
+        .list-group-item {{ border-left: none; border-right: none; font-size: 16px; }}
         .list-group-item:hover {{ background-color: #f0f8ff; }}
-        .meta-info {{ display: flex; align-items: center; white-space: nowrap; }}
-        .meta-info .label {{ margin-right: 10px; font-weight: normal; background-color: #777; }}
-        .time-ago {{ font-size: 12px; color: #888; font-style: italic; }}
+        .meta-tags {{ margin-left: 8px; white-space: nowrap; }}
+        .meta-tags .label {{ font-weight: normal; background-color: #777; }}
+        .meta-tags .time-ago {{ font-size: 12px; color: #888; font-style: italic; margin-left: 8px; }}
         .search-bar-container {{ position: sticky; top: 51px; background-color: #f8f9fa; padding: 10px 0; z-index: 1020; margin-bottom: 15px; border-bottom: 1px solid #eee; }}
         #searchResultsContainer {{ display: none; margin-top: 15px; }}
         .footer-note {{ text-align: center; padding: 25px 0; color: #999; }}
@@ -92,11 +103,9 @@ def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
 <script>
 const allArticles = {all_articles_json};
 
-function formatTimeAgo(date) {{ /* Function remains the same */ const now = new Date(); const seconds = Math.floor((now - date) / 1000); if (seconds < 60) return `${{seconds}}s ago`; const minutes = Math.floor(seconds / 60); if (minutes < 60) return `${{minutes}}m ago`; const hours = Math.floor(minutes / 60); if (hours < 24) return `${{hours}}h ago`; const days = Math.floor(hours / 24); return `${{days}}d ago`; }}
-function updateRelativeTimes() {{ document.querySelectorAll('[data-timestamp]').forEach(el => {{ const ts = el.getAttribute('data-timestamp'); if (ts) {{ const timeAgo = formatTimeAgo(new Date(ts)); const span = el.querySelector('.time-ago') || document.createElement('span'); span.className = 'time-ago'; span.textContent = timeAgo; const meta = el.querySelector('.meta-info') || el; if (!meta.querySelector('.time-ago')) meta.appendChild(span); }} }}); }}
+function formatTimeAgoJS(date) {{ const now = new Date(); const seconds = Math.floor((now - date) / 1000); if (seconds < 60) return `${{seconds}}s ago`; const minutes = Math.floor(seconds / 60); if (minutes < 60) return `${{minutes}}m ago`; const hours = Math.floor(minutes / 60); if (hours < 24) return `${{hours}}h ago`; const days = Math.floor(hours / 24); return `${{days}}d ago`; }}
 
 $(document).ready(function() {{
-    updateRelativeTimes();
     $('.panel-group').on('show.bs.collapse', function (e) {{ $(e.target).closest('.panel-group').find('.panel-collapse.in').not(e.target).collapse('hide'); }});
 
     $('#searchInput').on('keyup', function() {{
@@ -113,8 +122,8 @@ $(document).ready(function() {{
         if (filtered.length > 0) {{
             let html = `<h3>Search Results (${{filtered.length}})</h3><div class="list-group">`;
             filtered.forEach(a => {{
-                const timeAgo = formatTimeAgo(new Date(a.scraped_at));
-                html += `<div class="list-group-item"><a href="${{a.url}}" target="_blank">${{a.title}}</a><div class="meta-info"><span class="label label-default">${{a.source_name}}</span><span class="time-ago">${{timeAgo}}</span></div></div>`;
+                const timeAgo = formatTimeAgoJS(new Date(a.scraped_at));
+                html += `<div class="list-group-item"><a href="${{a.url}}" target="_blank">${{a.title}}</a><span class="meta-tags"><span class="label label-default">${{a.source_name}}</span><span class="time-ago">${{timeAgo}}</span></span></div>`;
             }});
             html += '</div>';
             resultsContainer.html(html);
@@ -126,7 +135,7 @@ $(document).ready(function() {{
 </body></html>'''
 
 def generate_content_html(data, time_filter=None):
-    """Generates the nested accordion HTML for news content."""
+    """Generates the nested accordion HTML for news content (without metadata)."""
     main_accordion_id = 'main-accordion'
     content_html = f'<div class="panel-group" id="{main_accordion_id}">'
     for i, (source_id, config) in enumerate(NEWS_SOURCES.items()):
@@ -137,7 +146,7 @@ def generate_content_html(data, time_filter=None):
             filtered_articles = time_filter(articles) if time_filter else articles
             if filtered_articles:
                 filtered_articles.sort(key=lambda x: x['scraped_at'], reverse=True)
-                article_html = "".join([f"<div class='list-group-item news-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><div class='meta-info'></div></div>" for a in filtered_articles])
+                article_html = "".join([f"<div class='list-group-item'><a href='{a['url']}' target='_blank'>{a['title']}</a></div>" for a in filtered_articles])
                 sub_panels_html += f'''<div class="panel panel-default sub-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{sub_accordion_id}" href="#collapse-{source_id}-sub-{j}">{sub_name}</a></h4></div><div id="collapse-{source_id}-sub-{j}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div></div>'''
         if sub_panels_html:
             content_html += f'''<div class="panel panel-default main-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{main_accordion_id}" href="#collapse-main-{i}">{config["name"]}</a></h4></div><div id="collapse-main-{i}" class="panel-collapse collapse"><div class="panel-body"><div class="panel-group" id="{sub_accordion_id}">{sub_panels_html}</div></div></div></div>'''
@@ -174,7 +183,6 @@ if __name__ == "__main__":
     print("\n--- Generating HTML Files ---")
     timestamp = now.strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
-    # --- Helper function to flatten data for JSON embedding ---
     def get_flat_articles(time_filter):
         flat_list = []
         for sid, s_config in NEWS_SOURCES.items():
@@ -200,7 +208,9 @@ if __name__ == "__main__":
     latest_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in latest_articles_flat])
     latest_content = '<h2>Latest News (Last Hour)</h2><div id="latest-news-list" class="list-group">'
     if latest_articles_flat:
-        latest_content += "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><div class='meta-info'><span class='label label-default'>{a['source_name']}</span></div></div>" for a in latest_articles_flat])
+        for a in latest_articles_flat:
+            time_ago = format_time_ago_py(now, datetime.fromisoformat(a['scraped_at']))
+            latest_content += f"<div class='list-group-item'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'><span class='label label-default'>{a['source_name']}</span><span class='time-ago'>{time_ago}</span></span></div>"
     else:
         latest_content += "<p>No new articles found in the last hour.</p>"
     latest_content += "</div>"
@@ -218,20 +228,13 @@ if __name__ == "__main__":
         archive_filename = f"archive_{month_key}.html"
         archive_links.append({"name": month_name, "file": archive_filename})
         
-        archive_data_for_month = defaultdict(lambda: defaultdict(list))
-        for article in articles:
-            archive_data_for_month[article['source_name']][article.get('sub_name', 'General')].append(article)
-        
-        # We need to re-structure this data for the generate_content_html function
         structured_month_data = defaultdict(lambda: defaultdict(list))
         for article in articles:
-             for sid, config in NEWS_SOURCES.items():
+            for sid, config in NEWS_SOURCES.items():
                 if config['name'] == article['source_name']:
-                    # Find which subsection this article belongs to
                     for sub_name, sub_articles_list in all_data.get(sid, {}).items():
                         if any(a['url'] == article['url'] for a in sub_articles_list):
-                            structured_month_data[sid][sub_name].append(article)
-                            break
+                            structured_month_data[sid][sub_name].append(article); break
                     break
         
         month_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in articles])
