@@ -14,55 +14,12 @@ from news_site.projectsyndicate import scrape_project_syndicate
 
 # --- Configuration for all news sources and their subsections ---
 NEWS_SOURCES = {
-    "dailystar": {
-        "name": "The Daily Star", "scraper": scrape_daily_star,
-        "subsections": {
-            "Home": "https://www.thedailystar.net/", "Today's News": "https://www.thedailystar.net/todays-news",
-            "Opinion": "https://www.thedailystar.net/opinion", "Business": "https://www.thedailystar.net/business",
-            "Editorial": "https://www.thedailystar.net/opinion/editorial", "Politics": "https://www.thedailystar.net/politics",
-            "International": "https://www.thedailystar.net/news/world",
-        }
-    },
-    "prothomalo": {
-        "name": "Prothom Alo", "scraper": scrape_prothom_alo,
-        "subsections": {
-            "Home": "https://www.prothomalo.com/", "Latest News": "https://www.prothomalo.com/collection/latest",
-            "Opinion": "https://www.prothomalo.com/opinion", "Editorial": "https://www.prothomalo.com/opinion/editorial",
-            "Business": "https://www.prothomalo.com/business", "Politics": "https://www.prothomalo.com/politics",
-            "International": "https://www.prothomalo.com/world",
-        }
-    },
-    "bonikbarta": {
-        "name": "Bonik Barta", "scraper": scrape_bonik_barta,
-        "subsections": {
-            "Home": "https://www.bonikbarta.com/", "Latest News": "https://bonikbarta.com/latest",
-            "Editorial": "https://bonikbarta.com/editorial/", "Economy": "https://bonikbarta.com/economy/",
-            "International": "https://bonikbarta.com/international/",
-        }
-    },
-    "washingtonpost": {
-        "name": "The Washington Post", "scraper": scrape_washington_post,
-        "subsections": {
-            "Home": "https://www.washingtonpost.com/", "Opinions": "https://www.washingtonpost.com/opinions/",
-            "Business": "https://www.washingtonpost.com/business/", "Politics": "https://www.washingtonpost.com/politics/",
-            "International": "https://www.washingtonpost.com/world/",
-        }
-    },
-    "economist": {
-        "name": "The Economist", "scraper": scrape_economist,
-        "subsections": {
-            "Home": "https://www.economist.com/", "Columns": "https://www.economist.com/topics/columns",
-            "Leaders": "https://www.economist.com/topics/leaders", "Business": "https://www.economist.com/topics/business",
-            "Finance & Economics": "https://www.economist.com/topics/finance-and-economics", "International": "https://www.economist.com/topics/international",
-        }
-    },
-    "projectsyndicate": {
-        "name": "Project Syndicate", "scraper": scrape_project_syndicate,
-        "subsections": {
-            "Home": "https://www.project-syndicate.org/", "Economics": "https://www.project-syndicate.org/section/economics",
-            "Politics": "https://www.project-syndicate.org/section/politics-world-affairs", "Sustainability": "https://www.project-syndicate.org/section/environment-sustainability",
-        }
-    }
+    "dailystar": { "name": "The Daily Star", "scraper": scrape_daily_star, "subsections": { "Home": "https://www.thedailystar.net/", "Today's News": "https://www.thedailystar.net/todays-news", "Opinion": "https://www.thedailystar.net/opinion", "Business": "https://www.thedailystar.net/business", "Editorial": "https://www.thedailystar.net/opinion/editorial", "Politics": "https://www.thedailystar.net/politics", "International": "https://www.thedailystar.net/news/world" }},
+    "prothomalo": { "name": "Prothom Alo", "scraper": scrape_prothom_alo, "subsections": { "Home": "https://www.prothomalo.com/", "Latest News": "https://www.prothomalo.com/collection/latest", "Opinion": "https://www.prothomalo.com/opinion", "Editorial": "https://www.prothomalo.com/opinion/editorial", "Business": "https://www.prothomalo.com/business", "Politics": "https://www.prothomalo.com/politics", "International": "https://www.prothomalo.com/world" }},
+    "bonikbarta": { "name": "Bonik Barta", "scraper": scrape_bonik_barta, "subsections": { "Home": "https://www.bonikbarta.com/", "Latest News": "https://bonikbarta.com/latest", "Editorial": "https://bonikbarta.com/editorial/", "Economy": "https://bonikbarta.com/economy/", "International": "https://bonikbarta.com/international/" }},
+    "washingtonpost": { "name": "The Washington Post", "scraper": scrape_washington_post, "subsections": { "Home": "https://www.washingtonpost.com/", "Opinions": "https://www.washingtonpost.com/opinions/", "Business": "https://www.washingtonpost.com/business/", "Politics": "https://www.washingtonpost.com/politics/", "International": "https://www.washingtonpost.com/world/" }},
+    "economist": { "name": "The Economist", "scraper": scrape_economist, "subsections": { "Home": "https://www.economist.com/", "Columns": "https://www.economist.com/topics/columns", "Leaders": "https://www.economist.com/topics/leaders", "Business": "https://www.economist.com/topics/business", "Finance & Economics": "https://www.economist.com/topics/finance-and-economics", "International": "https://www.economist.com/topics/international" }},
+    "projectsyndicate": { "name": "Project Syndicate", "scraper": scrape_project_syndicate, "subsections": { "Home": "https://www.project-syndicate.org/", "Economics": "https://www.project-syndicate.org/section/economics", "Politics": "https://www.project-syndicate.org/section/politics-world-affairs", "Sustainability": "https://www.project-syndicate.org/section/environment-sustainability" }}
 }
 
 REPO_PATH = "."
@@ -82,7 +39,7 @@ def save_data(data):
     with open(DATA_FILE_PATH, 'w', encoding='utf-8') as f: json.dump(data, f, indent=2)
 
 def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
-    """Generates the full HTML page with all UI features and fixes."""
+    """Generates the full HTML page with all UI features including source tags."""
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,7 +58,9 @@ def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
         .list-group-item {{ display: flex; justify-content: space-between; align-items: center; border-left: none; border-right: none; font-size: 16px; }}
         .list-group-item > a {{ color: #337ab7; flex-grow: 1; margin-right: 15px; }}
         .list-group-item:hover {{ background-color: #f0f8ff; }}
-        .time-ago {{ font-size: 12px; color: #888; white-space: nowrap; font-style: italic; }}
+        .meta-info {{ display: flex; align-items: center; white-space: nowrap; }}
+        .meta-info .label {{ margin-right: 10px; font-weight: normal; background-color: #777; }}
+        .time-ago {{ font-size: 12px; color: #888; font-style: italic; }}
         .search-bar-container {{ position: sticky; top: 51px; background-color: #f8f9fa; padding: 10px 0; z-index: 1020; margin-bottom: 15px; border-bottom: 1px solid #eee; }}
         #searchResultsContainer {{ display: none; margin-top: 15px; }}
         .footer-note {{ text-align: center; padding: 25px 0; color: #999; }}
@@ -133,47 +92,19 @@ def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
 <script>
 const allArticles = {all_articles_json};
 
-function formatTimeAgo(date) {{
-    const now = new Date();
-    const seconds = Math.floor((now - date) / 1000);
-    if (seconds < 60) return `${{seconds}}s ago`;
-    const minutes = Math.floor(seconds / 60);
-    if (minutes < 60) return `${{minutes}}m ago`;
-    const hours = Math.floor(minutes / 60);
-    if (hours < 24) return `${{hours}}h ago`;
-    const days = Math.floor(hours / 24);
-    return `${{days}}d ago`;
-}}
-
-function updateRelativeTimes() {{
-    document.querySelectorAll('[data-timestamp]').forEach(el => {{
-        const ts = el.getAttribute('data-timestamp');
-        if (ts) {{
-            const timeAgo = formatTimeAgo(new Date(ts));
-            const span = el.querySelector('.time-ago') || document.createElement('span');
-            span.className = 'time-ago';
-            span.textContent = timeAgo;
-            if (!el.querySelector('.time-ago')) el.appendChild(span);
-        }}
-    }});
-}}
+function formatTimeAgo(date) {{ /* Function remains the same */ const now = new Date(); const seconds = Math.floor((now - date) / 1000); if (seconds < 60) return `${{seconds}}s ago`; const minutes = Math.floor(seconds / 60); if (minutes < 60) return `${{minutes}}m ago`; const hours = Math.floor(minutes / 60); if (hours < 24) return `${{hours}}h ago`; const days = Math.floor(hours / 24); return `${{days}}d ago`; }}
+function updateRelativeTimes() {{ document.querySelectorAll('[data-timestamp]').forEach(el => {{ const ts = el.getAttribute('data-timestamp'); if (ts) {{ const timeAgo = formatTimeAgo(new Date(ts)); const span = el.querySelector('.time-ago') || document.createElement('span'); span.className = 'time-ago'; span.textContent = timeAgo; const meta = el.querySelector('.meta-info') || el; if (!meta.querySelector('.time-ago')) meta.appendChild(span); }} }}); }}
 
 $(document).ready(function() {{
     updateRelativeTimes();
-    $('.panel-group').on('show.bs.collapse', function (e) {{
-        $(e.target).closest('.panel-group').find('.panel-collapse.in').not(e.target).collapse('hide');
-    }});
+    $('.panel-group').on('show.bs.collapse', function (e) {{ $(e.target).closest('.panel-group').find('.panel-collapse.in').not(e.target).collapse('hide'); }});
 
     $('#searchInput').on('keyup', function() {{
         const searchTerm = $(this).val().toLowerCase().trim();
         const resultsContainer = $('#searchResultsContainer');
-        const mainContent = $('.panel-group, #latest-news-list'); // Target accordion or simple list
+        const mainContent = $('.panel-group, #latest-news-list');
 
-        if (searchTerm.length < 2) {{
-            resultsContainer.hide().empty();
-            mainContent.show();
-            return;
-        }}
+        if (searchTerm.length < 2) {{ resultsContainer.hide().empty(); mainContent.show(); return; }}
 
         const filtered = allArticles.filter(a => a.title.toLowerCase().includes(searchTerm));
         mainContent.hide();
@@ -183,13 +114,11 @@ $(document).ready(function() {{
             let html = `<h3>Search Results (${{filtered.length}})</h3><div class="list-group">`;
             filtered.forEach(a => {{
                 const timeAgo = formatTimeAgo(new Date(a.scraped_at));
-                html += `<div class="list-group-item"><a href="${{a.url}}" target="_blank">${{a.title}}</a><span class="time-ago">${{timeAgo}}</span></div>`;
+                html += `<div class="list-group-item"><a href="${{a.url}}" target="_blank">${{a.title}}</a><div class="meta-info"><span class="label label-default">${{a.source_name}}</span><span class="time-ago">${{timeAgo}}</span></div></div>`;
             }});
             html += '</div>';
             resultsContainer.html(html);
-        }} else {{
-            resultsContainer.html('<p class="text-center">No results found.</p>');
-        }}
+        }} else {{ resultsContainer.html('<p class="text-center">No results found.</p>'); }}
         resultsContainer.show();
     }});
 }});
@@ -208,7 +137,7 @@ def generate_content_html(data, time_filter=None):
             filtered_articles = time_filter(articles) if time_filter else articles
             if filtered_articles:
                 filtered_articles.sort(key=lambda x: x['scraped_at'], reverse=True)
-                article_html = "".join([f"<div class='list-group-item news-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a></div>" for a in filtered_articles])
+                article_html = "".join([f"<div class='list-group-item news-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><div class='meta-info'></div></div>" for a in filtered_articles])
                 sub_panels_html += f'''<div class="panel panel-default sub-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{sub_accordion_id}" href="#collapse-{source_id}-sub-{j}">{sub_name}</a></h4></div><div id="collapse-{source_id}-sub-{j}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div></div>'''
         if sub_panels_html:
             content_html += f'''<div class="panel panel-default main-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{main_accordion_id}" href="#collapse-main-{i}">{config["name"]}</a></h4></div><div id="collapse-main-{i}" class="panel-collapse collapse"><div class="panel-body"><div class="panel-group" id="{sub_accordion_id}">{sub_panels_html}</div></div></div></div>'''
@@ -245,22 +174,33 @@ if __name__ == "__main__":
     print("\n--- Generating HTML Files ---")
     timestamp = now.strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
+    # --- Helper function to flatten data for JSON embedding ---
+    def get_flat_articles(time_filter):
+        flat_list = []
+        for sid, s_config in NEWS_SOURCES.items():
+            for sub_name, articles in all_data.get(sid, {}).items():
+                for article in time_filter(articles):
+                    article_copy = article.copy()
+                    article_copy['source_name'] = s_config['name']
+                    flat_list.append(article_copy)
+        return flat_list
+
     # --- Generate index.html (Last 24 Hours) ---
     index_filter = lambda articles: [a for a in articles if datetime.fromisoformat(a['scraped_at']) > one_day_ago]
-    index_articles_flat = [a for src in all_data.values() for sub in src.values() for a in index_filter(sub)]
-    index_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at']} for a in index_articles_flat])
+    index_articles_flat = get_flat_articles(index_filter)
+    index_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in index_articles_flat])
     index_content = generate_content_html(all_data, time_filter=index_filter)
     with open(INDEX_HTML_PATH, "w", encoding="utf-8") as f: f.write(generate_html_shell("Today's News", index_content, timestamp, all_articles_json=index_articles_json))
     print(f"Generated {INDEX_HTML_PATH}")
 
     # --- Generate latest.html (Last 1 Hour) ---
     latest_filter = lambda articles: [a for a in articles if datetime.fromisoformat(a['scraped_at']) > one_hour_ago]
-    latest_articles_flat = [a for src in all_data.values() for sub in src.values() for a in latest_filter(sub)]
+    latest_articles_flat = get_flat_articles(latest_filter)
     latest_articles_flat.sort(key=lambda x: x['scraped_at'], reverse=True)
-    latest_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at']} for a in latest_articles_flat])
+    latest_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in latest_articles_flat])
     latest_content = '<h2>Latest News (Last Hour)</h2><div id="latest-news-list" class="list-group">'
     if latest_articles_flat:
-        latest_content += "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a></div>" for a in latest_articles_flat])
+        latest_content += "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><div class='meta-info'><span class='label label-default'>{a['source_name']}</span></div></div>" for a in latest_articles_flat])
     else:
         latest_content += "<p>No new articles found in the last hour.</p>"
     latest_content += "</div>"
@@ -268,28 +208,34 @@ if __name__ == "__main__":
     print(f"Generated {LATEST_HTML_PATH}")
 
     # --- Generate Monthly Archives ---
-    archive_articles = [a for src in all_data.values() for sub in src.values() for a in sub if datetime.fromisoformat(a['scraped_at']) <= one_day_ago]
+    archive_articles_flat = get_flat_articles(lambda arts: [a for a in arts if datetime.fromisoformat(a['scraped_at']) <= one_day_ago])
     monthly_archives = defaultdict(list)
-    for article in archive_articles: monthly_archives[datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m')].append(article)
+    for article in archive_articles_flat: monthly_archives[datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m')].append(article)
 
     archive_links = []
     for month_key, articles in sorted(monthly_archives.items(), reverse=True):
         month_name = datetime.strptime(month_key, '%Y-%m').strftime('%B %Y')
         archive_filename = f"archive_{month_key}.html"
         archive_links.append({"name": month_name, "file": archive_filename})
-        articles.sort(key=lambda x: x['scraped_at'], reverse=True)
         
         archive_data_for_month = defaultdict(lambda: defaultdict(list))
         for article in articles:
-             for sid, config in NEWS_SOURCES.items():
-                 for sub_name, sub_articles in all_data.get(sid, {}).items():
-                     if any(a['url'] == article['url'] for a in sub_articles):
-                         archive_data_for_month[sid][sub_name].append(article); break
-                 else: continue
-                 break
+            archive_data_for_month[article['source_name']][article.get('sub_name', 'General')].append(article)
         
-        month_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at']} for a in articles])
-        month_content = f'<h2>Archive for {month_name}</h2>' + generate_content_html(archive_data_for_month)
+        # We need to re-structure this data for the generate_content_html function
+        structured_month_data = defaultdict(lambda: defaultdict(list))
+        for article in articles:
+             for sid, config in NEWS_SOURCES.items():
+                if config['name'] == article['source_name']:
+                    # Find which subsection this article belongs to
+                    for sub_name, sub_articles_list in all_data.get(sid, {}).items():
+                        if any(a['url'] == article['url'] for a in sub_articles_list):
+                            structured_month_data[sid][sub_name].append(article)
+                            break
+                    break
+        
+        month_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in articles])
+        month_content = f'<h2>Archive for {month_name}</h2>' + generate_content_html(structured_month_data)
         with open(os.path.join(REPO_PATH, archive_filename), "w", encoding="utf-8") as f: f.write(generate_html_shell(f"Archive: {month_name}", month_content, timestamp, all_articles_json=month_articles_json))
         print(f"Generated {archive_filename}")
 
