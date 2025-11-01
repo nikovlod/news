@@ -26,7 +26,7 @@ REPO_PATH = "."
 DATA_FILE_PATH = os.path.join(REPO_PATH, "news_data.json")
 INDEX_HTML_PATH = os.path.join(REPO_PATH, "index.html")
 LATEST_HTML_PATH = os.path.join(REPO_PATH, "latest.html")
-ARCHIVE_HTML_PATH = os.path.join(REPO_PATH, "archive.html") # No longer an index, but the full archive page
+ARCHIVE_HTML_PATH = os.path.join(REPO_PATH, "archive.html")
 
 # --- Helper Functions ---
 def load_data():
@@ -140,7 +140,6 @@ $(document).ready(function() {{
 
 def generate_accordion_html(data, time_filter=None):
     """Generates the nested accordion HTML for news content."""
-    # (This function is the same as the previous version)
     main_accordion_id = 'main-accordion'
     content_html = f'<div class="panel-group" id="{main_accordion_id}">'
     for i, (source_id, config) in enumerate(NEWS_SOURCES.items()):
@@ -190,7 +189,7 @@ if __name__ == "__main__":
     timestamp = now.strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
     def get_flat_articles_unique(time_filter):
-        flat_list_with_duplicates = [a_copy for sid, s_config in NEWS_SOURCES.items() for sub_name, articles in all_data.get(sid, {}).items() for a in time_filter(articles) for a_copy in [dict(a, source_name=s_config['name'])]]
+        flat_list_with_duplicates = [dict(a, source_name=s_config['name']) for sid, s_config in NEWS_SOURCES.items() for articles in all_data.get(sid, {}).values() for a in time_filter(articles)]
         flat_list_with_duplicates.sort(key=lambda x: x['scraped_at'], reverse=True)
         unique_articles, seen_urls = [], set()
         for article in flat_list_with_duplicates:
@@ -209,7 +208,6 @@ if __name__ == "__main__":
     # --- Generate latest.html (Last 1 Hour) ---
     latest_filter = lambda articles: [a for a in articles if datetime.fromisoformat(a['scraped_at']) > one_hour_ago]
     latest_articles_flat = get_flat_articles_unique(latest_filter)
-    latest_articles_flat.sort(key=lambda x: x['scraped_at'], reverse=True)
     latest_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in latest_articles_flat])
     latest_content = '<h2>Latest News (Last Hour)</h2><div id="latest-news-list" class="list-group">'
     if latest_articles_flat:
@@ -220,42 +218,47 @@ if __name__ == "__main__":
     with open(LATEST_HTML_PATH, "w", encoding="utf-8") as f: f.write(generate_html_shell("Latest News", latest_content, timestamp, all_articles_json=latest_articles_json))
     print(f"Generated {LATEST_HTML_PATH}")
 
-    # --- NEW: Generate a single archive.html page (30 days) ---
+    # --- Generate single archive.html page (30 days) ---
     archive_filter = lambda arts: [a for a in arts if datetime.fromisoformat(a['scraped_at']) <= one_day_ago]
     archive_articles_flat = get_flat_articles_unique(archive_filter)
     archive_articles_json = json.dumps([{'title': a['title'], 'url': a['url'], 'scraped_at': a['scraped_at'], 'source_name': a['source_name']} for a in archive_articles_flat])
     
-    # Group articles by date for the accordion
     articles_by_date = defaultdict(list)
     for article in archive_articles_flat:
         articles_by_date[datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m-%d, %A')].append(article)
         
     archive_content = '<h2>News Archive (Last 30 Days)</h2><div class="panel-group" id="main-accordion">'
     for i, (date_str, articles) in enumerate(sorted(articles_by_date.items(), reverse=True)):
-        # Group this day's articles by source
         articles_by_source = defaultdict(list)
         for article in articles:
             articles_by_source[article['source_name']].append(article)
 
-        day_content = ""
-        for source_name, source_articles in articles_by_source.items():
-            day_content += f"<h4>{source_name}</h4>"
-            day_content += "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'></span></div>" for a in source_articles])
+        sub_accordion_id = f"sub-accordion-archive-{i}"
+        sub_panels_html = f'<div class="panel-group" id="{sub_accordion_id}">'
+        for j, (source_name, source_articles) in enumerate(articles_by_source.items()):
+            article_html = "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'></span></div>" for a in source_articles])
+            sub_panels_html += f'''<div class="panel panel-default sub-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{sub_accordion_id}" href="#collapse-archive-{i}-source-{j}">{source_name}</a></h4></div><div id="collapse-archive-{i}-source-{j}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div></div>'''
+        sub_panels_html += "</div>"
         
         archive_content += f'''
         <div class="panel panel-default main-panel">
             <div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#main-accordion" href="#collapse-archive-{i}">{date_str}</a></h4></div>
-            <div id="collapse-archive-{i}" class="panel-collapse collapse"><div class="list-group">{day_content}</div></div>
+            <div id="collapse-archive-{i}" class="panel-collapse collapse"><div class="panel-body">{sub_panels_html}</div></div>
         </div>'''
     archive_content += "</div>"
     
-    # Remove the old monthly archive files to keep the repo clean
+    # Remove old monthly archive files
     for item in os.listdir(REPO_PATH):
-        if item.startswith("archive_20") and item.endswith(".html") and item != "archive.html":
+        if item.startswith("archive_20") and item.endswith(".html"):
             os.remove(os.path.join(REPO_PATH, item))
             print(f"Removed old archive file: {item}")
             
     with open(ARCHIVE_HTML_PATH, "w", encoding="utf-8") as f: f.write(generate_html_shell("News Archive", archive_content, timestamp, all_articles_json=archive_articles_json))
     print(f"Generated single {ARCHIVE_HTML_PATH}")
     
+    # Delete the old archive index file if it exists, as it's no longer needed
+    if os.path.exists(os.path.join(REPO_PATH, "archive_index.html")):
+        os.remove(os.path.join(REPO_PATH, "archive_index.html"))
+        print("Removed old archive_index.html")
+
     print("\n--- Python script complete. Handing over to workflow for git push. ---")
