@@ -55,6 +55,7 @@ def generate_html_shell(title, content, timestamp, all_articles_json="[]"):
         .panel-group .panel + .panel {{ margin-top: 10px; }}
         .panel-title > a {{ display: block; padding: 12px 15px; text-decoration: none; font-weight: bold; font-size: 18px; color: #333; }}
         .sub-panel .panel-title > a {{ font-size: 16px; font-weight: normal; color: #555; }}
+        .sub-sub-panel .panel-title > a {{ font-size: 14px; font-weight: normal; color: #777; }}
         .list-group-item {{ border-left: none; border-right: none; font-size: 16px; }}
         .list-group-item:hover {{ background-color: #f0f8ff; }}
         .meta-tags {{ margin-left: 8px; white-space: nowrap; font-weight: normal; }}
@@ -139,7 +140,7 @@ $(document).ready(function() {{
 </body></html>'''
 
 def generate_accordion_html(data, time_filter=None):
-    """Generates the nested accordion HTML for news content."""
+    """Generates the nested accordion HTML for the home page (Source -> Subsection)."""
     main_accordion_id = 'main-accordion'
     content_html = f'<div class="panel-group" id="{main_accordion_id}">'
     for i, (source_id, config) in enumerate(NEWS_SOURCES.items()):
@@ -166,7 +167,6 @@ if __name__ == "__main__":
     
     all_data = load_data()
     
-    # (Scraping logic is unchanged)
     print("--- Starting Full Scrape & Merge Cycle ---")
     for source_id, config in NEWS_SOURCES.items():
         if source_id not in all_data or not isinstance(all_data.get(source_id), dict): all_data[source_id] = {}
@@ -189,10 +189,10 @@ if __name__ == "__main__":
     timestamp = now.strftime("%Y-%m-%d %I:%M:%S %p %Z")
 
     def get_flat_articles_unique(time_filter):
-        flat_list_with_duplicates = [dict(a, source_name=s_config['name']) for sid, s_config in NEWS_SOURCES.items() for articles in all_data.get(sid, {}).values() for a in time_filter(articles)]
-        flat_list_with_duplicates.sort(key=lambda x: x['scraped_at'], reverse=True)
+        flat_list = [dict(a, source_name=s_config['name'], sub_name=sub_name) for sid, s_config in NEWS_SOURCES.items() for sub_name, articles in all_data.get(sid, {}).items() for a in time_filter(articles)]
+        flat_list.sort(key=lambda x: x['scraped_at'], reverse=True)
         unique_articles, seen_urls = [], set()
-        for article in flat_list_with_duplicates:
+        for article in flat_list:
             if article['url'] not in seen_urls:
                 unique_articles.append(article); seen_urls.add(article['url'])
         return unique_articles
@@ -228,26 +228,32 @@ if __name__ == "__main__":
         articles_by_date[datetime.fromisoformat(article['scraped_at']).strftime('%Y-%m-%d, %A')].append(article)
         
     archive_content = '<h2>News Archive (Last 30 Days)</h2><div class="panel-group" id="main-accordion">'
-    for i, (date_str, articles) in enumerate(sorted(articles_by_date.items(), reverse=True)):
-        articles_by_source = defaultdict(list)
-        for article in articles:
-            articles_by_source[article['source_name']].append(article)
+    for i, (date_str, articles_for_day) in enumerate(sorted(articles_by_date.items(), reverse=True)):
+        articles_by_source = defaultdict(lambda: defaultdict(list))
+        for article in articles_for_day:
+            articles_by_source[article['source_name']][article['sub_name']].append(article)
 
-        sub_accordion_id = f"sub-accordion-archive-{i}"
-        sub_panels_html = f'<div class="panel-group" id="{sub_accordion_id}">'
-        for j, (source_name, source_articles) in enumerate(articles_by_source.items()):
-            article_html = "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'></span></div>" for a in source_articles])
-            sub_panels_html += f'''<div class="panel panel-default sub-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{sub_accordion_id}" href="#collapse-archive-{i}-source-{j}">{source_name}</a></h4></div><div id="collapse-archive-{i}-source-{j}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div></div>'''
-        sub_panels_html += "</div>"
+        source_accordion_id = f"archive-date-{i}-accordion"
+        source_panels_html = f'<div class="panel-group" id="{source_accordion_id}">'
+        for j, (source_name, subsections) in enumerate(articles_by_source.items()):
+            subsection_accordion_id = f"archive-date-{i}-source-{j}-accordion"
+            subsection_panels_html = f'<div class="panel-group" id="{subsection_accordion_id}">'
+            for k, (sub_name, sub_articles) in enumerate(subsections.items()):
+                article_html = "".join([f"<div class='list-group-item' data-timestamp='{a['scraped_at']}'><a href='{a['url']}' target='_blank'>{a['title']}</a><span class='meta-tags'></span></div>" for a in sub_articles])
+                subsection_panels_html += f'''<div class="panel panel-default sub-sub-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{subsection_accordion_id}" href="#collapse-archive-{i}-{j}-{k}">{sub_name}</a></h4></div><div id="collapse-archive-{i}-{j}-{k}" class="panel-collapse collapse"><div class="list-group">{article_html}</div></div></div>'''
+            subsection_panels_html += "</div>"
+            
+            source_panels_html += f'''<div class="panel panel-default sub-panel"><div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#{source_accordion_id}" href="#collapse-archive-{i}-source-{j}">{source_name}</a></h4></div><div id="collapse-archive-{i}-source-{j}" class="panel-collapse collapse"><div class="panel-body">{subsection_panels_html}</div></div></div>'''
+        source_panels_html += "</div>"
         
         archive_content += f'''
         <div class="panel panel-default main-panel">
             <div class="panel-heading"><h4 class="panel-title"><a data-toggle="collapse" data-parent="#main-accordion" href="#collapse-archive-{i}">{date_str}</a></h4></div>
-            <div id="collapse-archive-{i}" class="panel-collapse collapse"><div class="panel-body">{sub_panels_html}</div></div>
+            <div id="collapse-archive-{i}" class="panel-collapse collapse"><div class="panel-body">{source_panels_html}</div></div>
         </div>'''
     archive_content += "</div>"
     
-    # Remove old monthly archive files
+    # Clean up old monthly archive files
     for item in os.listdir(REPO_PATH):
         if item.startswith("archive_20") and item.endswith(".html"):
             os.remove(os.path.join(REPO_PATH, item))
@@ -256,9 +262,4 @@ if __name__ == "__main__":
     with open(ARCHIVE_HTML_PATH, "w", encoding="utf-8") as f: f.write(generate_html_shell("News Archive", archive_content, timestamp, all_articles_json=archive_articles_json))
     print(f"Generated single {ARCHIVE_HTML_PATH}")
     
-    # Delete the old archive index file if it exists, as it's no longer needed
-    if os.path.exists(os.path.join(REPO_PATH, "archive_index.html")):
-        os.remove(os.path.join(REPO_PATH, "archive_index.html"))
-        print("Removed old archive_index.html")
-
     print("\n--- Python script complete. Handing over to workflow for git push. ---")
