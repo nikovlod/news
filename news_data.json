@@ -2,11 +2,6 @@
   "dailystar": {
     "Home": [
       {
-        "title": "Today's Gallery (2026.07.17)",
-        "url": "https://www.thedailystar.net/todays-gallery-20260717-4225951",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
         "title": "Trump revives election fraud claims ahead of US midterms",
         "url": "https://www.thedailystar.net/news/world/usa/news/trump-revives-election-fraud-claims-ahead-us-midterms-4225981",
         "scraped_at": "2026-07-17T05:37:49.635257+00:00"
@@ -14233,96 +14228,6 @@
       }
     ],
     "Today's News": [
-      {
-        "title": "500 feared dead as boats sink",
-        "url": "https://www.thedailystar.net/news/asia/news/500-feared-dead-boats-sink-4225911",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Yet another blow to the reform process",
-        "url": "https://www.thedailystar.net/news-analysis/news/yet-another-blow-the-reform-process-4225916",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Hormuz is a \u2018red line\u2019",
-        "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/hormuz-red-line-4225921",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Masters of the marsh",
-        "url": "https://www.thedailystar.net/news/environment/wild-life/news/masters-the-marsh-4225926",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Ebola spreading in DRC \u2018faster than any previous outbreak\u2019: WHO",
-        "url": "https://www.thedailystar.net/news/world/news/ebola-spreading-drc-faster-any-previous-outbreak-who-4225931",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "US limits stays of students, journalists",
-        "url": "https://www.thedailystar.net/news/world/usa/news/us-limits-stays-students-journalists-4225936",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "3 of family, driver killed as bus hits ambulance carrying a body",
-        "url": "https://www.thedailystar.net/news/accidents-fires/news/3-family-driver-killed-bus-hits-ambulance-carrying-body-4225941",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Ghonoghota 2: Monsoon dance returns to Bokultola",
-        "url": "https://www.thedailystar.net/ds/my-dhaka/news/ghonoghota-2-monsoon-dance-returns-bokultola-4225946",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Small traders\u2019 big extortion woes",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/small-traders-big-extortion-woes-4225871",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Rear Admiral Khondkar Misbah ul Azim new navy chief",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/rear-admiral-khondkar-misbah-ul-azim-new-navy-chief-4225956",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Cyber slavery: Bangladeshis forced into online scams in Cambodia",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/cyber-slavery-bangladeshis-forced-online-scams-cambodia-4225876",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Intensify drive against AL, BCL, affiliated bodies",
-        "url": "https://www.thedailystar.net/news/politics/news/intensify-drive-against-al-bcl-affiliated-bodies-4225961",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Retired major detained over Zia murder",
-        "url": "https://www.thedailystar.net/news/crime-justice/news/retired-major-detained-over-zia-murder-4225881",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "New loan programme: IMF to push for banking reforms, tax boost",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/new-loan-programme-imf-push-banking-reforms-tax-boost-4225886",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Bangladeshis view China more positively than the US",
-        "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/bangladeshis-view-china-more-positively-the-us-4225891",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Two BNP leaders killed in Noakhali, Kishoreganj",
-        "url": "https://www.thedailystar.net/news/crime-justice/news/two-bnp-leaders-killed-noakhali-kishoreganj-4225896",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Rest of HSC exams under Ctg board suspended",
-        "url": "https://www.thedailystar.net/news/education/news/rest-hsc-exams-under-ctg-board-suspended-4225901",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Floods leave roads across Chattogram region in ruins",
-        "url": "https://www.thedailystar.net/news/environment/climate-crisis/news/floods-leave-roads-across-chattogram-region-ruins-4225906",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
       {
         "title": "Institutions should not be so dependent on the PM for routine governance",
         "url": "https://www.thedailystar.net/opinion/views/news/institutions-should-not-be-so-dependent-the-pm-routine-governance-4225826",
@@ -36597,6 +36502,96 @@
         "title": "Rethinking daily issues for a greener future",
         "url": "https://www.thedailystar.net/news/bangladesh/news/rethinking-daily-issues-greener-future-4248646",
         "scraped_at": "2026-08-15T22:16:11.536542+00:00"
+      },
+      {
+        "title": "3 arrested, 3 assaulted at Dhanmondi 32",
+        "url": "https://www.thedailystar.net/news/crime-justice/news/3-arrested-3-assaulted-dhanmondi-32-4248651",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Dengue claims 2 more lives, death toll 67",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/dengue-claims-2-more-lives-death-toll-67-4248731",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Pm\u2019s India visit: A chance for neighbours to heal rifts",
+        "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/pms-india-visit-chance-neighbours-heal-rifts-4248656",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Strong quake kills 47 in Indonesia",
+        "url": "https://www.thedailystar.net/news/world/news/strong-quake-kills-47-indonesia-4248736",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Measles deaths cross 900",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/measles-deaths-cross-900-4248661",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "LNG supply recovers but gas crisis lingers",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/lng-supply-recovers-gas-crisis-lingers-4248666",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "PM apologises for power crisis",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/pm-apologises-power-crisis-4248671",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Shipbreaking yards: \u2018Green\u2019 on paper, deadly on ground",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/shipbreaking-yards-green-paper-deadly-ground-4248676",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "BGB foils another \u2018push-in attempt\u2019",
+        "url": "https://www.thedailystar.net/news/crime-justice/news/bgb-foils-another-push-attempt-4248681",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Over three lakh Rohingyas verified for repatriation",
+        "url": "https://www.thedailystar.net/news/asia/news/over-three-lakh-rohingyas-verified-repatriation-4248686",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Four children hurt in crude bomb blast in Madaripur",
+        "url": "https://www.thedailystar.net/news/crime-justice/news/four-children-hurt-crude-bomb-blast-madaripur-4248691",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "MT Hossain Institute: A fading chapter of our cultural history",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/mt-hossain-institute-fading-chapter-our-cultural-history-4248696",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Trump says he\u2019ll declare Hormuz US territory",
+        "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/trump-says-hell-declare-hormuz-us-territory-4248701",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Five killed in Michigan shooting",
+        "url": "https://www.thedailystar.net/news/world/usa/news/five-killed-michigan-shooting-4248706",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Circulation managers now in charge of newspaper distribution",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/circulation-managers-now-charge-newspaper-distribution-4248711",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Circulation managers now in charge of newspaper distribution",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/circulation-managers-now-charge-newspaper-distribution-4248716",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Woman hacked to death in home",
+        "url": "https://www.thedailystar.net/news/crime-justice/news/woman-hacked-death-home-4248721",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "\u2018People-to-people ties at heart of our friendship\u2019",
+        "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/people-people-ties-heart-our-friendship-4248726",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "Opinion": [
@@ -42294,21 +42289,6 @@
     ],
     "International": [
       {
-        "title": "US limits stays of students, journalists",
-        "url": "https://www.thedailystar.net/news/world/usa/news/us-limits-stays-students-journalists-4225936",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Ebola spreading in DRC \u2018faster than any previous outbreak\u2019: WHO",
-        "url": "https://www.thedailystar.net/news/world/news/ebola-spreading-drc-faster-any-previous-outbreak-who-4225931",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Hormuz is a \u2018red line\u2019",
-        "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/hormuz-red-line-4225921",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
         "title": "US strikes in Iran hit airport, bridges and railway station",
         "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/us-strikes-iran-hit-airport-bridges-and-railway-station-4225991",
         "scraped_at": "2026-07-17T05:37:49.635257+00:00"
@@ -44677,6 +44657,21 @@
         "title": "US states seek $200b penalty in blockbuster Meta lawsuit",
         "url": "https://www.thedailystar.net/news/world/news/us-states-seek-200b-penalty-blockbuster-meta-lawsuit-4248556",
         "scraped_at": "2026-08-15T20:16:49.306558+00:00"
+      },
+      {
+        "title": "Strong quake kills 47 in Indonesia",
+        "url": "https://www.thedailystar.net/news/world/news/strong-quake-kills-47-indonesia-4248736",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Five killed in Michigan shooting",
+        "url": "https://www.thedailystar.net/news/world/usa/news/five-killed-michigan-shooting-4248706",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "Trump says he\u2019ll declare Hormuz US territory",
+        "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/trump-says-hell-declare-hormuz-us-territory-4248701",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ]
   },
@@ -59406,6 +59401,16 @@
         "title": "\u099c\u09be\u09a4\u09c0\u09df \u0989\u09b2\u09be\u09ae\u09be \u09ae\u09be\u09b6\u09be\u09df\u09c7\u0996 \u09b8\u09ae\u09cd\u09ae\u09c7\u09b2\u09a8\u09c7 \u09ef \u09a6\u09ab\u09be \u09a6\u09be\u09ac\u09bf \u0998\u09cb\u09b7\u09a3\u09be",
         "url": "https://www.prothomalo.com/politics/16b9tobdsv",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09ac\u09c7\u09a4\u09a8 \u0995\u09ae \u09b9\u09b2\u09c7\u0993 \u098f\u0987 \u099a\u09be\u0995\u09b0\u09bf\u0997\u09c1\u09b2\u09cb \u0995\u09c7\u09a8 \u09ac\u09c7\u099b\u09c7 \u09a8\u09bf\u099a\u09cd\u099b\u09c7\u09a8 \u09a4\u09b0\u09c1\u09a3\u09c7\u09b0\u09be",
+        "url": "https://www.prothomalo.com/chakri/chakri-suggestion/huhtpq131p",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
+      },
+      {
+        "title": "\u0986\u09ae\u09c7\u09b0\u09bf\u0995\u09be\u09b0 \u0995\u09b2\u09be\u09ae\u09cd\u09ac\u09bf\u09df\u09be \u09b0\u09bf\u09ad\u09be\u09b0 \u0997\u09b0\u09cd\u099c: \u09a8\u09bf\u09b8\u09b0\u09cd\u0997 \u0993 \u09ad\u09c2\u09aa\u09cd\u09b0\u0995\u09c3\u09a4\u09bf\u09b0 \u0985\u09aa\u09c2\u09b0\u09cd\u09ac \u09b8\u09ae\u09cd\u09ae\u09bf\u09b2\u09a8",
+        "url": "https://nagorik.prothomalo.com/durporobash/7j0cz7uug4",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "Latest News": [
@@ -71008,6 +71013,11 @@
         "title": "\u0995\u09c1\u09b7\u09cd\u099f\u09bf\u09df\u09be\u09df \u099c\u09be\u09ae\u09be\u09df\u09be\u09a4-\u0997\u09a3 \u0985\u09a7\u09bf\u0995\u09be\u09b0 \u09aa\u09b0\u09bf\u09b7\u09a6 \u09b8\u0982\u0998\u09b0\u09cd\u09b7, \u0986\u09ae\u09bf\u09b0 \u09b9\u09be\u09ae\u099c\u09be\u09b0 \u0997\u09be\u09dc\u09bf \u09ad\u09be\u0999\u099a\u09c1\u09b0",
         "url": "https://www.prothomalo.com/video/bangladesh/8v5rc4hp7h",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09a6\u09cb\u09df\u09be\u09b8\u09a0\u09bf\u0995 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4\u09c7 \u09aa\u09cc\u0981\u099b\u09a4\u09c7 \u0986\u09b2\u09c0\u0995\u09c7 \u09b6\u09c7\u0996\u09be\u09a8\u09cb \u09a8\u09ac\u09c0\u099c\u09bf\u09b0 \u09a6\u09cb\u09df\u09be",
+        "url": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "Opinion": [
@@ -80480,6 +80490,11 @@
         "title": "\u09ae\u09be\u09a6\u0995\u09ac\u09bf\u09b0\u09cb\u09a7\u09c0 \u0985\u09ad\u09bf\u09af\u09be\u09a8\u09c7 \u09aa\u09c1\u09b2\u09bf\u09b6\u0995\u09c7 \u0997\u09c1\u09b2\u09bf, \u09aa\u09be\u09b2\u09cd\u099f\u09be \u0997\u09c1\u09b2\u09bf\u09a4\u09c7 \u098f\u0995\u099c\u09a8 \u0997\u09c1\u09b2\u09bf\u09ac\u09bf\u09a6\u09cd\u09a7",
         "url": "https://www.prothomalo.com/video/bangladesh/bqu8hpiaoe",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09a6\u09cb\u09df\u09be\u09b8\u09a0\u09bf\u0995 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4\u09c7 \u09aa\u09cc\u0981\u099b\u09a4\u09c7 \u0986\u09b2\u09c0\u0995\u09c7 \u09b6\u09c7\u0996\u09be\u09a8\u09cb \u09a8\u09ac\u09c0\u099c\u09bf\u09b0 \u09a6\u09cb\u09df\u09be",
+        "url": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "Editorial": [
@@ -88962,6 +88977,11 @@
         "title": "\u09ae\u09be\u09a6\u0995\u09ac\u09bf\u09b0\u09cb\u09a7\u09c0 \u0985\u09ad\u09bf\u09af\u09be\u09a8\u09c7 \u09aa\u09c1\u09b2\u09bf\u09b6\u0995\u09c7 \u0997\u09c1\u09b2\u09bf, \u09aa\u09be\u09b2\u09cd\u099f\u09be \u0997\u09c1\u09b2\u09bf\u09a4\u09c7 \u098f\u0995\u099c\u09a8 \u0997\u09c1\u09b2\u09bf\u09ac\u09bf\u09a6\u09cd\u09a7",
         "url": "https://www.prothomalo.com/video/bangladesh/bqu8hpiaoe",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09a6\u09cb\u09df\u09be\u09b8\u09a0\u09bf\u0995 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4\u09c7 \u09aa\u09cc\u0981\u099b\u09a4\u09c7 \u0986\u09b2\u09c0\u0995\u09c7 \u09b6\u09c7\u0996\u09be\u09a8\u09cb \u09a8\u09ac\u09c0\u099c\u09bf\u09b0 \u09a6\u09cb\u09df\u09be",
+        "url": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "Business": [
@@ -98659,6 +98679,11 @@
         "title": "\u09ac\u09bf\u098f\u09a8\u09aa\u09bf\u09b0 \u09b8\u09cd\u09a5\u09be\u09df\u09c0 \u0995\u09ae\u09bf\u099f\u09bf \u09aa\u09c1\u09a8\u09b0\u09cd\u0997\u09a0\u09a8, \u09ae\u09b9\u09be\u09b8\u099a\u09bf\u09ac\u2013 \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09bf\u09b8\u09ad\u09be\u09df \u09a8\u09a4\u09c1\u09a8 \u0995\u09be\u09b0\u09be \u0986\u09b8\u099b\u09c7\u09a8",
         "url": "https://www.prothomalo.com/politics/ycuxunbndn",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09a6\u09cb\u09df\u09be\u09b8\u09a0\u09bf\u0995 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4\u09c7 \u09aa\u09cc\u0981\u099b\u09a4\u09c7 \u0986\u09b2\u09c0\u0995\u09c7 \u09b6\u09c7\u0996\u09be\u09a8\u09cb \u09a8\u09ac\u09c0\u099c\u09bf\u09b0 \u09a6\u09cb\u09df\u09be",
+        "url": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "Politics": [
@@ -108271,6 +108296,11 @@
         "title": "\u099c\u09be\u09a4\u09c0\u09df \u0989\u09b2\u09be\u09ae\u09be \u09ae\u09be\u09b6\u09be\u09df\u09c7\u0996 \u09b8\u09ae\u09cd\u09ae\u09c7\u09b2\u09a8\u09c7 \u09ef \u09a6\u09ab\u09be \u09a6\u09be\u09ac\u09bf \u0998\u09cb\u09b7\u09a3\u09be",
         "url": "https://www.prothomalo.com/politics/16b9tobdsv",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09a6\u09cb\u09df\u09be\u09b8\u09a0\u09bf\u0995 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4\u09c7 \u09aa\u09cc\u0981\u099b\u09a4\u09c7 \u0986\u09b2\u09c0\u0995\u09c7 \u09b6\u09c7\u0996\u09be\u09a8\u09cb \u09a8\u09ac\u09c0\u099c\u09bf\u09b0 \u09a6\u09cb\u09df\u09be",
+        "url": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ],
     "International": [
@@ -118348,6 +118378,11 @@
         "title": "\u099c\u09be\u09a4\u09c0\u09df \u0989\u09b2\u09be\u09ae\u09be \u09ae\u09be\u09b6\u09be\u09df\u09c7\u0996 \u09b8\u09ae\u09cd\u09ae\u09c7\u09b2\u09a8\u09c7 \u09ef \u09a6\u09ab\u09be \u09a6\u09be\u09ac\u09bf \u0998\u09cb\u09b7\u09a3\u09be",
         "url": "https://www.prothomalo.com/politics/16b9tobdsv",
         "scraped_at": "2026-08-15T19:17:32.711228+00:00"
+      },
+      {
+        "title": "\u09a6\u09cb\u09df\u09be\u09b8\u09a0\u09bf\u0995 \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4\u09c7 \u09aa\u09cc\u0981\u099b\u09a4\u09c7 \u0986\u09b2\u09c0\u0995\u09c7 \u09b6\u09c7\u0996\u09be\u09a8\u09cb \u09a8\u09ac\u09c0\u099c\u09bf\u09b0 \u09a6\u09cb\u09df\u09be",
+        "url": "https://www.prothomalo.com/religion/islam/zoflh26sx1",
+        "scraped_at": "2026-08-15T23:15:44.203577+00:00"
       }
     ]
   },
@@ -126515,31 +126550,6 @@
   },
   "washingtonpost": {
     "Home": [
-      {
-        "title": "Erica Schwartz\u2019s confirmation hearing shows her impossible task at CDC",
-        "url": "https://www.washingtonpost.com/opinions/2026/07/16/erica-schwartz-confirmation-hearing-shows-her-impossible-task-cdc/",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Does the right have a cancel culture problem?",
-        "url": "https://www.washingtonpost.com/opinions/2026/07/16/make-it-make-sense-does-right-have-cancel-culture-problem/",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Cartoon: Frozen",
-        "url": "https://www.washingtonpost.com/opinions/2026/07/16/michael-ramirez-cartoon-ice-trump-administration/",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Good AI standards don\u2019t need a new government bureaucracy behind them",
-        "url": "https://www.washingtonpost.com/opinions/2026/07/16/demis-hassabis-proposal-ai-self-regulation-is-good-start/",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
-      {
-        "title": "Truth Social will sell investors faster access to Trump\u2019s market-moving posts",
-        "url": "https://www.washingtonpost.com/politics/2026/07/16/truth-social-will-sell-investors-faster-access-trumps-market-moving-posts/",
-        "scraped_at": "2026-07-16T22:53:32.026271+00:00"
-      },
       {
         "title": "White House touts Trump speech as Democrats warn of recycled falsehoods",
         "url": "https://www.washingtonpost.com/politics/2026/07/16/white-house-touts-trump-speech-democrats-warn-recycled-falsehoods/",
