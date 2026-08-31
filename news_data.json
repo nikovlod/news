@@ -2,61 +2,6 @@
   "dailystar": {
     "Home": [
       {
-        "title": "CONCACAF calls for 'comprehensive reckoning with' Infantino's FIFA leadership",
-        "url": "https://www.thedailystar.net/sports/football/news/concacaf-calls-comprehensive-reckoning-infantinos-fifa-leadership-4237836",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Tarique to pick BNP's nominee for president: Fakhrul",
-        "url": "https://www.thedailystar.net/news/politics/news/tarique-pick-bnps-nominee-president-fakhrul-4237766",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Beyond geopolitics: Rethinking regional cooperation in South Asia",
-        "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/beyond-geopolitics-rethinking-regional-cooperation-south-asia-4237736",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "The dragon, eagle, elephant and tiger in a changing South Asia",
-        "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/the-dragon-eagle-elephant-and-tiger-changing-south-asia-4237751",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Chinese footprint widens in Bangladesh\u2019s economic landscape",
-        "url": "https://www.thedailystar.net/business/economy/news/chinese-footprint-widens-bangladeshs-economic-landscape-4237796",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Bangladesh faces higher freight costs amid Mideast conflict",
-        "url": "https://www.thedailystar.net/business/economy/news/bangladesh-faces-higher-freight-costs-amid-mideast-conflict-4237791",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "S Alam closes 11 factories as raw material crisis deepens",
-        "url": "https://www.thedailystar.net/business/economy/news/s-alam-closes-11-factories-raw-material-crisis-deepens-4237786",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "What global companies can do in Bangladesh",
-        "url": "https://www.thedailystar.net/business/column/news/what-global-companies-can-do-bangladesh-4237811",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Predictable policies key to attracting FDI",
-        "url": "https://www.thedailystar.net/business/economy/news/predictable-policies-key-attracting-fdi-4237821",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "How Prafulla Chandra Ray's ancestral home became a symbol of neglect",
-        "url": "https://www.thedailystar.net/news/news/how-prafulla-chandra-rays-ancestral-home-became-symbol-neglect-4237956",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "Police HQ issues nationwide alert over possible attacks on police vehicles",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/police-hq-issues-nationwide-alert-over-possible-attacks-police-vehicles-4237961",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
         "title": "Today's Gallery(2026.08.02)",
         "url": "https://www.thedailystar.net/todays-gallery20260802-4238051",
         "scraped_at": "2026-08-01T22:54:07.277918+00:00"
@@ -14985,224 +14930,79 @@
         "title": "Business Plus/ Money talks: Now the machines are listening",
         "url": "https://www.thedailystar.net/business/news/money-talks-now-the-machines-are-listening-4237146",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "Yamal, Raphinha bag braces as Barcelona rout Rayo",
+        "url": "https://www.thedailystar.net/sports/football/news/yamal-raphinha-bag-braces-barcelona-rout-rayo-4261771",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Saka strikes as flawless Arsenal punish troubled Villa",
+        "url": "https://www.thedailystar.net/sports/football/news/saka-strikes-flawless-arsenal-punish-troubled-villa-4261746",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Alcaraz makes confident return with US Open first round win",
+        "url": "https://www.thedailystar.net/sports/more-sports/tennis/news/alcaraz-makes-confident-return-us-open-first-round-win-4261726",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Nahida stars as Bangladesh crush Indonesia in Asia Cup opener",
+        "url": "https://www.thedailystar.net/sports/cricket/news/nahida-stars-bangladesh-crush-indonesia-asia-cup-opener-4261696",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "3 Air Force men killed in road crash at Dhaka airport\u2019s 3rd terminal",
+        "url": "https://www.thedailystar.net/news/accidents-and-fires/news/3-air-force-men-killed-road-crash-dhaka-airports-3rd-terminal-4261691",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Messi\u2019s farewell message: Three pages, 20 years and a golden symbol of time",
+        "url": "https://www.thedailystar.net/sports/football/news/messis-farewell-message-three-pages-20-years-and-golden-symbol-time-4261681",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "More capability, less autonomy? Bangladesh\u2019s emerging security dilemma",
+        "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/more-capability-less-autonomy-bangladeshs-emerging-security-dilemma-4261536",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Bangladesh fall to Uzbekistan in U-20 Asian Cup qualifier",
+        "url": "https://www.thedailystar.net/sports/football/news/bangladesh-fall-uzbekistan-u-20-asian-cup-qualifier-4261721",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "No fairytale ending, but Messi leaves defining legacy for Argentina",
+        "url": "https://www.thedailystar.net/sports/football/news/no-fairytale-ending-messi-leaves-defining-legacy-argentina-4261441",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Messi's Argentina career in numbers",
+        "url": "https://www.thedailystar.net/sports/football/news/messis-argentina-career-numbers-4261436",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Talha enamoured by Starc's 'Australia first' attitude",
+        "url": "https://www.thedailystar.net/sports/cricket/news/talha-enamoured-starcs-australia-first-attitude-4261626",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Kargil: The story Indian cinema keeps telling",
+        "url": "https://www.thedailystar.net/culture/entertainment/news/kargil-the-story-indian-cinema-keeps-telling-4261276",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Looks like Twitter is back",
+        "url": "https://www.thedailystar.net/news/technology/news/looks-twitter-back-4261631",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Today's Gallery (2026.09.01)",
+        "url": "https://www.thedailystar.net/todays-gallery-20260901-4261716",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Today's News": [
-      {
-        "title": "The dragon, eagle, elephant and tiger in a changing South Asia",
-        "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/the-dragon-eagle-elephant-and-tiger-changing-south-asia-4237751",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Beyond geopolitics: Rethinking regional cooperation in South Asia",
-        "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/beyond-geopolitics-rethinking-regional-cooperation-south-asia-4237736",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Apple set to lose $500b after weak forecast",
-        "url": "https://www.thedailystar.net/business/global-economy/news/apple-set-lose-500b-after-weak-forecast-4237841",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "India approves $8.81b offshore oil and gas exploration plan",
-        "url": "https://www.thedailystar.net/business/global-economy/news/india-approves-881b-offshore-oil-and-gas-exploration-plan-4237846",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Turning the tide on drowning",
-        "url": "https://www.thedailystar.net/health/news/turning-the-tide-drowning-4237851",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "DBH Finance\u2019s half-year profit rises 32%",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/dbh-finances-half-year-profit-rises-32-4237856",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Women dominate sustainable finance borrowing",
-        "url": "https://www.thedailystar.net/business/economy/news/women-dominate-sustainable-finance-borrowing-4237776",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Abdul Hai Sarker reelected chairman of Dhaka Bank",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/abdul-hai-sarker-reelected-chairman-dhaka-bank-4237861",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Dollar continues to gain vs taka",
-        "url": "https://www.thedailystar.net/business/economy/news/dollar-continues-gain-vs-taka-4237781",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Modhumoti Bank holds 13th AGM",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/modhumoti-bank-holds-13th-agm-4237866",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "S Alam closes 11 factories as raw material crisis deepens",
-        "url": "https://www.thedailystar.net/business/economy/news/s-alam-closes-11-factories-raw-material-crisis-deepens-4237786",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "What if the loudest threat to our health isn\u2019t audible?",
-        "url": "https://www.thedailystar.net/health/news/what-if-the-loudest-threat-our-health-isnt-audible-4237871",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Bangladesh faces higher freight costs amid Mideast conflict",
-        "url": "https://www.thedailystar.net/business/economy/news/bangladesh-faces-higher-freight-costs-amid-mideast-conflict-4237791",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Shahjalal Islami Bank organises  half-yearly business conference",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/shahjalal-islami-bank-organises-half-yearly-business-conference-4237876",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Chinese footprint widens in Bangladesh\u2019s economic landscape",
-        "url": "https://www.thedailystar.net/business/economy/news/chinese-footprint-widens-bangladeshs-economic-landscape-4237796",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Bangladesh Bank hosts Bangla QR awareness session in Habiganj",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/bangladesh-bank-hosts-bangla-qr-awareness-session-habiganj-4237881",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Oil giants post blowout profits on war",
-        "url": "https://www.thedailystar.net/business/global-economy/news/oil-giants-post-blowout-profits-war-4237801",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Midland Bank launches special interest  rate loan facility for professionals",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/midland-bank-launches-special-interest-rate-loan-facility-professionals-4237891",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "OpenAI says it has more than 1b active users",
-        "url": "https://www.thedailystar.net/business/global-economy/news/openai-says-it-has-more-1b-active-users-4237806",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "When hidden stones strike from within",
-        "url": "https://www.thedailystar.net/health/news/when-hidden-stones-strike-within-4237896",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "What global companies can do in Bangladesh",
-        "url": "https://www.thedailystar.net/business/column/news/what-global-companies-can-do-bangladesh-4237811",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Pubali Bank wins awards at ICC Emerging Asia Banking Conclave & Awards",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/pubali-bank-wins-awards-icc-emerging-asia-banking-conclave-awards-4237901",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Figures behind the rush for Hormuz oil export alternatives",
-        "url": "https://www.thedailystar.net/business/global-economy/news/figures-behind-the-rush-hormuz-oil-export-alternatives-4237816",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Prime Bank signs deal with Penthouse Livings for priority customers",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/prime-bank-signs-deal-penthouse-livings-priority-customers-4237906",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Predictable policies key to attracting FDI",
-        "url": "https://www.thedailystar.net/business/economy/news/predictable-policies-key-attracting-fdi-4237821",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Can the right video game help tackle loneliness? The answer may surprise you.",
-        "url": "https://www.thedailystar.net/health/news/can-the-right-video-game-help-tackle-loneliness-the-answer-may-surprise-you-4237911",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Cold storage owners seek higher charge for potato",
-        "url": "https://www.thedailystar.net/business/economy/news/cold-storage-owners-seek-higher-charge-potato-4237826",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Beauty beyond the mirror",
-        "url": "https://www.thedailystar.net/health/news/beauty-beyond-the-mirror-4237921",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Oil prices settle more than 1% higher",
-        "url": "https://www.thedailystar.net/business/global-economy/news/oil-prices-settle-more-1-higher-4237831",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Global standards in healthcare could reshape Bangladesh\u2019s future",
-        "url": "https://www.thedailystar.net/health/news/global-standards-healthcare-could-reshape-bangladeshs-future-4237951",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Police HQ issues nationwide alert over possible attacks on police vehicles",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/police-hq-issues-nationwide-alert-over-possible-attacks-police-vehicles-4237961",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "How Prafulla Chandra Ray's ancestral home became a symbol of neglect",
-        "url": "https://www.thedailystar.net/news/news/how-prafulla-chandra-rays-ancestral-home-became-symbol-neglect-4237956",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "Dhaka seeks info on Bangladeshi POWs in Ukraine",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/dhaka-seeks-info-bangladeshi-pows-ukraine-4238021",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Dhaka joins global AI body WAICO  as observer",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/dhaka-joins-global-ai-body-waico-observer-4237971",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "August 2, 2024: Thousands join \u2018Droho Jatra\u2019",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/august-2-2024-thousands-join-droho-jatra-4237976",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Too young to know she is gone",
-        "url": "https://www.thedailystar.net/news/healthcare/news/too-young-know-she-gone-4237981",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Narco currency: Myanmar rebels trading drugs for goods",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/narco-currency-myanmar-rebels-trading-drugs-goods-4237986",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "US has strong confidence in Tarique\u2019s leadership",
-        "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/us-has-strong-confidence-tariques-leadership-4237991",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "$100 Billion exports by 2030: Businesses see energy crisis as main hurdle",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/100-billion-exports-2030-businesses-see-energy-crisis-main-hurdle-4237996",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Saudi-led maritime coalition: Dhaka must shield ties with key actors",
-        "url": "https://www.thedailystar.net/news/bangladesh/diplomacy/news/saudi-led-maritime-coalition-dhaka-must-shield-ties-key-actors-4238001",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Tarique to pick BNP presidential candidate",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/tarique-pick-bnp-presidential-candidate-4238006",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Up to $20,000 US visa bond now mandatory",
-        "url": "https://www.thedailystar.net/news/world/usa/news/20000-us-visa-bond-now-mandatory-4238011",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "Inside house of horror",
-        "url": "https://www.thedailystar.net/news/crime-justice/news/inside-house-horror-4238016",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "Jamaat man arrested over child sexual harassment",
         "url": "https://www.thedailystar.net/news/crime-justice/news/jamaat-man-arrested-over-child-sexual-harassment-4238026",
@@ -37867,6 +37667,246 @@
         "title": "Premier Bank joins BB\u2019s Tk 10,000 crore refinance scheme",
         "url": "https://www.thedailystar.net/business/organisation-news/news/premier-bank-joins-bbs-tk-10000-crore-refinance-scheme-4260506",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "Yamal, Raphinha bag braces as Barcelona rout Rayo",
+        "url": "https://www.thedailystar.net/sports/football/news/yamal-raphinha-bag-braces-barcelona-rout-rayo-4261771",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Saka strikes as flawless Arsenal punish troubled Villa",
+        "url": "https://www.thedailystar.net/sports/football/news/saka-strikes-flawless-arsenal-punish-troubled-villa-4261746",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Sabalenka gets US Open three-peat bid off to a winning start",
+        "url": "https://www.thedailystar.net/sports/more-sports/tennis/news/sabalenka-gets-us-open-three-peat-bid-winning-start-4261741",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Malen on fire as Roma make it two from two",
+        "url": "https://www.thedailystar.net/sports/football/news/malen-fire-roma-make-it-two-two-4261736",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Man City agree deal for Everton's Ndiaye",
+        "url": "https://www.thedailystar.net/sports/football/news/man-city-agree-deal-evertons-ndiaye-4261731",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Alcaraz makes confident return with US Open first round win",
+        "url": "https://www.thedailystar.net/sports/more-sports/tennis/news/alcaraz-makes-confident-return-us-open-first-round-win-4261726",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Bangladesh fall to Uzbekistan in U-20 Asian Cup qualifier",
+        "url": "https://www.thedailystar.net/sports/football/news/bangladesh-fall-uzbekistan-u-20-asian-cup-qualifier-4261721",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Nahida stars as Bangladesh crush Indonesia in Asia Cup opener",
+        "url": "https://www.thedailystar.net/sports/cricket/news/nahida-stars-bangladesh-crush-indonesia-asia-cup-opener-4261696",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "3 Air Force men killed in road crash at Dhaka airport\u2019s 3rd terminal",
+        "url": "https://www.thedailystar.net/news/accidents-and-fires/news/3-air-force-men-killed-road-crash-dhaka-airports-3rd-terminal-4261691",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Messi\u2019s farewell message: Three pages, 20 years and a golden symbol of time",
+        "url": "https://www.thedailystar.net/sports/football/news/messis-farewell-message-three-pages-20-years-and-golden-symbol-time-4261681",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "More capability, less autonomy? Bangladesh\u2019s emerging security dilemma",
+        "url": "https://www.thedailystar.net/slow-reads/geopolitical-insights/news/more-capability-less-autonomy-bangladeshs-emerging-security-dilemma-4261536",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "BSEC to make listing mandatory for \u2018public interest firms\u2019",
+        "url": "https://www.thedailystar.net/business/economy/news/bsec-make-listing-mandatory-public-interest-firms-4261541",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Russian drone barrage hits Kyiv region",
+        "url": "https://www.thedailystar.net/news/world/news/russian-drone-barrage-hits-kyiv-region-4261666",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "BPC panel against fuel imports by pvt sector",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/bpc-panel-against-fuel-imports-pvt-sector-4261756",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Govt\u2019s bank borrowing exceeds FY26 target by over Tk 47,500cr",
+        "url": "https://www.thedailystar.net/business/economy/news/govts-bank-borrowing-exceeds-fy26-target-over-tk-47500cr-4261546",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Putin, Xi, Pezeshkian in Kyrgyzstan",
+        "url": "https://www.thedailystar.net/news/world/news/putin-xi-pezeshkian-kyrgyzstan-4261671",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "BNP struggling to restore order within",
+        "url": "https://www.thedailystar.net/news/politics/news/bnp-struggling-restore-order-within-4261761",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "50 lakh people need emergency agri aid: FAO",
+        "url": "https://www.thedailystar.net/business/economy/news/50-lakh-people-need-emergency-agri-aid-fao-4261551",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Nepalis scour hospitals for missing family",
+        "url": "https://www.thedailystar.net/news/world/news/nepalis-scour-hospitals-missing-family-4261676",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "National pay scale: Hurrah for government employees",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/national-pay-scale-hurrah-government-employees-4261766",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Bangladesh to get slight tariff edge over China, Vietnam in US",
+        "url": "https://www.thedailystar.net/business/economy/news/bangladesh-get-slight-tariff-edge-over-china-vietnam-us-4261556",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Dollar slips",
+        "url": "https://www.thedailystar.net/business/economy/news/dollar-slips-4261471",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Illegal sand lifting goes unabated in Netrokona",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/illegal-sand-lifting-goes-unabated-netrokona-4261561",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Tax relief for firms with turnover up to Tk 2cr",
+        "url": "https://www.thedailystar.net/business/tax-and-customs/news/tax-relief-firms-turnover-tk-2cr-4261476",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "DSCC and Bidyanondo launch \u2018Food for Waste\u2019 initiative",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/dscc-and-bidyanondo-launch-food-waste-initiative-4261566",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Businesses seek sector-specific plans for LDC graduation",
+        "url": "https://www.thedailystar.net/business/economy/news/businesses-seek-sector-specific-plans-ldc-graduation-4261481",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Traffic chaos grips Muktagachha",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/traffic-chaos-grips-muktagachha-4261571",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Advancing the COP28 gender action plan through A feminist climate justice lens",
+        "url": "https://www.thedailystar.net/ds/roundtables/news/advancing-the-cop28-gender-action-plan-through-feminist-climate-justice-lens-4261701",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "PMI needs to become a decision-making tool: MCCI chief",
+        "url": "https://www.thedailystar.net/business/organisation-news/news/pmi-needs-become-decision-making-tool-mcci-chief-4261486",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "HC upholds Hitu Sheikh\u2019s death sentence",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/hc-upholds-hitu-sheikhs-death-sentence-4261576",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Libya\u2019s rival groups sign UN-backed polls agreement",
+        "url": "https://www.thedailystar.net/news/world/news/libyas-rival-groups-sign-un-backed-polls-agreement-4261706",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Agrani Bank posts 54.5% growth in operating profit",
+        "url": "https://www.thedailystar.net/business/organisation-news/news/agrani-bank-posts-545-growth-operating-profit-4261496",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Journos, rights defenders need stronger protection",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/journos-rights-defenders-need-stronger-protection-4261586",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Rescuers hunt for missing after Northern Cyprus ferry accident",
+        "url": "https://www.thedailystar.net/news/world/news/rescuers-hunt-missing-after-northern-cyprus-ferry-accident-4261711",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Prime Bank joins hands with BAU on climate-resilient farming",
+        "url": "https://www.thedailystar.net/business/organisation-news/news/prime-bank-joins-hands-bau-climate-resilient-farming-4261501",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Samanzar makes top 24 at Miss World",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/samanzar-makes-top-24-miss-world-4261591",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "John Ternus to lead Apple into the age of AI",
+        "url": "https://www.thedailystar.net/business/global-economy/news/john-ternus-lead-apple-the-age-ai-4261506",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Death anniv of Nurjahan Murshid today",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/death-anniv-nurjahan-murshid-today-4261601",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Oil rises over 3% to $91.25",
+        "url": "https://www.thedailystar.net/business/global-economy/news/oil-rises-over-3-9125-4261511",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Local govt offices falling behind  in e-governance",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/local-govt-offices-falling-behind-e-governance-4261616",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Sammilito Bank\u2019s depositors can withdraw money from Sept 7",
+        "url": "https://www.thedailystar.net/business/organisation-news/news/sammilito-banks-depositors-can-withdraw-money-sept-7-4261516",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Community centres that barely serve communities",
+        "url": "https://www.thedailystar.net/news/bangladesh/news/community-centres-barely-serve-communities-4261641",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "SCB fills CEO post after three months",
+        "url": "https://www.thedailystar.net/business/economy/news/scb-fills-ceo-post-after-three-months-4261526",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "India must uphold water-sharing treaty with Pakistan: int\u2019l court",
+        "url": "https://www.thedailystar.net/news/world/news/india-must-uphold-water-sharing-treaty-pakistan-intl-court-4261651",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Liberalise imports to fight inflation",
+        "url": "https://www.thedailystar.net/business/economy/news/liberalise-imports-fight-inflation-4261531",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Iran, US trade fire in first exchange for a month",
+        "url": "https://www.thedailystar.net/news/world/news/iran-us-trade-fire-first-exchange-month-4261656",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Sri Lanka\u2019s ex-finance minister arrested",
+        "url": "https://www.thedailystar.net/news/world/news/sri-lankas-ex-finance-minister-arrested-4261661",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Roadmap in works for new nations to join Makkah pact",
+        "url": "https://www.thedailystar.net/news/world/middle-east/news/roadmap-works-new-nations-join-makkah-pact-4261751",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Opinion": [
@@ -39134,114 +39174,14 @@
         "title": "Two rights bills deserve more than a rushed stamp of approval",
         "url": "https://www.thedailystar.net/opinion/editorial/news/two-rights-bills-deserve-more-rushed-stamp-approval-4261336",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "Mustafa Monwar: The Geppetto of our time",
+        "url": "https://www.thedailystar.net/opinion/tribute/news/mustafa-monwar-the-geppetto-our-time-4213556",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Business": [
-      {
-        "title": "What global companies can do in Bangladesh",
-        "url": "https://www.thedailystar.net/business/column/news/what-global-companies-can-do-bangladesh-4237811",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Predictable policies key to attracting FDI",
-        "url": "https://www.thedailystar.net/business/economy/news/predictable-policies-key-attracting-fdi-4237821",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Chinese footprint widens in Bangladesh\u2019s economic landscape",
-        "url": "https://www.thedailystar.net/business/economy/news/chinese-footprint-widens-bangladeshs-economic-landscape-4237796",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Bangladesh faces higher freight costs amid Mideast conflict",
-        "url": "https://www.thedailystar.net/business/economy/news/bangladesh-faces-higher-freight-costs-amid-mideast-conflict-4237791",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "S Alam closes 11 factories as raw material crisis deepens",
-        "url": "https://www.thedailystar.net/business/economy/news/s-alam-closes-11-factories-raw-material-crisis-deepens-4237786",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Cold storage owners seek higher charge for potato",
-        "url": "https://www.thedailystar.net/business/economy/news/cold-storage-owners-seek-higher-charge-potato-4237826",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Figures behind the rush for Hormuz oil export alternatives",
-        "url": "https://www.thedailystar.net/business/global-economy/news/figures-behind-the-rush-hormuz-oil-export-alternatives-4237816",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Dollar continues to gain vs taka",
-        "url": "https://www.thedailystar.net/business/economy/news/dollar-continues-gain-vs-taka-4237781",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Women dominate sustainable finance borrowing",
-        "url": "https://www.thedailystar.net/business/economy/news/women-dominate-sustainable-finance-borrowing-4237776",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Prime Bank signs deal with Penthouse Livings for priority customers",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/prime-bank-signs-deal-penthouse-livings-priority-customers-4237906",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Midland Bank launches special interest  rate loan facility for professionals",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/midland-bank-launches-special-interest-rate-loan-facility-professionals-4237891",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "India approves $8.81b offshore oil and gas exploration plan",
-        "url": "https://www.thedailystar.net/business/global-economy/news/india-approves-881b-offshore-oil-and-gas-exploration-plan-4237846",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Apple set to lose $500b after weak forecast",
-        "url": "https://www.thedailystar.net/business/global-economy/news/apple-set-lose-500b-after-weak-forecast-4237841",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Oil prices settle more than 1% higher",
-        "url": "https://www.thedailystar.net/business/global-economy/news/oil-prices-settle-more-1-higher-4237831",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "OpenAI says it has more than 1b active users",
-        "url": "https://www.thedailystar.net/business/global-economy/news/openai-says-it-has-more-1b-active-users-4237806",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Oil giants post blowout profits on war",
-        "url": "https://www.thedailystar.net/business/global-economy/news/oil-giants-post-blowout-profits-war-4237801",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Pubali Bank wins awards at ICC Emerging Asia Banking Conclave & Awards",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/pubali-bank-wins-awards-icc-emerging-asia-banking-conclave-awards-4237901",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Bangladesh Bank hosts Bangla QR awareness session in Habiganj",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/bangladesh-bank-hosts-bangla-qr-awareness-session-habiganj-4237881",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Shahjalal Islami Bank organises  half-yearly business conference",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/shahjalal-islami-bank-organises-half-yearly-business-conference-4237876",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Modhumoti Bank holds 13th AGM",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/modhumoti-bank-holds-13th-agm-4237866",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Abdul Hai Sarker reelected chairman of Dhaka Bank",
-        "url": "https://www.thedailystar.net/business/organisation-news/news/abdul-hai-sarker-reelected-chairman-dhaka-bank-4237861",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
       {
         "title": "How much have the people\u2019s aspirations been reflected in post-July Bangladesh?",
         "url": "https://www.thedailystar.net/star-multimedia/news/how-much-have-the-peoples-aspirations-been-reflected-post-july-bangladesh-4238191",
@@ -44134,11 +44074,6 @@
     ],
     "International": [
       {
-        "title": "Up to $20,000 US visa bond now mandatory",
-        "url": "https://www.thedailystar.net/news/world/usa/news/20000-us-visa-bond-now-mandatory-4238011",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
         "title": "Escalation feared as US tells citizens to leave ME",
         "url": "https://www.thedailystar.net/news/world/usa/news/escalation-feared-us-tells-citizens-leave-me-4238036",
         "scraped_at": "2026-08-01T22:54:07.277918+00:00"
@@ -46742,36 +46677,56 @@
         "title": "Trump says Iran's Kharg is being 'blown to smithereens', but gives no details",
         "url": "https://www.thedailystar.net/news/world/news/trump-says-irans-kharg-being-blown-smithereens-gives-no-details-4260951",
         "scraped_at": "2026-08-31T10:25:59.436864+00:00"
+      },
+      {
+        "title": "Roadmap in works for new nations to join Makkah pact",
+        "url": "https://www.thedailystar.net/news/world/middle-east/news/roadmap-works-new-nations-join-makkah-pact-4261751",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Rescuers hunt for missing after Northern Cyprus ferry accident",
+        "url": "https://www.thedailystar.net/news/world/news/rescuers-hunt-missing-after-northern-cyprus-ferry-accident-4261711",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Libya\u2019s rival groups sign UN-backed polls agreement",
+        "url": "https://www.thedailystar.net/news/world/news/libyas-rival-groups-sign-un-backed-polls-agreement-4261706",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Nepalis scour hospitals for missing family",
+        "url": "https://www.thedailystar.net/news/world/news/nepalis-scour-hospitals-missing-family-4261676",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Russian drone barrage hits Kyiv region",
+        "url": "https://www.thedailystar.net/news/world/news/russian-drone-barrage-hits-kyiv-region-4261666",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Putin, Xi, Pezeshkian in Kyrgyzstan",
+        "url": "https://www.thedailystar.net/news/world/news/putin-xi-pezeshkian-kyrgyzstan-4261671",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "India must uphold water-sharing treaty with Pakistan: int\u2019l court",
+        "url": "https://www.thedailystar.net/news/world/news/india-must-uphold-water-sharing-treaty-pakistan-intl-court-4261651",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Iran, US trade fire in first exchange for a month",
+        "url": "https://www.thedailystar.net/news/world/news/iran-us-trade-fire-first-exchange-month-4261656",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Sri Lanka\u2019s ex-finance minister arrested",
+        "url": "https://www.thedailystar.net/news/world/news/sri-lankas-ex-finance-minister-arrested-4261661",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ]
   },
   "prothomalo": {
     "Home": [
-      {
-        "title": "\u09aa\u09c1\u09b2\u09bf\u09b6\u09c7\u09b0 \u09af\u09be\u09a8\u09ac\u09be\u09b9\u09a8 \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09b2\u0995\u09cd\u09b7\u09cd\u09af\u09ac\u09b8\u09cd\u09a4\u09c1 \u09b9\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7, \u09b8\u09a4\u09b0\u09cd\u0995\u09a4\u09be \u099c\u09be\u09b0\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/iykxj19zpu",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u2018\u09b0\u09a4\u09cd\u09a8\u09ae\u09df\u09c0 \u0986\u0982\u099f\u09bf\u2019 \u09a5\u09c7\u0995\u09c7 \u2018\u0986\u09ac\u09be\u09ac\u09bf\u09b2 \u09aa\u09be\u0996\u09bf\u2019\u2014\u09af\u09c7\u09ad\u09be\u09ac\u09c7 \u0997\u09c3\u09b9\u09ac\u09a7\u09c2\u09b0 \u09e7\u09e6 \u09b2\u09be\u0996 \u099f\u09be\u0995\u09be \u09b9\u09be\u09a4\u09bf\u09df\u09c7 \u09a8\u09c7\u09df \u2018\u099c\u09bf\u09a8\u09c7\u09b0 \u09ac\u09be\u09a6\u09b6\u09be\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/crime/vmxspichnl",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ac\u09bf\u09b6\u09cd\u09ac\u0995\u09be\u09aa \u099f\u09cd\u09b0\u09ab\u09bf \u09ac\u09bf\u0995\u09cd\u09b0\u09bf \u0995\u09b0\u09c7\u099b\u09c7\u09a8 \u09ab\u09cd\u09b0\u09be\u09a8\u09cd\u09b8\u09c7\u09b0 \u09ac\u09bf\u09b6\u09cd\u09ac\u0995\u09be\u09aa\u099c\u09df\u09c0, \u0995\u09be\u09b0\u09a3 \u0986\u09b2\u09ae\u09be\u09b0\u09bf\u09a4\u09c7 \u099c\u09be\u09df\u0997\u09be \u09a8\u09c7\u0987",
-        "url": "https://www.prothomalo.com/sports/football/ms518rsytf",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
       {
         "title": "\u099f\u09cd\u09b0\u09c7\u0987\u09a8\u09bf \u0985\u09ab\u09bf\u09b8\u09be\u09b0 \u09a8\u09bf\u09df\u09cb\u0997 \u09a6\u09c7\u09ac\u09c7 \u0987\u09b8\u09cd\u099f\u09be\u09b0\u09cd\u09a8 \u09ac\u09cd\u09af\u09be\u0982\u0995, \u09ac\u09c7\u09a4\u09a8 \u09e9\u09e7 \u09b9\u09be\u099c\u09be\u09b0 \u099f\u09be\u0995\u09be",
         "url": "https://www.prothomalo.com/chakri/employment/j20tp03ei8",
@@ -59406,79 +59361,29 @@
         "title": "\u09aa\u09cd\u09b0\u09c7\u09ae\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09b9\u09be\u09b0\u09bf\u09df\u09c7 \u09af\u09be\u0993\u09df\u09be \u098f\u0995 \u09a4\u09be\u09b0\u0995\u09be",
         "url": "https://www.prothomalo.com/entertainment/bollywood/t20q0jxo92",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0989\u09ce\u09aa\u09b2 \u09b6\u09c1\u09ad\u09cd\u09b0\u09b0 \u09b2\u09c7\u0996\u09be\u09ae\u09c7\u09b8\u09bf\u09b0 \u2018\u099b\u09cb\u099f\u09cd\u099f\u2019 \u0998\u09cb\u09b7\u09a3\u09be\u09df \u0995\u09a4 \u0995\u09cb\u099f\u09bf \u09ae\u09a8\u09c7 \u09ac\u09dc \u09b6\u09c2\u09a8\u09cd\u09af\u09a4\u09be",
+        "url": "https://www.prothomalo.com/sports/football/v7msoyotud",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0 \u09a5\u09c7\u0995\u09c7 \u09ac\u09cb\u09df\u09bf\u0982\u09df\u09c7\u09b0 \u0986\u09b0\u0993 \u09e7\u09e7 \u0989\u09dc\u09c7\u09be\u099c\u09be\u09b9\u09be\u099c \u0995\u09bf\u09a8\u09ac\u09c7 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "url": "https://www.prothomalo.com/bangladesh/6eua9mrtqz",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b6\u09be\u09b9\u099c\u09be\u09b2\u09be\u09b2 \u09ac\u09bf\u09ae\u09be\u09a8\u09ac\u09a8\u09cd\u09a6\u09b0\u09c7 \u09b8\u09dc\u0995 \u09a6\u09c1\u09b0\u09cd\u0998\u099f\u09a8\u09be\u09df \u09ac\u09bf\u09ae\u09be\u09a8\u09ac\u09be\u09b9\u09bf\u09a8\u09c0\u09b0 \u09e9 \u09b8\u09a6\u09b8\u09cd\u09af \u09a8\u09bf\u09b9\u09a4",
+        "url": "https://www.prothomalo.com/bangladesh/capital/jjllod1l25",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Latest News": [
-      {
-        "title": "\u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u09ac\u0995\u09cd\u09a4\u09c3\u09a4\u09be\u0987\u0989\u0995\u09cd\u09b2\u09bf\u09a1\u09c7\u09b0 \u2018\u098f\u09b2\u09bf\u09ae\u09c7\u09a8\u09cd\u099f\u09b8\u2019 \u0986\u09a7\u09c1\u09a8\u09bf\u0995 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u0993 \u0997\u09a3\u09bf\u09a4\u09c7\u09b0 \u0985\u09a8\u09cd\u09af\u09a4\u09ae \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h89ieyv2yi",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u09c7 \u09b6\u09bf\u09b6\u09c1\u09a6\u09c7\u09b0 \u0985\u09ac\u09a6\u09be\u09a8 \u09a4\u09c1\u09b2\u09c7 \u09a7\u09b0\u09a4\u09c7 \u2018\u099c\u09c1\u09b2\u09be\u0987 \u099c\u09be\u0997\u09b0\u09a3 \u09b8\u09bf\u099c\u09a8-\u09e8\u2019 \u09b6\u09c1\u09b0\u09c1",
-        "url": "https://www.prothomalo.com/bangladesh/capital/meyqgr3or7",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09aa\u09a4\u09bf \u09aa\u09cd\u09b0\u09be\u09b0\u09cd\u09a5\u09c0 \u0995\u09c7 \u09b9\u09ac\u09c7\u09a8, \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8 \u09a4\u09be\u09b0\u09c7\u0995 \u09b0\u09b9\u09ae\u09be\u09a8: \u09b8\u09cd\u09ac\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
-        "url": "https://www.prothomalo.com/video/78omvyvu07",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09aa\u09c1\u09b2\u09bf\u09b6\u09c7\u09b0 \u09af\u09be\u09a8\u09ac\u09be\u09b9\u09a8 \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09b2\u0995\u09cd\u09b7\u09cd\u09af\u09ac\u09b8\u09cd\u09a4\u09c1 \u09b9\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7, \u09b8\u09a4\u09b0\u09cd\u0995\u09a4\u09be \u099c\u09be\u09b0\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/iykxj19zpu",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u2018\u09b0\u09a4\u09cd\u09a8\u09ae\u09df\u09c0 \u0986\u0982\u099f\u09bf\u2019 \u09a5\u09c7\u0995\u09c7 \u2018\u0986\u09ac\u09be\u09ac\u09bf\u09b2 \u09aa\u09be\u0996\u09bf\u2019\u2014\u09af\u09c7\u09ad\u09be\u09ac\u09c7 \u0997\u09c3\u09b9\u09ac\u09a7\u09c2\u09b0 \u09e7\u09e6 \u09b2\u09be\u0996 \u099f\u09be\u0995\u09be \u09b9\u09be\u09a4\u09bf\u09df\u09c7 \u09a8\u09c7\u09df \u2018\u099c\u09bf\u09a8\u09c7\u09b0 \u09ac\u09be\u09a6\u09b6\u09be\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/crime/vmxspichnl",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ac\u09bf\u09b6\u09cd\u09ac\u0995\u09be\u09aa \u099f\u09cd\u09b0\u09ab\u09bf \u09ac\u09bf\u0995\u09cd\u09b0\u09bf \u0995\u09b0\u09c7\u099b\u09c7\u09a8 \u09ab\u09cd\u09b0\u09be\u09a8\u09cd\u09b8\u09c7\u09b0 \u09ac\u09bf\u09b6\u09cd\u09ac\u0995\u09be\u09aa\u099c\u09df\u09c0, \u0995\u09be\u09b0\u09a3 \u0986\u09b2\u09ae\u09be\u09b0\u09bf\u09a4\u09c7 \u099c\u09be\u09df\u0997\u09be \u09a8\u09c7\u0987",
-        "url": "https://www.prothomalo.com/sports/football/ms518rsytf",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ae\u09b8\u09cd\u0995\u09cb\u09df \u0995\u09cd\u09af\u09be\u09ab\u09c7\u09b0 \u0995\u09be\u099b\u09c7 \u09ac\u09bf\u09b8\u09cd\u09ab\u09cb\u09b0\u09a3, \u09a8\u09bf\u09b9\u09a4 \u09e9",
-        "url": "https://www.prothomalo.com/world/europe/q41nf5sz4m",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u09ac\u09bf\u09b0 \u09b6\u09b9\u09c0\u09a6\u09c1\u09b2\u09cd\u09b2\u09be\u09b9 \u09b9\u09b2\u09c7 \u09a6\u09c1\u0987 \u0985\u09a4\u09bf\u09a5\u09bf\u09b0 \u09ac\u09bf\u09b0\u09c1\u09a6\u09cd\u09a7\u09c7 \u09b8\u09ae\u0995\u09be\u09ae\u09bf\u09a4\u09be\u09b0 \u0985\u09ad\u09bf\u09af\u09cb\u0997, \u098f\u099c\u09bf\u098f\u09b8\u09c7\u09b0 \u09b8\u09bf\u099f \u09ac\u09be\u09a4\u09bf\u09b2",
-        "url": "https://www.prothomalo.com/bangladesh/tz1prkas22",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09a8\u09bf\u09b7\u09bf\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf\u0995\u09c7 \u2018\u09b0\u09be\u099c\u09a8\u09c8\u09a4\u09bf\u0995 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b9\u09bf\u0982\u09b8\u09be\u2019 \u09ac\u09b2\u09b2 \u0986\u0993\u09df\u09be\u09ae\u09c0\u09aa\u09a8\u09cd\u09a5\u09c0 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09a6\u09c7\u09b0 \u2018\u09a8\u09c0\u09b2 \u09a6\u09b2\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h3twckdhgt",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09bf\u09a1\u09bf\u0993 \u09aa\u09cb\u09b8\u09cd\u099f\u09c7 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0 \u09ae\u09cb\u09a6\u09bf\u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u0995\u09be\u09b0\u09c0\u09a6\u09c7\u09b0 \u09b6\u09be\u09b8\u09cd\u09a4\u09bf \u09a6\u09bf\u09b2\u09c7 \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
-        "url": "https://www.prothomalo.com/world/india/ypcwv1ou0d",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u0995\u09bf\u09df\u09c7\u09ad\u09c7 \u09ac\u09cd\u09af\u09be\u09aa\u0995 \u09b9\u09be\u09ae\u09b2\u09be, \u09a8\u09bf\u09b9\u09a4 \u09ef",
-        "url": "https://www.prothomalo.com/world/europe/nyhcybji9u",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u0987\u09b0\u09be\u09a8\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1, \u0995\u09cd\u09b7\u09c7\u09aa\u09a3\u09be\u09b8\u09cd\u09a4\u09cd\u09b0 \u0993 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09af\u09bc \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0",
-        "url": "https://www.prothomalo.com/world/middle-east/rngdfi1znh",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09ac\u09bf\u09b6\u09cd\u09b2\u09c7\u09b7\u09a3\u0987\u09b0\u09be\u09a8 \u09a8\u09bf\u09df\u09c7 \u09b8\u09cc\u09a6\u09bf-\u0987\u09b8\u09b0\u09be\u09df\u09c7\u09b2\n\u09ad\u09bf\u09a8\u09cd\u09a8 \u0985\u09ac\u09b8\u09cd\u09a5\u09be\u09a8\u09c7, \u09b8\u0982\u09b6\u09df\u09c7 \u099f\u09cd\u09b0\u09be\u09ae\u09cd\u09aa",
         "url": "https://www.prothomalo.com/world/middle-east/xxnt2xvhk9",
@@ -72388,64 +72293,49 @@
         "title": "\u09a8\u09a4\u09c1\u09a8 \u09ac\u09c7\u09a4\u09a8\u0995\u09be\u09a0\u09be\u09ae\u09cb: \u0995\u09cb\u09a8 \u0997\u09cd\u09b0\u09c7\u09a1\u09c7 \u0995\u09a4 \u09ac\u09c7\u09a4\u09a8 \u09b9\u099a\u09cd\u099b\u09c7",
         "url": "https://www.prothomalo.com/bangladesh/n93e6751vn",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09be\u0987\u0995\u09bf\u09df\u09be\u099f\u09cd\u09b0\u09bf\u0995 \u0995\u09c7\u09df\u09be\u09b0\u09c7\u09b0 \u09eb\u09ae \u09ac\u09b0\u09cd\u09b7\u09aa\u09c2\u09b0\u09cd\u09a4\u09bf \u0989\u09a6\u09cd\u09af\u09be\u09aa\u09a8",
+        "url": "https://www.prothomalo.com/bangladesh/bjeoycsl12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09be\u0995\u09b8\u09c1\u09b0 \u0986\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u0997\u09c1\u09ae\u09c7\u09b0 \u0985\u09aa\u09b0\u09be\u09a7\u09c0\u09a6\u09c7\u09b0 \u09ac\u09bf\u099a\u09be\u09b0 \u0993 \u09b8\u09a0\u09bf\u0995 \u0986\u0987\u09a8 \u09aa\u09cd\u09b0\u09a3\u09df\u09a8\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf",
+        "url": "https://www.prothomalo.com/bangladesh/capital/i5fhy95dqo",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09be\u0982\u09ac\u09be\u09a6\u09bf\u0995 \u0993 \u09ae\u09be\u09a8\u09ac\u09be\u09a7\u09bf\u0995\u09be\u09b0\u0995\u09b0\u09cd\u09ae\u09c0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8 \u0995\u09be\u09b0\u09cd\u09af\u0995\u09b0 \u09b0\u09c7\u09ab\u09be\u09b0\u09c7\u09b2 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+        "url": "https://www.prothomalo.com/bangladesh/nhwe3r7o12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09b8 \u0985\u09cd\u09af\u09be\u099e\u09cd\u099c\u09c7\u09b2\u09c7\u09b8\u09c7 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u09a6\u09c7\u09b0 \u09a8\u09be\u09a8\u09be \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09be\u09b0 \u0995\u09a5\u09be \u09b6\u09c1\u09a8\u09b2\u09c7\u09a8 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
+        "url": "https://www.prothomalo.com/bangladesh/xr745r2u4c",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0989\u09ce\u09aa\u09b2 \u09b6\u09c1\u09ad\u09cd\u09b0\u09b0 \u09b2\u09c7\u0996\u09be\u09ae\u09c7\u09b8\u09bf\u09b0 \u2018\u099b\u09cb\u099f\u09cd\u099f\u2019 \u0998\u09cb\u09b7\u09a3\u09be\u09df \u0995\u09a4 \u0995\u09cb\u099f\u09bf \u09ae\u09a8\u09c7 \u09ac\u09dc \u09b6\u09c2\u09a8\u09cd\u09af\u09a4\u09be",
+        "url": "https://www.prothomalo.com/sports/football/v7msoyotud",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0 \u09a5\u09c7\u0995\u09c7 \u09ac\u09cb\u09df\u09bf\u0982\u09df\u09c7\u09b0 \u0986\u09b0\u0993 \u09e7\u09e7 \u0989\u09dc\u09c7\u09be\u099c\u09be\u09b9\u09be\u099c \u0995\u09bf\u09a8\u09ac\u09c7 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "url": "https://www.prothomalo.com/bangladesh/6eua9mrtqz",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b6\u09be\u09b9\u099c\u09be\u09b2\u09be\u09b2 \u09ac\u09bf\u09ae\u09be\u09a8\u09ac\u09a8\u09cd\u09a6\u09b0\u09c7 \u09b8\u09dc\u0995 \u09a6\u09c1\u09b0\u09cd\u0998\u099f\u09a8\u09be\u09df \u09ac\u09bf\u09ae\u09be\u09a8\u09ac\u09be\u09b9\u09bf\u09a8\u09c0\u09b0 \u09e9 \u09b8\u09a6\u09b8\u09cd\u09af \u09a8\u09bf\u09b9\u09a4",
+        "url": "https://www.prothomalo.com/bangladesh/capital/jjllod1l25",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Opinion": [
-      {
-        "title": "\u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u09ac\u0995\u09cd\u09a4\u09c3\u09a4\u09be\u0987\u0989\u0995\u09cd\u09b2\u09bf\u09a1\u09c7\u09b0 \u2018\u098f\u09b2\u09bf\u09ae\u09c7\u09a8\u09cd\u099f\u09b8\u2019 \u0986\u09a7\u09c1\u09a8\u09bf\u0995 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u0993 \u0997\u09a3\u09bf\u09a4\u09c7\u09b0 \u0985\u09a8\u09cd\u09af\u09a4\u09ae \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h89ieyv2yi",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u09c7 \u09b6\u09bf\u09b6\u09c1\u09a6\u09c7\u09b0 \u0985\u09ac\u09a6\u09be\u09a8 \u09a4\u09c1\u09b2\u09c7 \u09a7\u09b0\u09a4\u09c7 \u2018\u099c\u09c1\u09b2\u09be\u0987 \u099c\u09be\u0997\u09b0\u09a3 \u09b8\u09bf\u099c\u09a8-\u09e8\u2019 \u09b6\u09c1\u09b0\u09c1",
-        "url": "https://www.prothomalo.com/bangladesh/capital/meyqgr3or7",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09aa\u09a4\u09bf \u09aa\u09cd\u09b0\u09be\u09b0\u09cd\u09a5\u09c0 \u0995\u09c7 \u09b9\u09ac\u09c7\u09a8, \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8 \u09a4\u09be\u09b0\u09c7\u0995 \u09b0\u09b9\u09ae\u09be\u09a8: \u09b8\u09cd\u09ac\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
-        "url": "https://www.prothomalo.com/video/78omvyvu07",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ae\u09b8\u09cd\u0995\u09cb\u09df \u0995\u09cd\u09af\u09be\u09ab\u09c7\u09b0 \u0995\u09be\u099b\u09c7 \u09ac\u09bf\u09b8\u09cd\u09ab\u09cb\u09b0\u09a3, \u09a8\u09bf\u09b9\u09a4 \u09e9",
-        "url": "https://www.prothomalo.com/world/europe/q41nf5sz4m",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u09ac\u09bf\u09b0 \u09b6\u09b9\u09c0\u09a6\u09c1\u09b2\u09cd\u09b2\u09be\u09b9 \u09b9\u09b2\u09c7 \u09a6\u09c1\u0987 \u0985\u09a4\u09bf\u09a5\u09bf\u09b0 \u09ac\u09bf\u09b0\u09c1\u09a6\u09cd\u09a7\u09c7 \u09b8\u09ae\u0995\u09be\u09ae\u09bf\u09a4\u09be\u09b0 \u0985\u09ad\u09bf\u09af\u09cb\u0997, \u098f\u099c\u09bf\u098f\u09b8\u09c7\u09b0 \u09b8\u09bf\u099f \u09ac\u09be\u09a4\u09bf\u09b2",
-        "url": "https://www.prothomalo.com/bangladesh/tz1prkas22",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09a8\u09bf\u09b7\u09bf\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf\u0995\u09c7 \u2018\u09b0\u09be\u099c\u09a8\u09c8\u09a4\u09bf\u0995 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b9\u09bf\u0982\u09b8\u09be\u2019 \u09ac\u09b2\u09b2 \u0986\u0993\u09df\u09be\u09ae\u09c0\u09aa\u09a8\u09cd\u09a5\u09c0 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09a6\u09c7\u09b0 \u2018\u09a8\u09c0\u09b2 \u09a6\u09b2\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h3twckdhgt",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09bf\u09a1\u09bf\u0993 \u09aa\u09cb\u09b8\u09cd\u099f\u09c7 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0 \u09ae\u09cb\u09a6\u09bf\u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u0995\u09be\u09b0\u09c0\u09a6\u09c7\u09b0 \u09b6\u09be\u09b8\u09cd\u09a4\u09bf \u09a6\u09bf\u09b2\u09c7 \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
-        "url": "https://www.prothomalo.com/world/india/ypcwv1ou0d",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u0995\u09bf\u09df\u09c7\u09ad\u09c7 \u09ac\u09cd\u09af\u09be\u09aa\u0995 \u09b9\u09be\u09ae\u09b2\u09be, \u09a8\u09bf\u09b9\u09a4 \u09ef",
-        "url": "https://www.prothomalo.com/world/europe/nyhcybji9u",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u0987\u09b0\u09be\u09a8\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1, \u0995\u09cd\u09b7\u09c7\u09aa\u09a3\u09be\u09b8\u09cd\u09a4\u09cd\u09b0 \u0993 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09af\u09bc \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0",
-        "url": "https://www.prothomalo.com/world/middle-east/rngdfi1znh",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09aa\u09be\u09a5\u09c7\u09af\u09bc\u09af\u09c7 \u09ea \u09a7\u09b0\u09a8\u09c7\u09b0 \u09a7\u09b0\u09cd\u09ae\u09c0\u09af\u09bc \u099c\u09cd\u099e\u09be\u09a8 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09be \u09b8\u09ac\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u09ab\u09b0\u099c",
         "url": "https://www.prothomalo.com/religion/islam/183ag7shpe",
@@ -83420,64 +83310,39 @@
         "title": "\u09ac\u09be\u09a3\u09bf\u099c\u09cd\u09af\u09c7\u09b0 \u0986\u09dc\u09be\u09b2\u09c7 \u0985\u09b0\u09cd\u09a5 \u09aa\u09be\u099a\u09be\u09b0 \u09a0\u09c7\u0995\u09be\u09a4\u09c7 \u09aa\u09bf\u09aa\u09bf\u09aa\u09bf \u09ae\u09a1\u09c7\u09b2\u09c7 \u0995\u09ae\u09bf\u099f\u09bf \u0995\u09b0\u099b\u09c7 \u09ac\u09bf\u098f\u09ab\u0986\u0987\u0987\u0989",
         "url": "https://www.prothomalo.com/business/cgf4usr19d",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09ae\u09a4\u09be\u09ae\u09a4\u09a6\u09cd\u09ac\u09bf\u09a4\u09c0\u09df \u09ac\u09bf\u09b6\u09cd\u09ac\u09af\u09c1\u09a6\u09cd\u09a7: \u09ac\u09bf\u09ad\u09c0\u09b7\u09bf\u0995\u09be\u09ae\u09df \u098f\u0995 \u0985\u09a7\u09cd\u09af\u09be\u09df\u09c7\u09b0 \u09b8\u09c2\u099a\u09a8\u09be \u09b9\u09b2\u09cb \u09af\u09c7\u09ad\u09be\u09ac\u09c7",
+        "url": "https://www.prothomalo.com/opinion/column/jhh8yxckcm",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09be\u0987\u0995\u09bf\u09df\u09be\u099f\u09cd\u09b0\u09bf\u0995 \u0995\u09c7\u09df\u09be\u09b0\u09c7\u09b0 \u09eb\u09ae \u09ac\u09b0\u09cd\u09b7\u09aa\u09c2\u09b0\u09cd\u09a4\u09bf \u0989\u09a6\u09cd\u09af\u09be\u09aa\u09a8",
+        "url": "https://www.prothomalo.com/bangladesh/bjeoycsl12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09be\u0995\u09b8\u09c1\u09b0 \u0986\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u0997\u09c1\u09ae\u09c7\u09b0 \u0985\u09aa\u09b0\u09be\u09a7\u09c0\u09a6\u09c7\u09b0 \u09ac\u09bf\u099a\u09be\u09b0 \u0993 \u09b8\u09a0\u09bf\u0995 \u0986\u0987\u09a8 \u09aa\u09cd\u09b0\u09a3\u09df\u09a8\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf",
+        "url": "https://www.prothomalo.com/bangladesh/capital/i5fhy95dqo",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09be\u0982\u09ac\u09be\u09a6\u09bf\u0995 \u0993 \u09ae\u09be\u09a8\u09ac\u09be\u09a7\u09bf\u0995\u09be\u09b0\u0995\u09b0\u09cd\u09ae\u09c0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8 \u0995\u09be\u09b0\u09cd\u09af\u0995\u09b0 \u09b0\u09c7\u09ab\u09be\u09b0\u09c7\u09b2 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+        "url": "https://www.prothomalo.com/bangladesh/nhwe3r7o12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09b8 \u0985\u09cd\u09af\u09be\u099e\u09cd\u099c\u09c7\u09b2\u09c7\u09b8\u09c7 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u09a6\u09c7\u09b0 \u09a8\u09be\u09a8\u09be \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09be\u09b0 \u0995\u09a5\u09be \u09b6\u09c1\u09a8\u09b2\u09c7\u09a8 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
+        "url": "https://www.prothomalo.com/bangladesh/xr745r2u4c",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Editorial": [
-      {
-        "title": "\u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u09ac\u0995\u09cd\u09a4\u09c3\u09a4\u09be\u0987\u0989\u0995\u09cd\u09b2\u09bf\u09a1\u09c7\u09b0 \u2018\u098f\u09b2\u09bf\u09ae\u09c7\u09a8\u09cd\u099f\u09b8\u2019 \u0986\u09a7\u09c1\u09a8\u09bf\u0995 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u0993 \u0997\u09a3\u09bf\u09a4\u09c7\u09b0 \u0985\u09a8\u09cd\u09af\u09a4\u09ae \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h89ieyv2yi",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u09c7 \u09b6\u09bf\u09b6\u09c1\u09a6\u09c7\u09b0 \u0985\u09ac\u09a6\u09be\u09a8 \u09a4\u09c1\u09b2\u09c7 \u09a7\u09b0\u09a4\u09c7 \u2018\u099c\u09c1\u09b2\u09be\u0987 \u099c\u09be\u0997\u09b0\u09a3 \u09b8\u09bf\u099c\u09a8-\u09e8\u2019 \u09b6\u09c1\u09b0\u09c1",
-        "url": "https://www.prothomalo.com/bangladesh/capital/meyqgr3or7",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09aa\u09a4\u09bf \u09aa\u09cd\u09b0\u09be\u09b0\u09cd\u09a5\u09c0 \u0995\u09c7 \u09b9\u09ac\u09c7\u09a8, \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8 \u09a4\u09be\u09b0\u09c7\u0995 \u09b0\u09b9\u09ae\u09be\u09a8: \u09b8\u09cd\u09ac\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
-        "url": "https://www.prothomalo.com/video/78omvyvu07",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ae\u09b8\u09cd\u0995\u09cb\u09df \u0995\u09cd\u09af\u09be\u09ab\u09c7\u09b0 \u0995\u09be\u099b\u09c7 \u09ac\u09bf\u09b8\u09cd\u09ab\u09cb\u09b0\u09a3, \u09a8\u09bf\u09b9\u09a4 \u09e9",
-        "url": "https://www.prothomalo.com/world/europe/q41nf5sz4m",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u09ac\u09bf\u09b0 \u09b6\u09b9\u09c0\u09a6\u09c1\u09b2\u09cd\u09b2\u09be\u09b9 \u09b9\u09b2\u09c7 \u09a6\u09c1\u0987 \u0985\u09a4\u09bf\u09a5\u09bf\u09b0 \u09ac\u09bf\u09b0\u09c1\u09a6\u09cd\u09a7\u09c7 \u09b8\u09ae\u0995\u09be\u09ae\u09bf\u09a4\u09be\u09b0 \u0985\u09ad\u09bf\u09af\u09cb\u0997, \u098f\u099c\u09bf\u098f\u09b8\u09c7\u09b0 \u09b8\u09bf\u099f \u09ac\u09be\u09a4\u09bf\u09b2",
-        "url": "https://www.prothomalo.com/bangladesh/tz1prkas22",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09a8\u09bf\u09b7\u09bf\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf\u0995\u09c7 \u2018\u09b0\u09be\u099c\u09a8\u09c8\u09a4\u09bf\u0995 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b9\u09bf\u0982\u09b8\u09be\u2019 \u09ac\u09b2\u09b2 \u0986\u0993\u09df\u09be\u09ae\u09c0\u09aa\u09a8\u09cd\u09a5\u09c0 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09a6\u09c7\u09b0 \u2018\u09a8\u09c0\u09b2 \u09a6\u09b2\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h3twckdhgt",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09bf\u09a1\u09bf\u0993 \u09aa\u09cb\u09b8\u09cd\u099f\u09c7 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0 \u09ae\u09cb\u09a6\u09bf\u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u0995\u09be\u09b0\u09c0\u09a6\u09c7\u09b0 \u09b6\u09be\u09b8\u09cd\u09a4\u09bf \u09a6\u09bf\u09b2\u09c7 \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
-        "url": "https://www.prothomalo.com/world/india/ypcwv1ou0d",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u0995\u09bf\u09df\u09c7\u09ad\u09c7 \u09ac\u09cd\u09af\u09be\u09aa\u0995 \u09b9\u09be\u09ae\u09b2\u09be, \u09a8\u09bf\u09b9\u09a4 \u09ef",
-        "url": "https://www.prothomalo.com/world/europe/nyhcybji9u",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u0987\u09b0\u09be\u09a8\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1, \u0995\u09cd\u09b7\u09c7\u09aa\u09a3\u09be\u09b8\u09cd\u09a4\u09cd\u09b0 \u0993 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09af\u09bc \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0",
-        "url": "https://www.prothomalo.com/world/middle-east/rngdfi1znh",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09aa\u09be\u09a5\u09c7\u09af\u09bc\u09af\u09c7 \u09ea \u09a7\u09b0\u09a8\u09c7\u09b0 \u09a7\u09b0\u09cd\u09ae\u09c0\u09af\u09bc \u099c\u09cd\u099e\u09be\u09a8 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09be \u09b8\u09ac\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u09ab\u09b0\u099c",
         "url": "https://www.prothomalo.com/religion/islam/183ag7shpe",
@@ -93572,64 +93437,34 @@
         "title": "\u09ac\u09be\u09a3\u09bf\u099c\u09cd\u09af\u09c7\u09b0 \u0986\u09dc\u09be\u09b2\u09c7 \u0985\u09b0\u09cd\u09a5 \u09aa\u09be\u099a\u09be\u09b0 \u09a0\u09c7\u0995\u09be\u09a4\u09c7 \u09aa\u09bf\u09aa\u09bf\u09aa\u09bf \u09ae\u09a1\u09c7\u09b2\u09c7 \u0995\u09ae\u09bf\u099f\u09bf \u0995\u09b0\u099b\u09c7 \u09ac\u09bf\u098f\u09ab\u0986\u0987\u0987\u0989",
         "url": "https://www.prothomalo.com/business/cgf4usr19d",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09be\u0987\u0995\u09bf\u09df\u09be\u099f\u09cd\u09b0\u09bf\u0995 \u0995\u09c7\u09df\u09be\u09b0\u09c7\u09b0 \u09eb\u09ae \u09ac\u09b0\u09cd\u09b7\u09aa\u09c2\u09b0\u09cd\u09a4\u09bf \u0989\u09a6\u09cd\u09af\u09be\u09aa\u09a8",
+        "url": "https://www.prothomalo.com/bangladesh/bjeoycsl12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09be\u0995\u09b8\u09c1\u09b0 \u0986\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u0997\u09c1\u09ae\u09c7\u09b0 \u0985\u09aa\u09b0\u09be\u09a7\u09c0\u09a6\u09c7\u09b0 \u09ac\u09bf\u099a\u09be\u09b0 \u0993 \u09b8\u09a0\u09bf\u0995 \u0986\u0987\u09a8 \u09aa\u09cd\u09b0\u09a3\u09df\u09a8\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf",
+        "url": "https://www.prothomalo.com/bangladesh/capital/i5fhy95dqo",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09be\u0982\u09ac\u09be\u09a6\u09bf\u0995 \u0993 \u09ae\u09be\u09a8\u09ac\u09be\u09a7\u09bf\u0995\u09be\u09b0\u0995\u09b0\u09cd\u09ae\u09c0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8 \u0995\u09be\u09b0\u09cd\u09af\u0995\u09b0 \u09b0\u09c7\u09ab\u09be\u09b0\u09c7\u09b2 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+        "url": "https://www.prothomalo.com/bangladesh/nhwe3r7o12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09b8 \u0985\u09cd\u09af\u09be\u099e\u09cd\u099c\u09c7\u09b2\u09c7\u09b8\u09c7 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u09a6\u09c7\u09b0 \u09a8\u09be\u09a8\u09be \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09be\u09b0 \u0995\u09a5\u09be \u09b6\u09c1\u09a8\u09b2\u09c7\u09a8 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
+        "url": "https://www.prothomalo.com/bangladesh/xr745r2u4c",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Business": [
-      {
-        "title": "\u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u09ac\u0995\u09cd\u09a4\u09c3\u09a4\u09be\u0987\u0989\u0995\u09cd\u09b2\u09bf\u09a1\u09c7\u09b0 \u2018\u098f\u09b2\u09bf\u09ae\u09c7\u09a8\u09cd\u099f\u09b8\u2019 \u0986\u09a7\u09c1\u09a8\u09bf\u0995 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u0993 \u0997\u09a3\u09bf\u09a4\u09c7\u09b0 \u0985\u09a8\u09cd\u09af\u09a4\u09ae \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h89ieyv2yi",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u09c7 \u09b6\u09bf\u09b6\u09c1\u09a6\u09c7\u09b0 \u0985\u09ac\u09a6\u09be\u09a8 \u09a4\u09c1\u09b2\u09c7 \u09a7\u09b0\u09a4\u09c7 \u2018\u099c\u09c1\u09b2\u09be\u0987 \u099c\u09be\u0997\u09b0\u09a3 \u09b8\u09bf\u099c\u09a8-\u09e8\u2019 \u09b6\u09c1\u09b0\u09c1",
-        "url": "https://www.prothomalo.com/bangladesh/capital/meyqgr3or7",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09aa\u09a4\u09bf \u09aa\u09cd\u09b0\u09be\u09b0\u09cd\u09a5\u09c0 \u0995\u09c7 \u09b9\u09ac\u09c7\u09a8, \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8 \u09a4\u09be\u09b0\u09c7\u0995 \u09b0\u09b9\u09ae\u09be\u09a8: \u09b8\u09cd\u09ac\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
-        "url": "https://www.prothomalo.com/video/78omvyvu07",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ae\u09b8\u09cd\u0995\u09cb\u09df \u0995\u09cd\u09af\u09be\u09ab\u09c7\u09b0 \u0995\u09be\u099b\u09c7 \u09ac\u09bf\u09b8\u09cd\u09ab\u09cb\u09b0\u09a3, \u09a8\u09bf\u09b9\u09a4 \u09e9",
-        "url": "https://www.prothomalo.com/world/europe/q41nf5sz4m",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u09ac\u09bf\u09b0 \u09b6\u09b9\u09c0\u09a6\u09c1\u09b2\u09cd\u09b2\u09be\u09b9 \u09b9\u09b2\u09c7 \u09a6\u09c1\u0987 \u0985\u09a4\u09bf\u09a5\u09bf\u09b0 \u09ac\u09bf\u09b0\u09c1\u09a6\u09cd\u09a7\u09c7 \u09b8\u09ae\u0995\u09be\u09ae\u09bf\u09a4\u09be\u09b0 \u0985\u09ad\u09bf\u09af\u09cb\u0997, \u098f\u099c\u09bf\u098f\u09b8\u09c7\u09b0 \u09b8\u09bf\u099f \u09ac\u09be\u09a4\u09bf\u09b2",
-        "url": "https://www.prothomalo.com/bangladesh/tz1prkas22",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09a8\u09bf\u09b7\u09bf\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf\u0995\u09c7 \u2018\u09b0\u09be\u099c\u09a8\u09c8\u09a4\u09bf\u0995 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b9\u09bf\u0982\u09b8\u09be\u2019 \u09ac\u09b2\u09b2 \u0986\u0993\u09df\u09be\u09ae\u09c0\u09aa\u09a8\u09cd\u09a5\u09c0 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09a6\u09c7\u09b0 \u2018\u09a8\u09c0\u09b2 \u09a6\u09b2\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h3twckdhgt",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09bf\u09a1\u09bf\u0993 \u09aa\u09cb\u09b8\u09cd\u099f\u09c7 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0 \u09ae\u09cb\u09a6\u09bf\u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u0995\u09be\u09b0\u09c0\u09a6\u09c7\u09b0 \u09b6\u09be\u09b8\u09cd\u09a4\u09bf \u09a6\u09bf\u09b2\u09c7 \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
-        "url": "https://www.prothomalo.com/world/india/ypcwv1ou0d",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u0995\u09bf\u09df\u09c7\u09ad\u09c7 \u09ac\u09cd\u09af\u09be\u09aa\u0995 \u09b9\u09be\u09ae\u09b2\u09be, \u09a8\u09bf\u09b9\u09a4 \u09ef",
-        "url": "https://www.prothomalo.com/world/europe/nyhcybji9u",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u0987\u09b0\u09be\u09a8\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1, \u0995\u09cd\u09b7\u09c7\u09aa\u09a3\u09be\u09b8\u09cd\u09a4\u09cd\u09b0 \u0993 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09af\u09bc \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0",
-        "url": "https://www.prothomalo.com/world/middle-east/rngdfi1znh",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09aa\u09be\u09a5\u09c7\u09af\u09bc\u09af\u09c7 \u09ea \u09a7\u09b0\u09a8\u09c7\u09b0 \u09a7\u09b0\u09cd\u09ae\u09c0\u09af\u09bc \u099c\u09cd\u099e\u09be\u09a8 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09be \u09b8\u09ac\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u09ab\u09b0\u099c",
         "url": "https://www.prothomalo.com/religion/islam/183ag7shpe",
@@ -104784,69 +104619,34 @@
         "title": "\u09ae\u0995\u09cd\u0995\u09be \u09aa\u09cd\u09b0\u09a4\u09bf\u09b0\u0995\u09cd\u09b7\u09be \u099c\u09cb\u099f\u09a8\u09a4\u09c1\u09a8 \u0986\u099e\u09cd\u099a\u09b2\u09bf\u0995 \u09a8\u09bf\u09b0\u09be\u09aa\u09a4\u09cd\u09a4\u09be \u0995\u09be\u09a0\u09be\u09ae\u09cb\u09b0 \u09af\u09be\u09a4\u09cd\u09b0\u09be \u09b6\u09c1\u09b0\u09c1",
         "url": "https://www.prothomalo.com/world/middle-east/6b6j9c52o0",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09be\u0987\u0995\u09bf\u09df\u09be\u099f\u09cd\u09b0\u09bf\u0995 \u0995\u09c7\u09df\u09be\u09b0\u09c7\u09b0 \u09eb\u09ae \u09ac\u09b0\u09cd\u09b7\u09aa\u09c2\u09b0\u09cd\u09a4\u09bf \u0989\u09a6\u09cd\u09af\u09be\u09aa\u09a8",
+        "url": "https://www.prothomalo.com/bangladesh/bjeoycsl12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09be\u0995\u09b8\u09c1\u09b0 \u0986\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u0997\u09c1\u09ae\u09c7\u09b0 \u0985\u09aa\u09b0\u09be\u09a7\u09c0\u09a6\u09c7\u09b0 \u09ac\u09bf\u099a\u09be\u09b0 \u0993 \u09b8\u09a0\u09bf\u0995 \u0986\u0987\u09a8 \u09aa\u09cd\u09b0\u09a3\u09df\u09a8\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf",
+        "url": "https://www.prothomalo.com/bangladesh/capital/i5fhy95dqo",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09be\u0982\u09ac\u09be\u09a6\u09bf\u0995 \u0993 \u09ae\u09be\u09a8\u09ac\u09be\u09a7\u09bf\u0995\u09be\u09b0\u0995\u09b0\u09cd\u09ae\u09c0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8 \u0995\u09be\u09b0\u09cd\u09af\u0995\u09b0 \u09b0\u09c7\u09ab\u09be\u09b0\u09c7\u09b2 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+        "url": "https://www.prothomalo.com/bangladesh/nhwe3r7o12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09b8 \u0985\u09cd\u09af\u09be\u099e\u09cd\u099c\u09c7\u09b2\u09c7\u09b8\u09c7 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u09a6\u09c7\u09b0 \u09a8\u09be\u09a8\u09be \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09be\u09b0 \u0995\u09a5\u09be \u09b6\u09c1\u09a8\u09b2\u09c7\u09a8 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
+        "url": "https://www.prothomalo.com/bangladesh/xr745r2u4c",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Politics": [
-      {
-        "title": "\u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u09ac\u0995\u09cd\u09a4\u09c3\u09a4\u09be\u0987\u0989\u0995\u09cd\u09b2\u09bf\u09a1\u09c7\u09b0 \u2018\u098f\u09b2\u09bf\u09ae\u09c7\u09a8\u09cd\u099f\u09b8\u2019 \u0986\u09a7\u09c1\u09a8\u09bf\u0995 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u0993 \u0997\u09a3\u09bf\u09a4\u09c7\u09b0 \u0985\u09a8\u09cd\u09af\u09a4\u09ae \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h89ieyv2yi",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u09c7 \u09b6\u09bf\u09b6\u09c1\u09a6\u09c7\u09b0 \u0985\u09ac\u09a6\u09be\u09a8 \u09a4\u09c1\u09b2\u09c7 \u09a7\u09b0\u09a4\u09c7 \u2018\u099c\u09c1\u09b2\u09be\u0987 \u099c\u09be\u0997\u09b0\u09a3 \u09b8\u09bf\u099c\u09a8-\u09e8\u2019 \u09b6\u09c1\u09b0\u09c1",
-        "url": "https://www.prothomalo.com/bangladesh/capital/meyqgr3or7",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09aa\u09a4\u09bf \u09aa\u09cd\u09b0\u09be\u09b0\u09cd\u09a5\u09c0 \u0995\u09c7 \u09b9\u09ac\u09c7\u09a8, \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8 \u09a4\u09be\u09b0\u09c7\u0995 \u09b0\u09b9\u09ae\u09be\u09a8: \u09b8\u09cd\u09ac\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
-        "url": "https://www.prothomalo.com/video/78omvyvu07",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b6\u09c7\u0996 \u09b9\u09be\u09b8\u09bf\u09a8\u09be\u0995\u09c7 \u09aa\u09b0\u0993\u09df\u09be\u09b0\u2018\u099c\u09a8\u0997\u09a3 \u0986\u09aa\u09a8\u09be\u0995\u09c7 \u09b8\u09cd\u09ac\u09be\u0997\u09a4 \u099c\u09be\u09a8\u09be\u09a4\u09c7 \u09aa\u09cd\u09b0\u09b8\u09cd\u09a4\u09c1\u09a4, \u0995\u09c0\u09ad\u09be\u09ac\u09c7 \u0986\u09b8\u09ac\u09c7\u09a8 \u0986\u09b8\u09c7\u09a8\u2019",
-        "url": "https://www.prothomalo.com/politics/c8db44on7g",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ae\u09b8\u09cd\u0995\u09cb\u09df \u0995\u09cd\u09af\u09be\u09ab\u09c7\u09b0 \u0995\u09be\u099b\u09c7 \u09ac\u09bf\u09b8\u09cd\u09ab\u09cb\u09b0\u09a3, \u09a8\u09bf\u09b9\u09a4 \u09e9",
-        "url": "https://www.prothomalo.com/world/europe/q41nf5sz4m",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u09ac\u09bf\u09b0 \u09b6\u09b9\u09c0\u09a6\u09c1\u09b2\u09cd\u09b2\u09be\u09b9 \u09b9\u09b2\u09c7 \u09a6\u09c1\u0987 \u0985\u09a4\u09bf\u09a5\u09bf\u09b0 \u09ac\u09bf\u09b0\u09c1\u09a6\u09cd\u09a7\u09c7 \u09b8\u09ae\u0995\u09be\u09ae\u09bf\u09a4\u09be\u09b0 \u0985\u09ad\u09bf\u09af\u09cb\u0997, \u098f\u099c\u09bf\u098f\u09b8\u09c7\u09b0 \u09b8\u09bf\u099f \u09ac\u09be\u09a4\u09bf\u09b2",
-        "url": "https://www.prothomalo.com/bangladesh/tz1prkas22",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09a8\u09bf\u09b7\u09bf\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf\u0995\u09c7 \u2018\u09b0\u09be\u099c\u09a8\u09c8\u09a4\u09bf\u0995 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b9\u09bf\u0982\u09b8\u09be\u2019 \u09ac\u09b2\u09b2 \u0986\u0993\u09df\u09be\u09ae\u09c0\u09aa\u09a8\u09cd\u09a5\u09c0 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09a6\u09c7\u09b0 \u2018\u09a8\u09c0\u09b2 \u09a6\u09b2\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h3twckdhgt",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09bf\u09a1\u09bf\u0993 \u09aa\u09cb\u09b8\u09cd\u099f\u09c7 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0 \u09ae\u09cb\u09a6\u09bf\u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u0995\u09be\u09b0\u09c0\u09a6\u09c7\u09b0 \u09b6\u09be\u09b8\u09cd\u09a4\u09bf \u09a6\u09bf\u09b2\u09c7 \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
-        "url": "https://www.prothomalo.com/world/india/ypcwv1ou0d",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u0995\u09bf\u09df\u09c7\u09ad\u09c7 \u09ac\u09cd\u09af\u09be\u09aa\u0995 \u09b9\u09be\u09ae\u09b2\u09be, \u09a8\u09bf\u09b9\u09a4 \u09ef",
-        "url": "https://www.prothomalo.com/world/europe/nyhcybji9u",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u0987\u09b0\u09be\u09a8\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1, \u0995\u09cd\u09b7\u09c7\u09aa\u09a3\u09be\u09b8\u09cd\u09a4\u09cd\u09b0 \u0993 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09af\u09bc \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0",
-        "url": "https://www.prothomalo.com/world/middle-east/rngdfi1znh",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09aa\u09be\u09a5\u09c7\u09af\u09bc\u09af\u09c7 \u09ea \u09a7\u09b0\u09a8\u09c7\u09b0 \u09a7\u09b0\u09cd\u09ae\u09c0\u09af\u09bc \u099c\u09cd\u099e\u09be\u09a8 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u0995\u09b0\u09be \u09b8\u09ac\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u09ab\u09b0\u099c",
         "url": "https://www.prothomalo.com/religion/islam/183ag7shpe",
@@ -115921,64 +115721,34 @@
         "title": "\u09a6\u09c7\u09b6\u09c7 \u09ae\u09cb\u099f \u09ad\u09cb\u099f\u09be\u09b0 \u09e7\u09e8 \u0995\u09cb\u099f\u09bf \u09ee\u09ed \u09b2\u09be\u0996",
         "url": "https://www.prothomalo.com/politics/mxytiqwxam",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09be\u0987\u0995\u09bf\u09df\u09be\u099f\u09cd\u09b0\u09bf\u0995 \u0995\u09c7\u09df\u09be\u09b0\u09c7\u09b0 \u09eb\u09ae \u09ac\u09b0\u09cd\u09b7\u09aa\u09c2\u09b0\u09cd\u09a4\u09bf \u0989\u09a6\u09cd\u09af\u09be\u09aa\u09a8",
+        "url": "https://www.prothomalo.com/bangladesh/bjeoycsl12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09be\u0995\u09b8\u09c1\u09b0 \u0986\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u0997\u09c1\u09ae\u09c7\u09b0 \u0985\u09aa\u09b0\u09be\u09a7\u09c0\u09a6\u09c7\u09b0 \u09ac\u09bf\u099a\u09be\u09b0 \u0993 \u09b8\u09a0\u09bf\u0995 \u0986\u0987\u09a8 \u09aa\u09cd\u09b0\u09a3\u09df\u09a8\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf",
+        "url": "https://www.prothomalo.com/bangladesh/capital/i5fhy95dqo",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09be\u0982\u09ac\u09be\u09a6\u09bf\u0995 \u0993 \u09ae\u09be\u09a8\u09ac\u09be\u09a7\u09bf\u0995\u09be\u09b0\u0995\u09b0\u09cd\u09ae\u09c0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8 \u0995\u09be\u09b0\u09cd\u09af\u0995\u09b0 \u09b0\u09c7\u09ab\u09be\u09b0\u09c7\u09b2 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+        "url": "https://www.prothomalo.com/bangladesh/nhwe3r7o12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09b8 \u0985\u09cd\u09af\u09be\u099e\u09cd\u099c\u09c7\u09b2\u09c7\u09b8\u09c7 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u09a6\u09c7\u09b0 \u09a8\u09be\u09a8\u09be \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09be\u09b0 \u0995\u09a5\u09be \u09b6\u09c1\u09a8\u09b2\u09c7\u09a8 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
+        "url": "https://www.prothomalo.com/bangladesh/xr745r2u4c",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "International": [
-      {
-        "title": "\u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8\u099a\u09bf\u09a8\u09cd\u09a4\u09be\u09b0 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u09ac\u0995\u09cd\u09a4\u09c3\u09a4\u09be\u0987\u0989\u0995\u09cd\u09b2\u09bf\u09a1\u09c7\u09b0 \u2018\u098f\u09b2\u09bf\u09ae\u09c7\u09a8\u09cd\u099f\u09b8\u2019 \u0986\u09a7\u09c1\u09a8\u09bf\u0995 \u09ac\u09bf\u099c\u09cd\u099e\u09be\u09a8 \u0993 \u0997\u09a3\u09bf\u09a4\u09c7\u09b0 \u0985\u09a8\u09cd\u09af\u09a4\u09ae \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h89ieyv2yi",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u09c7 \u09b6\u09bf\u09b6\u09c1\u09a6\u09c7\u09b0 \u0985\u09ac\u09a6\u09be\u09a8 \u09a4\u09c1\u09b2\u09c7 \u09a7\u09b0\u09a4\u09c7 \u2018\u099c\u09c1\u09b2\u09be\u0987 \u099c\u09be\u0997\u09b0\u09a3 \u09b8\u09bf\u099c\u09a8-\u09e8\u2019 \u09b6\u09c1\u09b0\u09c1",
-        "url": "https://www.prothomalo.com/bangladesh/capital/meyqgr3or7",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09aa\u09a4\u09bf \u09aa\u09cd\u09b0\u09be\u09b0\u09cd\u09a5\u09c0 \u0995\u09c7 \u09b9\u09ac\u09c7\u09a8, \u09b8\u09bf\u09a6\u09cd\u09a7\u09be\u09a8\u09cd\u09a4 \u09a8\u09c7\u09ac\u09c7\u09a8 \u09a4\u09be\u09b0\u09c7\u0995 \u09b0\u09b9\u09ae\u09be\u09a8: \u09b8\u09cd\u09ac\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
-        "url": "https://www.prothomalo.com/video/78omvyvu07",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099f\u09bf\u098f\u09ab\u0986\u0987 \u09b8\u09c7\u09b2\u09b0\u200d\u09cd\u09af\u09be\u09ac\u09c7\u09b0 \u09ac\u09a8\u09cd\u09a6\u09bf\u09b6\u09be\u09b2\u09be\u09df \u09e8\u09ef\u099f\u09bf \u099b\u09cb\u099f \u0995\u0995\u09cd\u09b7",
-        "url": "https://www.prothomalo.com/bangladesh/57n66f8ck2",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u099b\u09c7\u09b2\u09c7\u09b0 \u09ac\u09b8\u09be\u09a8\u09cb \u09b8\u09bf\u09b8\u09bf\u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09a7\u09b0\u09be \u09aa\u09dc\u09b2 \u09ae\u09be\u0995\u09c7 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09a6\u09c3\u09b6\u09cd\u09af, \u0997\u09cd\u09b0\u09c7\u09aa\u09cd\u09a4\u09be\u09b0 \u09a8\u09be\u09a4\u09bf \u0995\u09be\u09b0\u09be\u0997\u09be\u09b0\u09c7",
-        "url": "https://www.prothomalo.com/bangladesh/crime/j4p1qq2saz",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "\u09ae\u09b8\u09cd\u0995\u09cb\u09df \u0995\u09cd\u09af\u09be\u09ab\u09c7\u09b0 \u0995\u09be\u099b\u09c7 \u09ac\u09bf\u09b8\u09cd\u09ab\u09cb\u09b0\u09a3, \u09a8\u09bf\u09b9\u09a4 \u09e9",
-        "url": "https://www.prothomalo.com/world/europe/q41nf5sz4m",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u09ac\u09bf\u09b0 \u09b6\u09b9\u09c0\u09a6\u09c1\u09b2\u09cd\u09b2\u09be\u09b9 \u09b9\u09b2\u09c7 \u09a6\u09c1\u0987 \u0985\u09a4\u09bf\u09a5\u09bf\u09b0 \u09ac\u09bf\u09b0\u09c1\u09a6\u09cd\u09a7\u09c7 \u09b8\u09ae\u0995\u09be\u09ae\u09bf\u09a4\u09be\u09b0 \u0985\u09ad\u09bf\u09af\u09cb\u0997, \u098f\u099c\u09bf\u098f\u09b8\u09c7\u09b0 \u09b8\u09bf\u099f \u09ac\u09be\u09a4\u09bf\u09b2",
-        "url": "https://www.prothomalo.com/bangladesh/tz1prkas22",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a2\u09be\u0995\u09be \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09a8\u09bf\u09b7\u09bf\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf\u0995\u09c7 \u2018\u09b0\u09be\u099c\u09a8\u09c8\u09a4\u09bf\u0995 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b9\u09bf\u0982\u09b8\u09be\u2019 \u09ac\u09b2\u09b2 \u0986\u0993\u09df\u09be\u09ae\u09c0\u09aa\u09a8\u09cd\u09a5\u09c0 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09a6\u09c7\u09b0 \u2018\u09a8\u09c0\u09b2 \u09a6\u09b2\u2019",
-        "url": "https://www.prothomalo.com/bangladesh/capital/h3twckdhgt",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09bf\u09a1\u09bf\u0993 \u09aa\u09cb\u09b8\u09cd\u099f\u09c7 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0 \u09ae\u09cb\u09a6\u09bf\u0986\u09a8\u09cd\u09a6\u09cb\u09b2\u09a8\u0995\u09be\u09b0\u09c0\u09a6\u09c7\u09b0 \u09b6\u09be\u09b8\u09cd\u09a4\u09bf \u09a6\u09bf\u09b2\u09c7 \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
-        "url": "https://www.prothomalo.com/world/india/ypcwv1ou0d",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u0995\u09bf\u09df\u09c7\u09ad\u09c7 \u09ac\u09cd\u09af\u09be\u09aa\u0995 \u09b9\u09be\u09ae\u09b2\u09be, \u09a8\u09bf\u09b9\u09a4 \u09ef",
-        "url": "https://www.prothomalo.com/world/europe/nyhcybji9u",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
-      {
-        "title": "\u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf\u0987\u09b0\u09be\u09a8\u09c7\u09b0 \u09aa\u09b0\u09ae\u09be\u09a3\u09c1, \u0995\u09cd\u09b7\u09c7\u09aa\u09a3\u09be\u09b8\u09cd\u09a4\u09cd\u09b0 \u0993 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09af\u09bc \u09b9\u09be\u09ae\u09b2\u09be\u09b0 \u09aa\u09b0\u09bf\u0995\u09b2\u09cd\u09aa\u09a8\u09be \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0",
-        "url": "https://www.prothomalo.com/world/middle-east/rngdfi1znh",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09ac\u09bf\u09b6\u09cd\u09b2\u09c7\u09b7\u09a3\u0987\u09b0\u09be\u09a8 \u09a8\u09bf\u09df\u09c7 \u09b8\u09cc\u09a6\u09bf-\u0987\u09b8\u09b0\u09be\u09df\u09c7\u09b2\n\u09ad\u09bf\u09a8\u09cd\u09a8 \u0985\u09ac\u09b8\u09cd\u09a5\u09be\u09a8\u09c7, \u09b8\u0982\u09b6\u09df\u09c7 \u099f\u09cd\u09b0\u09be\u09ae\u09cd\u09aa",
         "url": "https://www.prothomalo.com/world/middle-east/xxnt2xvhk9",
@@ -127348,6 +127118,31 @@
         "title": "\u09ac\u09be\u09a3\u09bf\u099c\u09cd\u09af\u09c7\u09b0 \u0986\u09dc\u09be\u09b2\u09c7 \u0985\u09b0\u09cd\u09a5 \u09aa\u09be\u099a\u09be\u09b0 \u09a0\u09c7\u0995\u09be\u09a4\u09c7 \u09aa\u09bf\u09aa\u09bf\u09aa\u09bf \u09ae\u09a1\u09c7\u09b2\u09c7 \u0995\u09ae\u09bf\u099f\u09bf \u0995\u09b0\u099b\u09c7 \u09ac\u09bf\u098f\u09ab\u0986\u0987\u0987\u0989",
         "url": "https://www.prothomalo.com/business/cgf4usr19d",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u099a\u09be\u0995\u09b0\u09bf\u099c\u09c0\u09ac\u09c0\u09ac\u09c7\u09a4\u09a8 \u09ac\u09be\u09dc\u09ac\u09c7 \u09e7\u09e6\u09e6-\u09e7\u09ea\u09e8%, \u09a6\u09c7\u0993\u09df\u09be \u09b9\u09ac\u09c7 \u099a\u09be\u09b0 \u09a7\u09be\u09aa\u09c7",
+        "url": "https://www.prothomalo.com/business/economics/44veejv7qy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09be\u0987\u0995\u09bf\u09df\u09be\u099f\u09cd\u09b0\u09bf\u0995 \u0995\u09c7\u09df\u09be\u09b0\u09c7\u09b0 \u09eb\u09ae \u09ac\u09b0\u09cd\u09b7\u09aa\u09c2\u09b0\u09cd\u09a4\u09bf \u0989\u09a6\u09cd\u09af\u09be\u09aa\u09a8",
+        "url": "https://www.prothomalo.com/bangladesh/bjeoycsl12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09be\u0995\u09b8\u09c1\u09b0 \u0986\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u0997\u09c1\u09ae\u09c7\u09b0 \u0985\u09aa\u09b0\u09be\u09a7\u09c0\u09a6\u09c7\u09b0 \u09ac\u09bf\u099a\u09be\u09b0 \u0993 \u09b8\u09a0\u09bf\u0995 \u0986\u0987\u09a8 \u09aa\u09cd\u09b0\u09a3\u09df\u09a8\u09c7\u09b0 \u09a6\u09be\u09ac\u09bf",
+        "url": "https://www.prothomalo.com/bangladesh/capital/i5fhy95dqo",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09be\u0982\u09ac\u09be\u09a6\u09bf\u0995 \u0993 \u09ae\u09be\u09a8\u09ac\u09be\u09a7\u09bf\u0995\u09be\u09b0\u0995\u09b0\u09cd\u09ae\u09c0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u09aa\u09cd\u09b0\u09df\u09cb\u099c\u09a8 \u0995\u09be\u09b0\u09cd\u09af\u0995\u09b0 \u09b0\u09c7\u09ab\u09be\u09b0\u09c7\u09b2 \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be",
+        "url": "https://www.prothomalo.com/bangladesh/nhwe3r7o12",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09b8 \u0985\u09cd\u09af\u09be\u099e\u09cd\u099c\u09c7\u09b2\u09c7\u09b8\u09c7 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u09a6\u09c7\u09b0 \u09a8\u09be\u09a8\u09be \u09aa\u09cd\u09b0\u09a4\u09cd\u09af\u09be\u09b6\u09be\u09b0 \u0995\u09a5\u09be \u09b6\u09c1\u09a8\u09b2\u09c7\u09a8 \u09aa\u09cd\u09b0\u09ac\u09be\u09b8\u09c0\u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0",
+        "url": "https://www.prothomalo.com/bangladesh/xr745r2u4c",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ]
   },
@@ -129208,26 +129003,6 @@
     ],
     "Editorial": [
       {
-        "title": "\u099c\u09c1\u09b2\u09be\u0987 \u0997\u09a3-\u0985\u09ad\u09cd\u09af\u09c1\u09a4\u09cd\u09a5\u09be\u09a8\u09c7\u09b0 \u09a6\u09c1\u0987 \u09ac\u099b\u09b0\u2b29\u09b8\u09c1\u09b8\u09cd\u09a5 \u099c\u09be\u09a4\u09c0\u09df\u09a4\u09be\u09ac\u09be\u09a6\u09c7\u09b0 \u09ad\u09bf\u09a4\u09cd\u09a4\u09bf\u09a4\u09c7 \u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0 \u09aa\u09c1\u09a8\u09b0\u09cd\u0997\u09a0\u09a8\u09c7 \u09aa\u09cd\u09b0\u09be\u09a4\u09bf\u09b7\u09cd\u09a0\u09be\u09a8\u09bf\u0995 \u09b8\u0982\u09b8\u09cd\u0995\u09be\u09b0 \u099c\u09b0\u09c1\u09b0\u09bf",
-        "url": "https://bonikbarta.com/editorial/7CHS4HZ3aIz9K4Kd/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09c2\u09b0\u09be\u099c\u09a8\u09c0\u09a4\u09bf\u2b29\u0986\u09ae\u09c7\u09b0\u09bf\u0995\u09be \u09ab\u09be\u09b0\u09cd\u09b8\u09cd\u099f \u09a8\u09c0\u09a4\u09bf\u09b0 \u09aa\u09cd\u09b0\u09c7\u0995\u09cd\u09b7\u09be\u09aa\u099f\u09c7 \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0-\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09a6\u09cd\u09ac\u09bf\u09aa\u0995\u09cd\u09b7\u09c0\u09df \u09b8\u09ae\u09cd\u09aa\u09b0\u09cd\u0995",
-        "url": "https://bonikbarta.com/editorial/8Hq8LlawkEMjxH3D/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u0995\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0\u09c0\u09af\u09bc \u09ac\u09cd\u09af\u09be\u0982\u0995\u0997\u09c1\u09b2\u09cb\u0995\u09c7 \u0986\u09ac\u09be\u09b0\u09cb \u0995\u09a0\u09cb\u09b0 \u09ae\u09c1\u09a6\u09cd\u09b0\u09be\u09a8\u09c0\u09a4\u09bf\u09b0 \u09aa\u09a5\u09c7\u0987 \u09b9\u09be\u0981\u099f\u09a4\u09c7 \u09b9\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7",
-        "url": "https://bonikbarta.com/editorial/g4DuMlQmWqhJVsWr/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u0995\u09b2\u09be \u0993 \u09ae\u09be\u09a8\u09ac\u09bf\u0995\u09c7 \u09b8\u09ac\u099a\u09c7\u09df\u09c7 \u09ac\u09c7\u09b6\u09bf \u09b6\u09bf\u0995\u09cd\u09b7\u09be\u09b0\u09cd\u09a5\u09c0\u2b29\u0989\u099a\u09cd\u099a \u09b6\u09bf\u0995\u09cd\u09b7\u09be\u09b0 \u099c\u09c0\u09b0\u09cd\u09a3 \u0993 \u09b0\u09c1\u0997\u09cd\u200c\u09a3 \u09a6\u09b6\u09be\u09b0 \u09aa\u09cd\u09b0\u09a4\u09bf\u09ab\u09b2\u09a8",
-        "url": "https://bonikbarta.com/editorial/YGNTNovDkjSTMLPH/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
         "title": "\u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0 \u09ad\u09c2\u09ae\u09bf\u0995\u09be \u09a5\u09be\u0995\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7 \u09a4\u09ac\u09c7 \u099a\u09c0\u09a8\u0995\u09c7 \u09ac\u09be\u09a6 \u09a6\u09bf\u09df\u09c7 \u09b0\u09cb\u09b9\u09bf\u0999\u09cd\u0997\u09be \u09b8\u09ae\u09b8\u09cd\u09af\u09be\u09b0 \u09b8\u09ae\u09be\u09a7\u09be\u09a8 \u09b9\u09ac\u09c7 \u09a8\u09be",
         "url": "https://bonikbarta.com/editorial/s3tYKgaS3oM7RCBh/",
         "scraped_at": "2026-08-02T21:51:14.614875+00:00"
@@ -129956,109 +129731,29 @@
         "title": "\u0987\u0989\u099c\u09bf\u09b8\u09bf\u09b0 \u09a8\u09bf\u09df\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3\u09c7 \u0995\u09c7\u09ae\u09a8 \u09b9\u09ac\u09c7 \u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09a6\u09cd\u09af\u09be\u09b2\u09df\u09c7\u09b0 \u0997\u09ac\u09c7\u09b7\u09a3\u09be?",
         "url": "https://bonikbarta.com/editorial/R4tWzJYp2T0jdc0L/",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u0985\u09b0\u09cd\u09a5\u09a8\u09c0\u09a4\u09bf \u09ad\u09be\u09ac\u09a8\u09be\u2b29\u098f\u09b2\u09a1\u09bf\u09b8\u09bf \u0989\u09a4\u09cd\u09a4\u09b0\u09a3\u09c7\u09b0 \u09b8\u09c1\u09ab\u09b2 \u09b8\u09b0\u09cd\u09ac\u09cb\u099a\u09cd\u099a \u0995\u09b0\u09a4\u09c7 \u0995\u09cc\u09b6\u09b2\u0997\u09a4 \u09aa\u09cd\u09b0\u09b8\u09cd\u09a4\u09c1\u09a4\u09bf \u0985\u09aa\u09b0\u09bf\u09b9\u09be\u09b0\u09cd\u09af",
+        "url": "https://bonikbarta.com/editorial/PNaFfqry1IyJ5myQ/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u2018\u09b6\u09bf\u0995\u09cd\u09b7\u09be\u0995\u09c7 \u0995\u0996\u09a8\u09cb \u099a\u09cd\u09af\u09be\u09b0\u09bf\u099f\u09bf \u09ae\u09a8\u09c7 \u0995\u09b0\u09bf \u09a8\u09be, \u09b8\u09c7\u09a8\u09cd\u099f \u0997\u09cd\u09b0\u09c7\u0997\u09b0\u09c0\u09a4\u09c7 \u09b6\u09bf\u0995\u09cd\u09b7\u0995\u09b0\u09be \u0986\u09b8\u09c7\u09a8 \u09af\u09cb\u0997\u09cd\u09af\u09a4\u09be \u09a8\u09bf\u09df\u09c7\u2019",
+        "url": "https://bonikbarta.com/editorial/EDt8eHuf8Lps9fkT/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0\u09c7\u09b0 \u09ac\u09c7\u09b8\u09b0\u0995\u09be\u09b0\u09bf \u0996\u09be\u09a4\u09c7\u09b0 \u0986\u09b0\u09cd\u09a5\u09bf\u0995 \u0985\u09ac\u09b8\u09cd\u09a5\u09be \u098f\u0996\u09a8\u09cb \u09b6\u0995\u09cd\u09a4\u09bf\u09b6\u09be\u09b2\u09c0",
+        "url": "https://bonikbarta.com/editorial/KvxdiVZoK3oNHmg8/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0985\u09ac\u0995\u09be\u09a0\u09be\u09ae\u09cb\u0997\u09a4 \u09b8\u0982\u0995\u099f\u09c7\u09b0 \u09ae\u09a7\u09cd\u09af\u09c7\u0987 \u09ac\u09be\u09dc\u099b\u09c7 \u09aa\u09c1\u09b2\u09bf\u09b6\u09c7\u09b0 \u099c\u09a8\u09ac\u09b2\u2b29\u0985\u09ac\u0995\u09be\u09a0\u09be\u09ae\u09cb \u09b8\u09ae\u09cd\u09aa\u09cd\u09b0\u09b8\u09be\u09b0\u09a3 \u09a8\u09be \u0995\u09b0\u09c7 \u09b6\u09c1\u09a7\u09c1 \u09a8\u09bf\u09df\u09cb\u0997 \u09ac\u09be\u09dc\u09be\u09b2\u09c7 \u09a6\u09c1\u09b0\u09cd\u09ac\u09b2\u0987 \u09a5\u09be\u0995\u09ac\u09c7 \u09aa\u09c1\u09b2\u09bf\u09b6",
+        "url": "https://bonikbarta.com/editorial/75fPUfzPMFSj50kl/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Economy": [
-      {
-        "title": "\u098f\u09b6\u09bf\u09df\u09be\u09df \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09a4\u09c7\u09b2\u09c7\u09b0 \u09a6\u09be\u09ae \u09aa\u09c1\u09a8\u09b0\u09cd\u09a8\u09bf\u09b0\u09cd\u09a7\u09be\u09b0\u09a3 \u0995\u09b0\u09ac\u09c7 \u09b8\u09cc\u09a6\u09bf \u0986\u09b0\u09be\u09ae\u0995\u09cb",
-        "url": "https://bonikbarta.com/economy/VtVbCzFwPWa8sME8/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ac\u09bf\u09b6\u09cd\u09ac\u09ac\u09be\u099c\u09be\u09b0\u09c7 \u09ac\u09c7\u09dc\u09c7\u099b\u09c7 \u0995\u09df\u09b2\u09be\u09b0 \u09a6\u09be\u09ae",
-        "url": "https://bonikbarta.com/economy/wAxKHdFLN1QW5oGL/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09e8\u09e6\u09e8\u09e7-\u09e8\u09ec\u2b29\u09b8\u09be\u09a4\u0995\u09cd\u09b7\u09c0\u09b0\u09be\u09df \u09a1\u09be\u09b2\u099c\u09be\u09a4\u09c0\u09df \u09ab\u09b8\u09b2 \u0989\u09ce\u09aa\u09be\u09a6\u09a8 \u0995\u09ae\u09c7\u099b\u09c7 \u09ec\u09e6-\u09ed\u09eb%",
-        "url": "https://bonikbarta.com/economy/q9INRr0zNdSv7zce/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a8\u09cd\u09af\u09be\u09b6\u09a8\u09be\u09b2 \u09ab\u09bf\u09a1\u09c7\u09b0 \u09aa\u09b0\u09cd\u09b7\u09a6 \u09b8\u09ad\u09be\u09b0 \u09a4\u09be\u09b0\u09bf\u0996 \u0998\u09c7\u09be\u09b7\u09a3\u09be",
-        "url": "https://bonikbarta.com/economy/MmUSMa9OT3LY0vHR/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09a6\u09b0\u09ac\u09c3\u09a6\u09cd\u09a7\u09bf\u09b0 \u09a8\u09c7\u09be\u099f\u09bf\u09b8\u09c7\u09b0 \u099c\u09ac\u09be\u09ac \u09a6\u09c7\u09df\u09a8\u09bf \u09b2\u09c1\u09ac-\u09b0\u09c7\u09ab",
-        "url": "https://bonikbarta.com/economy/CG5h6lbv1zP6V8Kx/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u0986\u09b0\u09cd\u0997\u09a8 \u09a1\u09c7\u09a8\u09bf\u09ae\u09b8\u09c7\u09b0 \u09a6\u09b0 \u09ac\u09c7\u09dc\u09c7\u099b\u09c7 \u09aa\u09cd\u09b0\u09be\u09df \u09e8\u09e8 \u09b6\u09a4\u09be\u0982\u09b6",
-        "url": "https://bonikbarta.com/economy/BzQ5ENgoFeGDvpAw/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ad\u09cd\u09af\u09be\u09a8\u0997\u09be\u09b0\u09cd\u09a1 \u098f\u098f\u09ae\u098f\u09b2 \u09ac\u09bf\u09a1\u09bf \u09ab\u09be\u0987\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09b8 \u09ae\u09bf\u0989\u099a\u09c1\u09df\u09be\u09b2 \u09ab\u09be\u09a8\u09cd\u09a1 \u0993\u09df\u09be\u09a8\u2b29\u0987\u0989\u09a8\u09bf\u099f\u09aa\u09cd\u09b0\u09a4\u09bf \u098f\u09a8\u098f\u09ad\u09bf \u09ee.\u09ed\u09e8 \u099f\u09be\u0995\u09be \u09a8\u09bf\u09b0\u09cd\u09a7\u09be\u09b0\u09a3\u09c7 \u09ac\u09bf\u098f\u09b8\u0987\u09b8\u09bf\u09b0 \u0985\u09a8\u09c1\u09ae\u09cb\u09a6\u09a8",
-        "url": "https://bonikbarta.com/economy/k1rBHhDfP7G1LB91/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u0986\u09b2-\u0986\u09b0\u09be\u09ab\u09be\u09b9\u09cd \u0987\u09b8\u09b2\u09be\u09ae\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u098b\u09a3\u09ae\u09be\u09a8 \u2018\u098f \u09aa\u09cd\u09b2\u09be\u09b8\u2019",
-        "url": "https://bonikbarta.com/economy/e1BgJHh2OppKNXQq/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09b9\u09c7\u09b2\u09a5 \u0995\u09cd\u09af\u09be\u09a1\u09be\u09b0 \u09a1\u09c7\u09b0 \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09be\u09a8\u09c7 \u09a1\u09be. \u0986\u09b0\u09bf\u09ab\u09c1\u09b0 \u09b0\u09b9\u09ae\u09be\u09a8\u2b29\u09b9\u09c7\u09b2\u09a5 \u0995\u09cd\u09af\u09be\u09a1\u09be\u09b0 \u0985\u09cd\u09af\u09be\u09b8\u09cb\u09b8\u09bf\u09af\u09bc\u09c7\u09b6\u09a8\u09c7\u09b0 \u09b8\u09a6\u09b8\u09cd\u09af\u09a6\u09c7\u09b0 \u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u09c1\u09ac\u09bf\u09a7\u09be \u09a6\u09bf\u099a\u09cd\u099b\u09c7 \u09aa\u09cd\u09b0\u09bf\u09ae\u09bf\u09af\u09bc\u09be\u09b0 \u09ac\u09cd\u09af\u09be\u0982\u0995",
-        "url": "https://bonikbarta.com/economy/Y0RZTLgFeIpDCRIv/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u0987\u09b8\u09b2\u09be\u09ae\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09ac\u09cd\u09af\u09ac\u09b8\u09be\u09df \u0989\u09a8\u09cd\u09a8\u09df\u09a8 \u09b8\u09ae\u09cd\u09ae\u09c7\u09b2\u09a8\u09c7 \u09aa\u09cd\u09b0\u09b6\u09be\u09b8\u0995\u2b29\u09b6\u09b0\u09bf\u09df\u09be\u09b9\u09b8\u09ae\u09cd\u09ae\u09a4 \u0995\u09b2\u09cd\u09af\u09be\u09a3\u09ae\u09c1\u0996\u09c0 \u09a8\u09a4\u09c1\u09a8 \u09aa\u09a3\u09cd\u09af \u0993 \u09b8\u09c7\u09ac\u09be \u099a\u09be\u09b2\u09c1\u09b0 \u0993\u09aa\u09b0 \u0997\u09c1\u09b0\u09c1\u09a4\u09cd\u09ac\u09be\u09b0\u09cb\u09aa",
-        "url": "https://bonikbarta.com/economy/9wvgFYiaBfC9LKrr/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ac\u09cd\u09b2\u0995 \u09ae\u09be\u09b0\u09cd\u0995\u09c7\u099f\u09c7 \u09e8\u09e7\u09ed \u0995\u09c7\u09be\u099f\u09bf \u099f\u09be\u0995\u09be\u09b0 \u09b2\u09c7\u09a8\u09a6\u09c7\u09a8",
-        "url": "https://bonikbarta.com/economy/XdhC2rooevkc7Kli/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09b8\u09b0\u0995\u09be\u09b0\u09c7\u09b0 \u0985\u09a8\u09c1\u0995\u09c2\u09b2\u09c7 \u09ea\u09eb \u0995\u09c7\u09be\u099f\u09bf \u09b6\u09c7\u09df\u09be\u09b0 \u099c\u09ae\u09be\u2b29\u09b0\u09c2\u09aa\u09be\u09b2\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09aa\u09b0\u09bf\u09b6\u09cb\u09a7\u09bf\u09a4 \u09ae\u09c2\u09b2\u09a7\u09a8 \u09ac\u09c7\u09dc\u09c7\u099b\u09c7 \u09aa\u09cd\u09b0\u09be\u09df \u09a6\u09cd\u09ac\u09bf\u0997\u09c1\u09a3",
-        "url": "https://bonikbarta.com/economy/esC8cT89ZZDJYeHs/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09aa\u09cd\u09b0\u09be\u0987\u09ae \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09aa\u09cd\u09b0\u09be\u09af\u09bc\u09cb\u09b0\u09bf\u099f\u09bf \u0997\u09cd\u09b0\u09be\u09b9\u0995\u09b0\u09be \u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u09c1\u09ac\u09bf\u09a7\u09be \u09aa\u09be\u09ac\u09c7\u09a8 \u09aa\u09c7\u09a8\u09cd\u099f\u09b9\u09be\u0989\u099c \u09b2\u09bf\u09ad\u09bf\u0982\u09b8\u09c7\u09b0 \u09aa\u09a3\u09cd\u09af\u09c7",
-        "url": "https://bonikbarta.com/economy/hHaNlLg7u8dZ7Pop/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ac\u09cd\u09b0\u09cd\u09af\u09be\u0995 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09a8\u09c7\u09a4\u09c3\u09a4\u09cd\u09ac\u09c7 \u09b9\u09ac\u09bf\u0997\u099e\u09cd\u099c\u09c7 \u09ae\u09a4\u09ac\u09bf\u09a8\u09bf\u09ae\u09df \u09b8\u09ad\u09be\u2b29\u0995\u09cd\u09af\u09be\u09b6\u09b2\u09c7\u09b8 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u0997\u09a0\u09a8\u09c7 \u09a8\u0997\u09a6 \u09b2\u09c7\u09a8\u09a6\u09c7\u09a8\u09c7\u09b0 \u09aa\u09b0\u09bf\u09ac\u09b0\u09cd\u09a4\u09c7 \u09ac\u09be\u0982\u09b2\u09be \u0995\u09bf\u0989\u0986\u09b0 \u09ac\u09cd\u09af\u09ac\u09b9\u09be\u09b0\u09c7\u09b0 \u0986\u09b9\u09cd\u09ac\u09be\u09a8",
-        "url": "https://bonikbarta.com/economy/R1Jy1f4BZEYQic4I/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ac\u09bf\u099c\u09bf\u098f\u09ae\u0987\u098f\u09b0 \u09a8\u09a4\u09c1\u09a8 \u09ae\u09b9\u09be\u09b8\u099a\u09bf\u09ac \u09a1. \u09b8\u09be\u09b9\u09c7\u09a6\u09c1\u09b2 \u0987\u09b8\u09b2\u09be\u09ae",
-        "url": "https://bonikbarta.com/economy/fkoVTgjF53Zphdug/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09b6\u09c7\u09ad\u09b0\u09a8 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c7\u09b0 \u09a8\u09a4\u09c1\u09a8 \u09aa\u09cd\u09b0\u09c7\u09b8\u09bf\u09a1\u09c7\u09a8\u09cd\u099f \u0993 \u098f\u09ae\u09a1\u09bf \u09b6\u09c1 \u09b6\u09bf\u09af\u09bc\u0982",
-        "url": "https://bonikbarta.com/economy/LrOH2nnZU9znzws5/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ac\u0997\u09c1\u09dc\u09be\u09df \u09b0\u09c2\u09aa\u09be\u09b2\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09ac\u09cd\u09af\u09ac\u09b8\u09be\u09df\u09bf\u0995 \u09aa\u09b0\u09cd\u09af\u09be\u09b2\u09cb\u099a\u09a8\u09be \u09b8\u09ad\u09be\u09df \u098f\u09ae\u09a1\u09bf\u2b29\u09ae\u09be\u09a8\u09b8\u09ae\u09cd\u09aa\u09a8\u09cd\u09a8 \u098b\u09a3 \u09ac\u09bf\u09a4\u09b0\u09a3 \u0993 \u0996\u09c7\u09b2\u09be\u09aa\u09bf \u0986\u09a6\u09be\u09df\u09c7 \u09b8\u09b0\u09cd\u09ac\u09cb\u099a\u09cd\u099a \u0997\u09c1\u09b0\u09c1\u09a4\u09cd\u09ac \u09a6\u09bf\u09a4\u09c7 \u09b9\u09ac\u09c7",
-        "url": "https://bonikbarta.com/economy/hyvSBqW1NVx33NGu/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09b8\u09cd\u099f\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09be\u09b0\u09cd\u09a1 \u0987\u09b8\u09b2\u09be\u09ae\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09e8\u09ed\u09a4\u09ae \u098f\u099c\u09bf\u098f\u09ae \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09bf\u09a4",
-        "url": "https://bonikbarta.com/economy/ljyJ6AdgpkvTU6GI/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ae\u09be\u09b0\u09cd\u0995\u09c7\u09a8\u09cd\u099f\u09be\u0987\u09b2 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u099a\u09c7\u09df\u09be\u09b0\u09ae\u09cd\u09af\u09be\u09a8 \u09a8\u09bf\u09b0\u09cd\u09ac\u09be\u099a\u09bf\u09a4 \u09b9\u09b2\u09c7\u09a8 \u098f\u09ae\u098f \u0996\u09be\u09a8 \u09ac\u09c7\u09b2\u09be\u09b2",
-        "url": "https://bonikbarta.com/economy/AXKurzIN6gU3Bu1t/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09e8 \u09b9\u09be\u099c\u09be\u09b0 \u0995\u09cb\u099f\u09bf \u099f\u09be\u0995\u09be\u09b0 \u09aa\u09cd\u09b0\u09be\u0995-\u0985\u09b0\u09cd\u09a5\u09be\u09df\u09a8 \u09b8\u09cd\u0995\u09bf\u09ae\u09c7\u09b0 \u09a8\u09c0\u09a4\u09bf\u09ae\u09be\u09b2\u09be \u09aa\u09cd\u09b0\u0995\u09be\u09b6\u2b29\u099a\u09be\u09ae\u09dc\u09be \u0993 \u099a\u09be\u09ae\u09dc\u09be\u099c\u09be\u09a4 \u09b6\u09bf\u09b2\u09cd\u09aa\u09c7\u09b0 \u0989\u09a8\u09cd\u09a8\u09df\u09a8\u09c7 \u09ed% \u09b8\u09c1\u09a6\u09c7 \u09ae\u09bf\u09b2\u09ac\u09c7 \u09b8\u09b0\u09cd\u09ac\u09cb\u099a\u09cd\u099a \u09e9\u09e6 \u0995\u09cb\u099f\u09bf \u099f\u09be\u0995\u09be \u098b\u09a3",
-        "url": "https://bonikbarta.com/economy/nZsZQivseWlSjL3B/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
       {
         "title": "\u09ac\u099b\u09b0\u09c7\u09b0 \u09aa\u09cd\u09b0\u09a5\u09ae \u099b\u09df \u09ae\u09be\u09b8\u2b29\u0995\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0\u09c0\u09df \u09ac\u09cd\u09af\u09be\u0982\u0995\u0997\u09c1\u09b2\u09cb\u09b0 \u09b8\u09cd\u09ac\u09b0\u09cd\u09a3 \u0995\u09cd\u09b0\u09df \u09e8\u09e6\u09e8\u09e8 \u09b8\u09be\u09b2\u09c7\u09b0 \u09aa\u09b0 \u09b8\u09b0\u09cd\u09ac\u09a8\u09bf\u09ae\u09cd\u09a8\u09c7",
         "url": "https://bonikbarta.com/economy/xAUdTDoGu23VHpyO/",
@@ -133573,19 +133268,99 @@
         "title": "\u09a1\u09bf\u09b8\u09cd\u099f\u09cd\u09b0\u09bf\u09ac\u09bf\u0989\u099f\u09b0\u09a6\u09c7\u09b0 \u099c\u09a8\u09cd\u09af \u0995\u09cb-\u09ac\u09cd\u09b0\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09c7\u09a1 \u098f\u09b8\u098f\u09ae\u0987 \u0995\u09cd\u09b0\u09c7\u09a1\u09bf\u099f \u0995\u09be\u09b0\u09cd\u09a1 \u099a\u09be\u09b2\u09c1 \u0995\u09b0\u09b2 \u09b8\u09be\u0989\u09a5\u0987\u09b8\u09cd\u099f \u09ac\u09cd\u09af\u09be\u0982\u0995",
         "url": "https://bonikbarta.com/economy/b98iAQJKeapXhZ3M/",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09aa\u09cd\u09b0\u099c\u09cd\u099e\u09be\u09aa\u09a8\u2b29\u09b9\u09be\u099c\u09be\u09b0 \u0995\u09cb\u099f\u09bf \u099f\u09be\u0995\u09be\u09b0 \u09ac\u09c7\u09b6\u09bf \u098b\u09a3\u0996\u09c7\u09b2\u09be\u09aa\u09bf\u09b0\u09be \u09aa\u09be\u09ac\u09c7\u09a8 \u09e7\u09eb \u09ac\u099b\u09b0\u09c7\u09b0 \u09aa\u09c1\u09a8\u0983\u09a4\u09ab\u09b8\u09bf\u09b2 \u09b8\u09c1\u09ac\u09bf\u09a7\u09be",
+        "url": "https://bonikbarta.com/economy/AjAJBRByKAknVBMu/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09bf\u09ac\u09bf\u098f \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09be\u09a8\u09c7 \u09ac\u09bf\u098f\u09b8\u0987\u09b8\u09bf \u099a\u09c7\u09df\u09be\u09b0\u09ae\u09cd\u09af\u09be\u09a8\u2b29\u09aa\u09c1\u0981\u099c\u09bf\u09ac\u09be\u099c\u09be\u09b0\u09c7 \u0985\u09af\u09be\u099a\u09bf\u09a4 \u09b9\u09b8\u09cd\u09a4\u0995\u09cd\u09b7\u09c7\u09aa \u0995\u09b0\u09be \u09b9\u09ac\u09c7 \u09a8\u09be",
+        "url": "https://bonikbarta.com/economy/2mVrg9QjxhOSdrAI/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0985\u09b0\u09cd\u09a5 \u09ab\u09c7\u09b0\u09a4 \u09aa\u09c7\u09a4\u09c7  \u09b8\u09ae\u09cd\u09ae\u09bf\u09b2\u09bf\u09a4 \u0987\u09b8\u09b2\u09be\u09ae\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7 \u0986\u099c \u09a5\u09c7\u0995\u09c7 \u0986\u09ac\u09c7\u09a6\u09a8 \u0997\u09cd\u09b0\u09b9\u09a3 \u09b6\u09c1\u09b0\u09c1",
+        "url": "https://bonikbarta.com/economy/wQgAuHgLRnj2gfwf/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u0982\u0995\u09be\u09ac\u09be\u0982\u09b2\u09be \u09ab\u09be\u0989\u09a8\u09cd\u09a1\u09c7\u09b6\u09a8\u09c7\u09b0 \u0989\u09a6\u09cd\u09af\u09cb\u0997\u09c7 \u09af\u09b6\u09cb\u09b0 \u0986\u09b0\u09cd\u09ae\u09bf \u09ae\u09c7\u09a1\u09bf\u0995\u09c7\u09b2 \u0995\u09b2\u09c7\u099c\u09c7 \u09ac\u09c3\u0995\u09cd\u09b7\u09b0\u09cb\u09aa\u09a3",
+        "url": "https://bonikbarta.com/economy/rQ0QtD8BElpI9TKC/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09aa\u09cd\u09b2\u09be\u09b8\u09cd\u099f\u09bf\u0995 \u09ac\u09b0\u09cd\u099c\u09cd\u09af \u09ac\u09cd\u09af\u09ac\u09b8\u09cd\u09a5\u09be\u09aa\u09a8\u09be\u09df \u09b6\u09bf\u0995\u09cd\u09b7\u09be\u09b0\u09cd\u09a5\u09c0\u09a6\u09c7\u09b0 \u09b8\u099a\u09c7\u09a4\u09a8 \u0995\u09b0\u099b\u09c7 \u0987\u0989\u09a8\u09bf\u09b2\u09bf\u09ad\u09be\u09b0 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+        "url": "https://bonikbarta.com/economy/YhFXI9YSD4RJjjed/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0995\u09c3\u09ac\u09bf\u09b0 \u099c\u09b2\u09ac\u09be\u09af\u09bc\u09c1 \u09b8\u09b9\u09a8\u09b6\u09c0\u09b2 \u0995\u09c3\u09b7\u09bf \u0989\u09a8\u09cd\u09a8\u09af\u09bc\u09a8 \u0997\u09ac\u09c7\u09b7\u09a3\u09be\u09af\u09bc \u0985\u09b0\u09cd\u09a5\u09be\u09af\u09bc\u09a8 \u0995\u09b0\u09ac\u09c7 \u09aa\u09cd\u09b0\u09be\u0987\u09ae \u09ac\u09cd\u09af\u09be\u0982\u0995",
+        "url": "https://bonikbarta.com/economy/mHh0WmdkeCBD2Umt/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0987\u09b8\u09b2\u09be\u09ae\u09bf\u0995 \u09ab\u09be\u0987\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09b8\u09c7\u09b0 \u09a8\u09a4\u09c1\u09a8 \u098f\u09ae\u09a1\u09bf \u09ae\u09cb\u09b9\u09be\u09ae\u09cd\u09ae\u09a6 \u0996\u09cb\u09b0\u09b6\u09c7\u09a6 \u0986\u09b2\u09ae",
+        "url": "https://bonikbarta.com/economy/xvfDBENSJqUbV8yU/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u099f\u09df\u09cb\u099f\u09be\u09b0 \u09a8\u09be\u09ae, \u09b2\u09cb\u0997\u09cb \u0993 \u099f\u09cd\u09b0\u09c7\u09a1\u09ae\u09be\u09b0\u09cd\u0995 \u09ac\u09cd\u09af\u09ac\u09b9\u09be\u09b0\u09c7 \u09aa\u09c2\u09b0\u09cd\u09ac\u09be\u09a8\u09c1\u09ae\u09a4\u09bf \u09ac\u09be\u09a7\u09cd\u09af\u09a4\u09be\u09ae\u09c2\u09b2\u0995",
+        "url": "https://bonikbarta.com/economy/Wqzy5M9hL3aNf54J/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b8\u09cd\u099f\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09be\u09b0\u09cd\u09a1 \u099a\u09be\u09b0\u09cd\u099f\u09be\u09b0\u09cd\u09a1 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6\u09c7\u09b0 \u09a8\u09a4\u09c1\u09a8 \u09b8\u09bf\u0987\u0993 \u098f\u09a8\u09be\u09ae\u09c1\u09b2 \u09b9\u0995",
+        "url": "https://bonikbarta.com/economy/K4S243mmerjg0wc0/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u099a\u099f\u09cd\u099f\u0997\u09cd\u09b0\u09be\u09ae\u09c7 \u0985\u09b0\u09cd\u09a5 \u09aa\u09be\u099a\u09be\u09b0 \u0993 \u09b8\u09a8\u09cd\u09a4\u09cd\u09b0\u09be\u09b8\u09c7 \u0985\u09b0\u09cd\u09a5\u09be\u09df\u09a8 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b0\u09cb\u09a7 \u09b8\u09ae\u09cd\u09ae\u09c7\u09b2\u09a8\u2b29\u0986\u09b0\u09cd\u09a5\u09bf\u0995 \u0985\u09aa\u09b0\u09be\u09a7 \u09aa\u09cd\u09b0\u09a4\u09bf\u09b0\u09cb\u09a7\u09c7 \u0985\u0999\u09cd\u0997\u09c0\u0995\u09be\u09b0 \u09aa\u09c1\u09a8\u09b0\u09cd\u09ac\u09cd\u09af\u0995\u09cd\u09a4 \u0995\u09b0\u09b2 \u099f\u09cd\u09b0\u09be\u09b8\u09cd\u099f \u09ac\u09cd\u09af\u09be\u0982\u0995",
+        "url": "https://bonikbarta.com/economy/PA0HNIIFxKu7yDuB/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0987\u09b8\u09b2\u09be\u09ae\u09bf\u0995 \u09ab\u09be\u0987\u09a8\u09cd\u09af\u09be\u09a8\u09cd\u09b8\u09c7\u09b0 \u09a8\u09a4\u09c1\u09a8 \u098f\u09ae\u09a1\u09bf \u0996\u09cb\u09b0\u09b6\u09c7\u09a6 \u0986\u09b2\u09ae",
+        "url": "https://bonikbarta.com/economy/g0HFL7kZb80CCdI4/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b2\u09ad\u09cd\u09af\u09be\u0982\u09b6 \u09aa\u09be\u09a0\u09bf\u09df\u09c7\u099b\u09c7 \u09a6\u09c1\u0987 \u09ac\u09cd\u09af\u09be\u0982\u0995",
+        "url": "https://bonikbarta.com/economy/0wRPFyERz4GtOTEe/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ae\u09be\u09b0\u09cd\u0995\u09c7\u09a8\u09cd\u099f\u09be\u0987\u09b2 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u0989\u09a6\u09cd\u09af\u09cb\u0995\u09cd\u09a4\u09be\u09b0 \u09b6\u09c7\u09df\u09be\u09b0 \u09b9\u09b8\u09cd\u09a4\u09be\u09a8\u09cd\u09a4\u09b0\u09c7\u09b0 \u0998\u09cb\u09b7\u09a3\u09be",
+        "url": "https://bonikbarta.com/economy/ZOyyrZ06ZJui6Fz4/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a1\u09c7\u09b2\u09cd\u099f\u09be \u09b2\u09be\u0987\u09ab\u09c7\u09b0 \u09a8\u09be\u09b0\u09c0 \u0995\u09b0\u09cd\u09ae\u09c0 \u09b8\u09ae\u09cd\u09ae\u09c7\u09b2\u09a8 \u0985\u09a8\u09c1\u09b7\u09cd\u09a0\u09bf\u09a4",
+        "url": "https://bonikbarta.com/economy/8AON8FoUFkadURcq/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0985\u09cd\u09af\u09be\u09b2\u09be\u09df\u09c7\u09a8\u09cd\u09b8 \u0995\u09cd\u09af\u09be\u09aa\u09bf\u099f\u09be\u09b2\u0995\u09c7 \u09eb \u09b2\u09be\u0996 \u099f\u09be\u0995\u09be \u099c\u09b0\u09bf\u09ae\u09be\u09a8\u09be",
+        "url": "https://bonikbarta.com/economy/3oMVxmuGC5HrJpBD/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09af\u09ae\u09c1\u09a8\u09be \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u0995\u09be\u09ae\u09be\u09b0\u09aa\u09be\u09dc\u09be \u09b6\u09be\u0996\u09be \u098f\u0996\u09a8 \u09a8\u09a4\u09c1\u09a8 \u09a0\u09bf\u0995\u09be\u09a8\u09be\u09df",
+        "url": "https://bonikbarta.com/economy/OBVbWDg20hUApSk6/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09b8\u0999\u09cd\u0997\u09c7 \u0987\u09b8\u09b2\u09be\u09ae\u09c0 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09e9 \u09b9\u09be\u099c\u09be\u09b0 \u0995\u09cb\u099f\u09bf \u099f\u09be\u0995\u09be\u09b0 \u09aa\u09c1\u09a8\u0983\u0985\u09b0\u09cd\u09a5\u09be\u09df\u09a8 \u099a\u09c1\u0995\u09cd\u09a4\u09bf",
+        "url": "https://bonikbarta.com/economy/c11jHZICiUiHRgnC/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09ac\u09cd\u09af\u09be\u0982\u0995\u09c7\u09b0 \u09b8\u0999\u09cd\u0997\u09c7 \u099a\u09c1\u0995\u09cd\u09a4\u09bf \u09b8\u09cd\u09ac\u09be\u0995\u09cd\u09b7\u09b0\u2b29\u0985\u09b0\u09cd\u09a5\u09a8\u09c0\u09a4\u09bf\u09a4\u09c7 \u0997\u09a4\u09bf \u09ab\u09c7\u09b0\u09be\u09a4\u09c7 \u09ea\u09e7 \u09b9\u09be\u099c\u09be\u09b0 \u0995\u09cb\u099f\u09bf \u099f\u09be\u0995\u09be\u09b0 \u09b8\u09cd\u0995\u09bf\u09ae\u09c7 \u098f\u09ae\u099f\u09bf\u09ac\u09bf",
+        "url": "https://bonikbarta.com/economy/C0YuXOdQzSXw1eek/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "International": [
-      {
-        "title": "\u0993\u09ae\u09be\u09a8\u09c7\u09b0 \u0989\u09aa\u0995\u09c2\u09b2\u09c7 \u0985\u099c\u09cd\u099e\u09be\u09a4 \u09ac\u09b8\u09cd\u09a4\u09c1\u09b0 \u0986\u0998\u09be\u09a4\u09c7 \u099f\u09cd\u09af\u09be\u0982\u0995\u09be\u09b0 \u0995\u09cd\u09b7\u09a4\u09bf\u0997\u09cd\u09b0\u09b8\u09cd\u09a4",
-        "url": "https://bonikbarta.com/international/qg2c9kZN1q1fbsbS/",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
-      {
-        "title": "\u09ae\u09b0\u0995\u09cd\u0995\u09cb\u09df \u09ab\u09bf\u09b0\u09c7\u099b\u09c7\u09a8 \u0985\u09a7\u09bf\u0995\u09be\u0982\u09b6 \u0985\u09ad\u09bf\u09ac\u09be\u09b8\u09c0 \u099a\u09be\u09aa\u09c7\u09b0 \u09ae\u09c1\u0996\u09c7 \u09b8\u09cd\u09aa\u09c7\u09a8",
-        "url": "https://bonikbarta.com/international/GrHyEPNwqgz6lBmb/",
-        "scraped_at": "2026-08-01T21:51:54.651599+00:00"
-      },
       {
         "title": "\u09aa\u09c7\u09b0\u09c1\u09a4\u09c7 \u09aa\u09b0\u09cd\u09af\u099f\u0995\u09ac\u09be\u09b9\u09c0 \u0989\u09dc\u09cb\u099c\u09be\u09b9\u09be\u099c \u09ac\u09bf\u09a7\u09cd\u09ac\u09b8\u09cd\u09a4, \u09a8\u09bf\u09b9\u09a4 \u09e7\u09e9",
         "url": "https://bonikbarta.com/international/76UwCNQnLoEioJcB/",
@@ -135095,26 +134870,61 @@
         "title": "\u0987\u09b8\u09b0\u09be\u09df\u09c7\u09b2\u09c7\u09b0 \u09b8\u0999\u09cd\u0997\u09c7 \u09b8\u0982\u0998\u09be\u09a4 \u098f\u09dc\u09bf\u09df\u09c7 \u0995\u09c2\u099f\u09a8\u09c0\u09a4\u09bf\u09a4\u09c7 \u09b8\u09bf\u09b0\u09bf\u09df\u09be, \u0995\u09a4\u09a6\u09bf\u09a8 \u099f\u09bf\u0995\u09ac\u09c7 \u098f \u0995\u09cc\u09b6\u09b2",
         "url": "https://bonikbarta.com/international/wJ0jL80ofPrglvsH/",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "\u09ab\u09c7\u09a1\u09c7\u09b0 \u09b8\u09c1\u09a6\u09b9\u09be\u09b0 \u09ac\u09be\u09dc\u09be\u09a8\u09cb\u09b0 \u0987\u0999\u09cd\u0997\u09bf\u09a4 \u0993 \u09ae\u09a7\u09cd\u09af\u09aa\u09cd\u09b0\u09be\u099a\u09cd\u09af\u09c7 \u09a8\u09a4\u09c1\u09a8 \u0989\u09a4\u09cd\u09a4\u09c7\u099c\u09a8\u09be\u2b29\u09ac\u09c8\u09b6\u09cd\u09ac\u09bf\u0995 \u09b6\u09c7\u09df\u09be\u09b0\u09ac\u09be\u099c\u09be\u09b0\u09c7 \u09ae\u09bf\u09b6\u09cd\u09b0 \u09aa\u09cd\u09b0\u09ac\u09a3\u09a4\u09be",
+        "url": "https://bonikbarta.com/international/SgXHGcU8GZUjrvMI/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09ab\u09c7\u09b0 \u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u09b7\u09cd\u099f\u09cd\u09b0-\u0987\u09b0\u09be\u09a8 \u09aa\u09be\u09b2\u09cd\u099f\u09be\u09aa\u09be\u09b2\u09cd\u099f\u09bf \u09b9\u09be\u09ae\u09b2\u09be, \u09ac\u09be\u09dc\u09b2 \u099c\u09cd\u09ac\u09be\u09b2\u09be\u09a8\u09bf \u09a4\u09c7\u09b2\u09c7\u09b0 \u09a6\u09be\u09ae",
+        "url": "https://bonikbarta.com/international/cXeETG3uT3nnW3oc/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09a8\u09c7\u09aa\u09be\u09b2-\u09a4\u09bf\u09ac\u09cd\u09ac\u09a4 \u09b8\u09c0\u09ae\u09be\u09a8\u09cd\u09a4\u09c7 \u09ac\u09a8\u09cd\u09af\u09be \u0993 \u09ad\u09c2\u09ae\u09bf\u09a7\u09b8\u2b29\u09aa\u09cd\u09b0\u09be\u09a3\u09b9\u09be\u09a8\u09bf \u09ef\u09e6\u09e6 \u099b\u09be\u09dc\u09be\u09b2, \u09b9\u09bf\u09ae\u09be\u09b2\u09df\u09c7 \u0989\u09b7\u09cd\u09a3\u09a4\u09be \u09ac\u09be\u09dc\u09be\u09df \u099d\u09c1\u0981\u0995\u09bf\u09a4\u09c7 \u099c\u09b2\u09ac\u09bf\u09a6\u09cd\u09af\u09c1\u09ce",
+        "url": "https://bonikbarta.com/international/AcWWsHAfXXKEV7eA/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0986\u0997\u09b8\u09cd\u099f\u09c7 \u099c\u09be\u09b0\u09cd\u09ae\u09be\u09a8\u09bf\u09a4\u09c7 \u09ac\u09c7\u0995\u09be\u09b0\u09c7\u09b0 \u09b8\u0982\u0996\u09cd\u09af\u09be \u09ac\u09c7\u09dc\u09c7 \u09e9\u09e6 \u09b2\u09be\u0996 \u09ec\u09e7 \u09b9\u09be\u099c\u09be\u09b0",
+        "url": "https://bonikbarta.com/international/0BzAcXvQRhtaIkcN/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09e7\u09ea \u09ac\u099b\u09b0 \u09aa\u09b0 \u09b8\u0982\u09af\u09c1\u0995\u09cd\u09a4 \u0986\u09b0\u09ac \u0986\u09ae\u09bf\u09b0\u09be\u09a4\u09c7 \u09ab\u09bf\u09b0\u099b\u09c7 \u099f\u09be\u0995\u09cb \u09ac\u09c7\u09b2",
+        "url": "https://bonikbarta.com/international/1FVpAd7VV1AEdIdy/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09aa\u09be\u0981\u099a \u09ac\u099b\u09b0 \u09aa\u09b0 \u09ab\u09bf\u09b0\u099b\u09c7 \u09ae\u09bf\u09ce\u09b8\u09c1\u09ac\u09bf\u09b6\u09bf \u09aa\u09be\u099c\u09c7\u09b0\u09cb",
+        "url": "https://bonikbarta.com/international/OMG4eOZQ0h5AtSWZ/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0987\u09b0\u09be\u09a8 \u09af\u09c1\u09a6\u09cd\u09a7\u09c7\u09b0 \u09a7\u09be\u0995\u09cd\u0995\u09be\u2b29\u09af\u09c1\u0995\u09cd\u09a4\u09b0\u09be\u099c\u09cd\u09af\u09c7 \u09aa\u09b0\u09bf\u09ac\u09be\u09b0\u09aa\u09cd\u09b0\u09a4\u09bf \u0986\u09b0\u09cd\u09a5\u09bf\u0995 \u0995\u09cd\u09b7\u09a4\u09bf \u09a6\u09be\u0981\u09dc\u09be\u09ac\u09c7 \u09e8\u09ea\u09e6\u09e6 \u09aa\u09be\u0989\u09a8\u09cd\u09a1\u09c7",
+        "url": "https://bonikbarta.com/international/gamGay9sgRuoA2k7/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u099c\u09be\u09a8\u09c1\u09df\u09be\u09b0\u09bf-\u099c\u09c1\u09a8\u2b29\u099a\u09c0\u09a8\u09c7\u09b0 \u09b6\u09c0\u09b0\u09cd\u09b7 \u09a4\u09bf\u09a8 \u098f\u09df\u09be\u09b0\u09b2\u09be\u0987\u09a8\u09b8\u09c7\u09b0 \u09b2\u09cb\u0995\u09b8\u09be\u09a8 \u09e7\u09e8\u09e8 \u0995\u09cb\u099f\u09bf \u09a1\u09b2\u09be\u09b0",
+        "url": "https://bonikbarta.com/international/KSBv8BmmBL2dLAs0/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u0997\u09ac\u09c7\u09b7\u09a3\u09be \u09aa\u09cd\u09b0\u09a4\u09bf\u09ac\u09c7\u09a6\u09a8\u2b29\u099c\u09b2\u09ac\u09be\u09df\u09c1 \u09aa\u09b0\u09bf\u09ac\u09b0\u09cd\u09a4\u09a8\u09c7 \u09ac\u09be\u09dc\u09a4\u09c7 \u09aa\u09be\u09b0\u09c7 \u0997\u09ae\u09c7\u09b0 \u09a6\u09be\u09ae",
+        "url": "https://bonikbarta.com/international/iJXomSPYRhZOMnXx/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "\u09b9\u09b0\u09ae\u09c1\u099c \u09aa\u09cd\u09b0\u09a3\u09be\u09b2\u09bf\u09a4\u09c7 \u0985\u099a\u09b2\u09be\u09ac\u09b8\u09cd\u09a5\u09be\u2b29\u09a8\u09ad\u09c7\u09ae\u09cd\u09ac\u09b0 \u09aa\u09b0\u09cd\u09af\u09a8\u09cd\u09a4 \u098f\u09b2\u098f\u09a8\u099c\u09bf \u09b8\u09b0\u09ac\u09b0\u09be\u09b9 \u09ac\u09be\u09a4\u09bf\u09b2 \u0995\u09b0\u09b2 \u0995\u09be\u09a4\u09be\u09b0 \u098f\u09a8\u09be\u09b0\u09cd\u099c\u09bf",
+        "url": "https://bonikbarta.com/international/tE374wErzgfN1p90/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ]
   },
   "washingtonpost": {
     "Home": [
-      {
-        "title": "Trump insists vandals damaged Reflecting Pool, blasts DOJ for dropped charge",
-        "url": "https://www.washingtonpost.com/politics/2026/08/01/trump-insists-vandals-damaged-reflecting-pool-blasts-doj-dropped-charge/",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Spain pushes migrants back to Morocco as fallout deepens over mass border breach",
-        "url": "https://www.washingtonpost.com/world/2026/08/01/spain-pushes-migrants-back-morocco-fallout-deepens-over-mass-border-breach/",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "All 10 climbers swept away in avalanche in Pakistan are confirmed dead",
-        "url": "https://www.washingtonpost.com/world/2026/08/01/pakistan-missing-climbers-search-resumed-broad-peak/f192cfc2-8d7c-11f1-8912-d71e69d679d7_story.html",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
       {
         "title": "Five takeaways from Week 1 of Commanders training camp",
         "url": "https://www.washingtonpost.com/sports/2026/08/01/commanders-training-camp-five-takeaways-week-1/",
@@ -144649,6 +144459,121 @@
         "title": "3 things to try to improve your brain health",
         "url": "https://www.washingtonpost.com/wellness/2026/08/31/3-things-try-improve-your-brain-health/",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "Supreme Court clears way for White House ballroom construction to continue",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/supreme-court-clears-way-work-white-house-ballroom-now/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Ohio State agrees to $2.1 million settlement with Justice Department",
+        "url": "https://www.washingtonpost.com/education/2026/08/31/ohio-state-agrees-21-million-settlement-with-justice-department/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "A Smithsonian museum director departs for the Guggenheim",
+        "url": "https://www.washingtonpost.com/entertainment/art/2026/08/31/smithsonian-museum-director-departs-guggenheim/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Mike Johnson said he supports \u2018great member\u2019 Max Miller\u2019s reelection bid",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/mike-johnson-said-he-supports-great-member-max-millers-reelection-bid/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "In lieu of a memorial, Dolly Parton will be honored with \u2018DollyFest\u2019",
+        "url": "https://www.washingtonpost.com/entertainment/music/2026/08/31/dolly-parton-will-be-honored-with-dollyfest-lieu-memorial/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Alaska Democrats back independent Bill Hill in statewide House race",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/alaska-democrats-back-independent-bill-hill-statewide-house-race/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Tennessee football team to honor Dolly Parton with a helmet sticker",
+        "url": "https://www.washingtonpost.com/sports/2026/08/31/tennessee-football-team-honor-dolly-parton-with-helmet-sticker/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Trump touts new drug-price deals, seeking a midterm edge",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/nine-more-companies-said-monday-theyd-cut-prices-some-drugs/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "The true cost of the Iran war",
+        "url": "https://www.washingtonpost.com/opinions/2026/08/31/americans-have-right-know-costs-iran-war/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Poles once embraced Ukrainians. What happened?",
+        "url": "https://www.washingtonpost.com/opinions/2026/08/31/why-polish-support-ukraine-has-fallen/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Reading only excerpts does students a disservice",
+        "url": "https://www.washingtonpost.com/opinions/2026/08/31/im-retired-teacher-assign-students-whole-books/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "New CDC director delays adding Pennsylvania deaths to measles data",
+        "url": "https://www.washingtonpost.com/health/2026/08/31/new-cdc-director-delays-adding-pennsylvania-deaths-measles-data/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Mother, daughter killed in interstate crash with wrong-way driver, Maryland police say",
+        "url": "https://www.washingtonpost.com/dc-md-va/2026/08/31/mother-daughter-killed-crash-with-wrong-way-driver-i-270-police-say/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "The\u00a0FDA\u00a0cannot inspect its way to a safe global food supply",
+        "url": "https://www.washingtonpost.com/ripple/2026/08/21/fda-food-safety-reform/?itid=hp_brand_promo_1",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "The importance of teaching students what AI can\u2019t do",
+        "url": "https://www.washingtonpost.com/ripple/2026/08/21/the-importance-of-teaching-students-what-ai-cant-do/?itid=hp_brand_promo_2",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "What the Commanders\u2019 roster moves tell us about their outlook",
+        "url": "https://www.washingtonpost.com/sports/2026/08/31/what-commanders-roster-moves-tell-us-about-their-outlook/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Trump says U.S. might \u2018smack\u2019 Iran but that fighting is likely to remain limited",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/trump-suggests-major-escalation-against-iran-is-unlikely/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Amazon secretly inflated ad prices, the FTC and 22 states allege in a lawsuit",
+        "url": "https://www.washingtonpost.com/business/2026/08/31/amazon-secretly-inflated-ad-prices-ftc-22-states-allege-lawsuit/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Some Jewish Republicans bashed JD Vance. Now he\u2019ll speak to them in person.",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/jd-vance-will-speak-republican-jewish-coalition-meeting-las-vegas/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Trump\u2019s attempts to crack down on speech and influence opinion",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/trumps-attempts-crack-down-speech-influence-opinion/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Kalshi suspends GOP House candidate for betting on her own race",
+        "url": "https://www.washingtonpost.com/politics/2026/08/31/kalshi-suspends-gop-house-candidate-betting-her-own-race/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Smithsonian switches building plan for Latino museum amid site debate",
+        "url": "https://www.washingtonpost.com/style/2026/08/31/smithsonian-chooses-arts-industries-latino-museum-amid-site-debate/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Texting in a movie theater?! Gen Z gets schooled on event etiquette.",
+        "url": "https://www.washingtonpost.com/style/2026/08/31/texting-movie-theater-gen-z-gets-schooled-public-etiquette/",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Opinions": [
@@ -144695,46 +144620,6 @@
   },
   "economist": {
     "Home": [
-      {
-        "title": "Despite 40 years of our Big Mac index, currencies are still mispriced",
-        "url": "https://www.economist.com/interactive/briefing/2026/07/30/the-big-mac-index-at-40",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "China bets that Donald Trump won\u2019t mind it bullying American allies",
-        "url": "https://www.economist.com/asia/2026/07/30/china-bets-that-donald-trump-wont-mind-it-bullying-american-allies",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "AI is getting better at writing. Humans must get better at editing",
-        "url": "https://www.economist.com/leaders/2026/07/30/ai-is-getting-better-at-writing-humans-must-get-better-at-editing",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "The restaurant business is changing beyond recognition",
-        "url": "https://www.economist.com/international/2026/07/30/the-restaurant-business-is-changing-beyond-recognition",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "How to stop procrastinating",
-        "url": "https://www.economist.com/science-and-technology/2026/07/31/how-to-stop-procrastinating",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "Lam Wing-kee, the bookseller who would not admit defeat",
-        "url": "https://www.economist.com/obituary/2026/07/30/lam-wing-kee-the-bookseller-who-would-not-admit-defeat",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "How Filipino immigrants revitalised a small Canadian town",
-        "url": "https://www.economist.com/the-americas/2026/07/30/how-filipino-immigrants-revitalised-a-small-canadian-town",
-        "scraped_at": "2026-08-01T19:02:01.742203+00:00"
-      },
-      {
-        "title": "The tide turns for a Florida darling and California loser",
-        "url": "https://www.economist.com/united-states/2026/07/28/the-tide-turns-for-a-florida-darling-and-california-loser?itm_source=parsely-api",
-        "scraped_at": "2026-08-01T20:44:54.060895+00:00"
-      },
       {
         "title": "World in Brief: EU calls emergency meeting to discuss Ceuta; bomb in Moscow kills three",
         "url": "https://www.economist.com/the-world-in-brief/2026/08/02/2726f6b5-3dbd-43c9-9454-37f5c3f904ce",
@@ -147529,6 +147414,41 @@
         "title": "Stars in their AIs: tech is changing Hollywood",
         "url": "https://www.economist.com/podcasts/2026/08/31/stars-in-their-ais-tech-is-changing-hollywood",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "The extraordinary rise of Miami\u2019s economy",
+        "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-miamis-economy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "How the Alternative for Germany would govern",
+        "url": "https://www.economist.com/europe/2026/08/31/how-the-alternative-for-germany-would-govern",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Binyamin Netanyahu sows discord ahead of Israel\u2019s election",
+        "url": "https://www.economist.com/middle-east-and-africa/2026/08/31/binyamin-netanyahu-sows-discord-ahead-of-israels-election",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "The dark horse presidential candidate Brazil\u2019s authorities are trying to ban",
+        "url": "https://www.economist.com/the-americas/2026/08/31/the-dark-horse-presidential-candidate-brazils-authorities-are-trying-to-ban",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "The World in Brief: Amazon accused of manipulating ad prices; the Iran war turns hot again",
+        "url": "https://www.economist.com/the-world-in-brief/2026/08/31/25630175-b598-4ef0-b608-e4dd48b44575",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "Cornered, Vladimir Putin plans to escalate his war",
+        "url": "https://www.economist.com/europe/2026/08/30/cornered-vladimir-putin-plans-to-escalate-his-war?itm_source=parsely-api",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
+      },
+      {
+        "title": "America\u2019s hostility to immigrants is misguided",
+        "url": "https://www.economist.com/podcasts/2026/08/31/americas-hostility-to-immigrants-is-misguided",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "Columns": [
@@ -148272,6 +148192,11 @@
         "title": "The extraordinary rise of a city\u2019s economy",
         "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-a-citys-economy",
         "scraped_at": "2026-08-31T17:49:07.940596+00:00"
+      },
+      {
+        "title": "The extraordinary rise of Miami\u2019s economy",
+        "url": "https://www.economist.com/finance-and-economics/2026/08/31/the-extraordinary-rise-of-miamis-economy",
+        "scraped_at": "2026-08-31T22:21:12.502464+00:00"
       }
     ],
     "International": [
