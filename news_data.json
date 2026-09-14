@@ -14619,61 +14619,6 @@
     ],
     "Today's News": [
       {
-        "title": "Afghanistan bomb attack kills mayor",
-        "url": "https://www.thedailystar.net/news/world/news/afghanistan-bomb-attack-kills-mayor-4247816",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Police have no specific info on AQIS cell risk",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/police-have-no-specific-info-aqis-cell-risk-4247821",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "6-month assessment: Govt passes itself with flying colours",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/6-month-assessment-govt-passes-itself-flying-colours-4247826",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "US can keep Iran blockade \u2018indefinitely\u2019",
-        "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/us-can-keep-iran-blockade-indefinitely-4247831",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Person fined after polar bear woken by ship\u2019s foghorn",
-        "url": "https://www.thedailystar.net/news/world/news/person-fined-after-polar-bear-woken-ships-foghorn-4247836",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Explosion rocks ammunition factory near Rome",
-        "url": "https://www.thedailystar.net/news/world/europe/news/explosion-rocks-ammunition-factory-near-rome-4247841",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "UK homes burnt, residents evacuated in fires",
-        "url": "https://www.thedailystar.net/news/world/europe/news/uk-homes-burnt-residents-evacuated-fires-4247846",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Louhajang the sweet capital of greater Dhaka",
-        "url": "https://www.thedailystar.net/ds/my-dhaka/news/louhajang-the-sweet-capital-greater-dhaka-4247851",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "US sailors hit by strain of long deployment",
-        "url": "https://www.thedailystar.net/news/world/usa/news/us-sailors-hit-strain-long-deployment-4247856",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Summit LNG back online; Excelerate FSRU now offline",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/summit-lng-back-online-excelerate-fsru-now-offline-4247861",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Khaleda\u2019s birthday today",
-        "url": "https://www.thedailystar.net/news/bangladesh/news/khaledas-birthday-today-4247866",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "Euro 2020 winner Ciro Immobile retires at 36",
         "url": "https://www.thedailystar.net/sports/football/news/euro-2020-winner-ciro-immobile-retires-36-4247911",
         "scraped_at": "2026-08-15T00:58:32.015935+00:00"
@@ -44429,36 +44374,6 @@
     ],
     "International": [
       {
-        "title": "US sailors hit by strain of long deployment",
-        "url": "https://www.thedailystar.net/news/world/usa/news/us-sailors-hit-strain-long-deployment-4247856",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "UK homes burnt, residents evacuated in fires",
-        "url": "https://www.thedailystar.net/news/world/europe/news/uk-homes-burnt-residents-evacuated-fires-4247846",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Explosion rocks ammunition factory near Rome",
-        "url": "https://www.thedailystar.net/news/world/europe/news/explosion-rocks-ammunition-factory-near-rome-4247841",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Person fined after polar bear woken by ship\u2019s foghorn",
-        "url": "https://www.thedailystar.net/news/world/news/person-fined-after-polar-bear-woken-ships-foghorn-4247836",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "US can keep Iran blockade \u2018indefinitely\u2019",
-        "url": "https://www.thedailystar.net/news/world/us-israel-war-iran/news/us-can-keep-iran-blockade-indefinitely-4247831",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
-        "title": "Afghanistan bomb attack kills mayor",
-        "url": "https://www.thedailystar.net/news/world/news/afghanistan-bomb-attack-kills-mayor-4247816",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "Hard-right Farage wins UK by-polls",
         "url": "https://www.thedailystar.net/news/world/news/hard-right-farage-wins-uk-polls-4247976",
         "scraped_at": "2026-08-15T02:14:20.247511+00:00"
@@ -47272,11 +47187,6 @@
   },
   "prothomalo": {
     "Home": [
-      {
-        "title": "\u09ab\u09b2\u09c7\u09b0 \u09b8\u09cd\u09ac\u09b0\u09cd\u0997\u09c7 \u098f\u0995\u09a6\u09bf\u09a8: \u0985\u09b8\u09cd\u099f\u09cd\u09b0\u09c7\u09b2\u09bf\u09af\u09bc\u09be\u09b0 \u0995\u09cd\u09af\u09be\u09a8\u09cb\u09b2\u09cd\u09af\u09be\u09a8\u09cd\u09a1\u09b8 \u0985\u09b0\u09cd\u099a\u09be\u09b0\u09cd\u09a1\u09c7 \u0985\u09ac\u09bf\u09b8\u09cd\u09ae\u09b0\u09a3\u09c0\u09af\u09bc \u09ad\u09cd\u09b0\u09ae\u09a3",
-        "url": "https://nagorik.prothomalo.com/durporobash/2eq5xx76yk",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
       {
         "title": "\u0986\u099c \u09e7\u09eb \u0986\u0997\u09b8\u09cd\u099f, \u09ac\u0999\u09cd\u0997\u09ac\u09a8\u09cd\u09a7\u09c1 \u09b9\u09a4\u09cd\u09af\u09be\u09b0 \u09eb\u09e7 \u09ac\u099b\u09b0",
         "url": "https://www.prothomalo.com/politics/748kjcvzvp",
@@ -58645,11 +58555,6 @@
     ],
     "Latest News": [
       {
-        "title": "\u09a6\u09cb\u09df\u09be\u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0995\u099f\u09bf \u0985\u09ae\u09c2\u09b2\u09cd\u09af \u09a6\u09cb\u09df\u09be",
-        "url": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "\u0986\u099c \u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09af\u09be \u09a6\u09c7\u0996\u09ac\u09c7\u09a8 (\u09e7\u09eb \u0986\u0997\u09b8\u09cd\u099f \u09e8\u09e6\u09e8\u09ec)",
         "url": "https://www.prothomalo.com/sports/pvx56c3b4w",
         "scraped_at": "2026-08-15T00:58:32.015935+00:00"
@@ -69152,11 +69057,6 @@
     ],
     "Opinion": [
       {
-        "title": "\u09a6\u09cb\u09df\u09be\u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0995\u099f\u09bf \u0985\u09ae\u09c2\u09b2\u09cd\u09af \u09a6\u09cb\u09df\u09be",
-        "url": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "\u0986\u099c \u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09af\u09be \u09a6\u09c7\u0996\u09ac\u09c7\u09a8 (\u09e7\u09eb \u0986\u0997\u09b8\u09cd\u099f \u09e8\u09e6\u09e8\u09ec)",
         "url": "https://www.prothomalo.com/sports/pvx56c3b4w",
         "scraped_at": "2026-08-15T00:58:32.015935+00:00"
@@ -78114,11 +78014,6 @@
     ],
     "Editorial": [
       {
-        "title": "\u09a6\u09cb\u09df\u09be\u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0995\u099f\u09bf \u0985\u09ae\u09c2\u09b2\u09cd\u09af \u09a6\u09cb\u09df\u09be",
-        "url": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "\u0986\u099c \u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09af\u09be \u09a6\u09c7\u0996\u09ac\u09c7\u09a8 (\u09e7\u09eb \u0986\u0997\u09b8\u09cd\u099f \u09e8\u09e6\u09e8\u09ec)",
         "url": "https://www.prothomalo.com/sports/pvx56c3b4w",
         "scraped_at": "2026-08-15T00:58:32.015935+00:00"
@@ -86105,11 +86000,6 @@
       }
     ],
     "Business": [
-      {
-        "title": "\u09a6\u09cb\u09df\u09be\u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0995\u099f\u09bf \u0985\u09ae\u09c2\u09b2\u09cd\u09af \u09a6\u09cb\u09df\u09be",
-        "url": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
       {
         "title": "\u0986\u099c \u099f\u09bf\u09ad\u09bf\u09a4\u09c7 \u09af\u09be \u09a6\u09c7\u0996\u09ac\u09c7\u09a8 (\u09e7\u09eb \u0986\u0997\u09b8\u09cd\u099f \u09e8\u09e6\u09e8\u09ec)",
         "url": "https://www.prothomalo.com/sports/pvx56c3b4w",
@@ -95303,11 +95193,6 @@
     ],
     "Politics": [
       {
-        "title": "\u09a6\u09cb\u09df\u09be\u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0995\u099f\u09bf \u0985\u09ae\u09c2\u09b2\u09cd\u09af \u09a6\u09cb\u09df\u09be",
-        "url": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "\u09e9 \u09a6\u09bf\u09a8\u09c7 \u09e8 \u0995\u09c7\u09be\u099f\u09bf \u09ed\u09eb \u09b2\u09be\u0996 \u09ad\u09bf\u0989! \u099a\u09ae\u0995\u09c7 \u09a6\u09bf\u09b2 \u09af\u09c7 \u09b9\u09b0\u09b0 \u09b8\u09bf\u09a8\u09c7\u09ae\u09be",
         "url": "https://www.prothomalo.com/entertainment/ott/7uy7mqb9yv",
         "scraped_at": "2026-08-15T00:58:32.015935+00:00"
@@ -104259,11 +104144,6 @@
       }
     ],
     "International": [
-      {
-        "title": "\u09a6\u09cb\u09df\u09be\u099c\u09be\u09a8\u09cd\u09a8\u09be\u09a4 \u09aa\u09be\u0993\u09df\u09be\u09b0 \u099c\u09a8\u09cd\u09af \u098f\u0995\u099f\u09bf \u0985\u09ae\u09c2\u09b2\u09cd\u09af \u09a6\u09cb\u09df\u09be",
-        "url": "https://www.prothomalo.com/religion/islam/f8amfksnx3",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
       {
         "title": "\u09e9 \u09a6\u09bf\u09a8\u09c7 \u09e8 \u0995\u09c7\u09be\u099f\u09bf \u09ed\u09eb \u09b2\u09be\u0996 \u09ad\u09bf\u0989! \u099a\u09ae\u0995\u09c7 \u09a6\u09bf\u09b2 \u09af\u09c7 \u09b9\u09b0\u09b0 \u09b8\u09bf\u09a8\u09c7\u09ae\u09be",
         "url": "https://www.prothomalo.com/entertainment/ott/7uy7mqb9yv",
@@ -127591,11 +127471,6 @@
   "washingtonpost": {
     "Home": [
       {
-        "title": "Trump stumps in N.Y. suburbs, highlighting a dilemma for his party",
-        "url": "https://www.washingtonpost.com/politics/2026/08/14/trump-stumps-ny-suburbs-highlighting-dilemma-his-party/",
-        "scraped_at": "2026-08-14T23:16:53.681435+00:00"
-      },
-      {
         "title": "Who will make the Commanders\u2019 roster? Here\u2019s the outlook with preseason underway.",
         "url": "https://www.washingtonpost.com/sports/2026/08/14/who-will-make-commanders-roster-heres-outlook-with-preseason-underway/",
         "scraped_at": "2026-08-15T03:34:11.984124+00:00"
@@ -137389,6 +137264,26 @@
         "title": "Nationals finish sweep of Angels in Jake Irvin\u2019s first relief appearance",
         "url": "https://www.washingtonpost.com/sports/2026/09/13/nationals-finish-sweep-angels-jake-irvins-first-relief-appearance/",
         "scraped_at": "2026-09-13T22:49:02.686178+00:00"
+      },
+      {
+        "title": "\u2018Musk\u2019 film is almost four hours long, engrossing and terrifying. What to know.",
+        "url": "https://www.washingtonpost.com/entertainment/movies/2026/09/13/elon-musk-documentary-is-already-causing-stir-here-are-five-takeaways/",
+        "scraped_at": "2026-09-14T00:39:28.391607+00:00"
+      },
+      {
+        "title": "Outmatched offense and questionable no-call send Commanders to season-opening loss",
+        "url": "https://www.washingtonpost.com/sports/2026/09/13/outmatched-offense-questionable-no-call-send-commanders-season-opening-loss/",
+        "scraped_at": "2026-09-14T00:39:28.391607+00:00"
+      },
+      {
+        "title": "Let states manage bears? Not so fast.",
+        "url": "https://www.washingtonpost.com/opinions/2026/09/13/should-states-manage-grizzly-bear-populations-im-not-sure/",
+        "scraped_at": "2026-09-14T00:39:28.391607+00:00"
+      },
+      {
+        "title": "Fashion Week honcho manhandles protesters during runway ruckus",
+        "url": "https://www.washingtonpost.com/style/fashion/2026/09/13/fashion-week-honcho-restrains-animal-rights-protesters-cos-runway-show/",
+        "scraped_at": "2026-09-14T00:39:28.391607+00:00"
       }
     ],
     "Opinions": [
@@ -140214,6 +140109,11 @@
         "title": "Cartoon: How 9/11 empowers Donald Trump\u2019s presidency",
         "url": "https://www.economist.com/the-world-this-week/2026/09/10/cartoon?itm_source=parsely-api",
         "scraped_at": "2026-09-13T20:13:22.128143+00:00"
+      },
+      {
+        "title": "How big is America\u2019s \u201cobesity penalty\u201d?",
+        "url": "https://www.economist.com/graphic-detail/2026/07/26/how-big-is-americas-obesity-penalty?itm_source=parsely-api",
+        "scraped_at": "2026-09-14T00:39:28.391607+00:00"
       }
     ],
     "Columns": [
